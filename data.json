@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-10-16T15:03:06.131469+09:00",
-  "jobsUpdatedAt": "2026-10-16T15:03:06.131469+09:00",
+  "jobsUpdatedAt": "2026-10-16T15:17:04.966940+09:00",
   "sample": false,
   "jobs": [
     {
@@ -93,6 +93,19 @@
       "experience": "신입 (초대졸 이상)",
       "deadline": "2026-10-28",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50133712"
+    },
+    {
+      "company": "한국세라믹기술원",
+      "title": "4분기 체험형 인턴연구원 23명 (반도체용 세라믹 방열소재 등 19개 분야)",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "location": "경기·충북·경남",
+      "experience": "신입 (대졸 4년제·석사, 만 34세 이하)",
+      "deadline": "2026-10-29",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=306028"
     },
     {
       "company": "솔브레인멤시스㈜",

@@ -57,8 +57,12 @@ push 가 되면 Vercel 이 자동 재배포하고, 화면은 10분 안에 새 �
 Chrome 바로가기를 만들어 대상 뒤에 플래그를 붙입니다:
 
 ```
-chrome.exe --kiosk --noerrdialogs --disable-session-crashed-bubble https://내주소.vercel.app
+chrome.exe --start-fullscreen --noerrdialogs --disable-session-crashed-bubble https://내주소.vercel.app
 ```
+
+`--kiosk` 가 아니라 `--start-fullscreen` 입니다. 전체화면으로 뜨는 건 같지만 **탭바가 남아서
+공고·기사를 터치해 연 탭을 손으로 닫을 수 있습니다.** `--kiosk` 는 탭바가 없어 `Ctrl+W` 없이는
+못 닫습니다. 전체화면이 풀리면 `F11` 로 되돌립니다.
 
 - Wake Lock 으로 화면 꺼짐을 막지만, **Windows 전원 옵션의 "디스플레이 끄기"는 안 함으로** 따로 설정해야 합니다.
 - 6시간마다 자동 새로고침, 10분마다 data.json 재조회.
