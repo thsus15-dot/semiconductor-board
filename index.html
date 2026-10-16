@@ -70,7 +70,11 @@
           <h2 class="text-xl font-bold text-white">반도체 채용 공고</h2>
           <span class="text-xs text-slate-400 ml-2">* 직무 탭을 터치하면 필터링됩니다</span>
         </div>
-        <div id="job-page-indicator" class="text-sm font-bold text-cyan-400 bg-cyan-950/60 border border-cyan-800/60 px-3 py-1 rounded-lg">Page 1 / 1</div>
+        <div class="flex items-center gap-2">
+          <button id="btn-list" onclick="setView('list')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-cyan-500 text-slate-950">목록</button>
+          <button id="btn-timeline" onclick="setView('timeline')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-slate-800 text-slate-300 border border-slate-700">📅 마감일</button>
+          <div id="job-page-indicator" class="text-sm font-bold text-cyan-400 bg-cyan-950/60 border border-cyan-800/60 px-3 py-1 rounded-lg">Page 1 / 1</div>
+        </div>
       </div>
 
       <div id="category-filters" class="flex items-center gap-2.5 mb-4"></div>
@@ -78,15 +82,21 @@
       <div id="job-list-container" class="grid grid-cols-2 gap-3.5 flex-1"></div>
     </section>
 
-    <section class="col-span-5 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-5 flex flex-col shadow-xl">
-      <div class="flex items-center justify-between mb-3">
+    <section class="col-span-5 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-5 flex flex-col shadow-xl overflow-hidden">
+      <div class="flex items-center justify-between mb-2.5">
         <div class="flex items-center gap-2">
           <span class="text-2xl">📰</span>
-          <h2 class="text-xl font-bold text-white">오늘의 반도체 뉴스</h2>
+          <h2 class="text-xl font-bold text-white">오늘의 주요 뉴스</h2>
         </div>
         <span class="text-xs font-medium text-slate-400 bg-slate-800/80 border border-slate-700 px-2.5 py-1 rounded-lg">매일 아침 자동 수집</span>
       </div>
-      <div id="news-list-container" class="flex flex-col gap-3.5 flex-1 justify-between"></div>
+      <div id="news-daily" class="flex flex-col gap-3 flex-1 justify-evenly"></div>
+
+      <div class="flex items-center gap-2 mt-3 mb-2.5 pt-3 border-t border-slate-700/70">
+        <span class="text-xl">🗓️</span>
+        <h2 class="text-lg font-bold text-white">이번 주 핵심 흐름</h2>
+      </div>
+      <div id="news-weekly" class="flex flex-col gap-2.5"></div>
     </section>
   </main>
 
@@ -106,6 +116,7 @@
   const itemsPerPage = 4;
 
   let currentCategory = '전체';
+  let viewMode = 'list';        // 'list' = 카드 목록, 'timeline' = 마감일 순
   let currentPage = 0;
   let isAutoPlaying = true;
   let timerSeconds = 0;
@@ -116,16 +127,37 @@
 
   // 마감일로 D-day를 매번 계산한다. 파이프라인이 멈춰도 날짜가 틀리지 않고, 지난 공고는 자동으로 사라진다.
   function dday(deadline) {
-    // 마감일을 모르는 공고를 '상시채용'이라 단정하지 않는다. QR로 원문을 보게 한다.
-    if (!deadline) return { text: '마감일 확인', urgent: false };
+    // open = 마감일이 정해지지 않은 공고. 모르는 걸 '상시채용'이라 단정하지 않는다.
+    if (deadline === '상시') return { text: '상시채용', urgent: false, open: true };
+    if (!deadline) return { text: '마감일 확인', urgent: false, open: true };
     const end = new Date(deadline + 'T23:59:59+09:00');
-    if (isNaN(end)) return { text: '마감일 확인', urgent: false };
+    if (isNaN(end)) return { text: '마감일 확인', urgent: false, open: true };
     const d = Math.ceil((end - Date.now()) / 86400000);
     if (d < 0) return null;
     return { text: d === 0 ? '오늘 마감' : `D-${d}`, urgent: d <= 7 };
   }
 
   const liveJobs = () => S.jobs.map(j => ({ ...j, dd: dday(j.deadline) })).filter(j => j.dd);
+  const filteredJobs = () => currentCategory === '전체'
+    ? liveJobs() : liveJobs().filter(j => j.category === currentCategory);
+  const pageCount = () => Math.max(1, Math.ceil(filteredJobs().length / itemsPerPage));
+  const viewBtnClass = on => `px-3 py-1.5 rounded-lg text-sm font-bold transition active:scale-95 ${
+    on ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-300 border border-slate-700'}`;
+
+  function setView(mode) {
+    viewMode = mode;
+    currentPage = 0;
+    timerSeconds = 0;
+    updateProgressBar();
+    render();
+  }
+
+  // 목록 페이지를 끝까지 넘긴 뒤 마감일 화면을 한 번 보여주고 다시 처음으로 돌아온다.
+  function advance() {
+    if (viewMode === 'timeline') { viewMode = 'list'; currentPage = 0; }
+    else if (currentPage + 1 >= pageCount()) viewMode = 'timeline';
+    else currentPage++;
+  }
 
   function renderFilters() {
     document.getElementById('category-filters').innerHTML = CATEGORIES.map(c => {
@@ -135,17 +167,30 @@
     }).join('');
   }
 
-  function renderJobs() {
+  // 지표·버튼·컨테이너 전환은 여기서 하고, 실제 그리기는 두 렌더러에 맡긴다.
+  function render() {
     const all = liveJobs();
-    const filtered = currentCategory === '전체' ? all : all.filter(j => j.category === currentCategory);
-
     document.getElementById('m-total').innerText = `${all.length}건`;
     document.getElementById('m-urgent').innerText = `${all.filter(j => j.dd.urgent).length}건`;
+    document.getElementById('btn-list').className = viewBtnClass(viewMode === 'list');
+    document.getElementById('btn-timeline').className = viewBtnClass(viewMode === 'timeline');
 
-    const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerPage));
-    if (currentPage >= totalPages) currentPage = 0;
-    document.getElementById('job-page-indicator').innerText = `Page ${currentPage + 1} / ${totalPages}`;
+    const box = document.getElementById('job-list-container');
+    const label = document.getElementById('job-page-indicator');
+    if (viewMode === 'timeline') {
+      label.innerText = '마감 임박순';
+      box.className = 'flex flex-col flex-1 overflow-hidden';
+      renderTimeline();
+    } else {
+      if (currentPage >= pageCount()) currentPage = 0;
+      label.innerText = `Page ${currentPage + 1} / ${pageCount()}`;
+      box.className = 'grid grid-cols-2 gap-3.5 flex-1';
+      renderJobs();
+    }
+  }
 
+  function renderJobs() {
+    const filtered = filteredJobs();
     const items = filtered.slice(currentPage * itemsPerPage, currentPage * itemsPerPage + itemsPerPage);
     const box = document.getElementById('job-list-container');
     if (!items.length) {
@@ -175,30 +220,89 @@
       </div>`).join('');
   }
 
-  function renderNews() {
-    const box = document.getElementById('news-list-container');
-    if (!S.news.length) {
-      box.innerHTML = `<div class="flex-1 flex items-center justify-center text-slate-500 text-lg">뉴스 데이터 대기 중</div>`;
+  // 마감일 순 타임라인. 마감일이 없는 공고는 사라지지 않고 하단에 묶어 둔다.
+  function renderTimeline() {
+    const jobs = filteredJobs();
+    const dated = jobs.filter(j => !j.dd.open).sort((a, b) => a.deadline.localeCompare(b.deadline));
+    const open = jobs.filter(j => j.dd.open);
+    const box = document.getElementById('job-list-container');
+
+    if (!dated.length && !open.length) {
+      box.innerHTML = `<div class="flex-1 flex items-center justify-center text-slate-500 text-lg">표시할 공고가 없습니다</div>`;
       return;
     }
-    if (activeNewsIndex >= S.news.length) activeNewsIndex = 0;
-    box.innerHTML = S.news.map((n, i) => {
-      const on = i === activeNewsIndex;
+
+    const days = ['일', '월', '화', '수', '목', '금', '토'];
+    let html = '<div class="flex-1 flex flex-col gap-1.5 overflow-hidden">';
+    let lastDate = '';
+    for (const job of dated) {
+      if (job.deadline !== lastDate) {
+        lastDate = job.deadline;
+        const d = new Date(job.deadline + 'T00:00:00+09:00');
+        html += `
+        <div class="flex items-center gap-3 mt-2 first:mt-0">
+          <span class="text-xl font-black text-white tabular-nums">${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}</span>
+          <span class="text-sm font-bold text-slate-400">(${days[d.getDay()]})</span>
+          <span class="px-2.5 py-0.5 rounded-md text-sm font-extrabold ${job.dd.urgent ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' : 'bg-slate-700 text-slate-300'}">${esc(job.dd.text)}</span>
+          <div class="flex-1 h-px bg-slate-700/70"></div>
+        </div>`;
+      }
+      html += `
+        <div class="bg-slate-800/70 border border-slate-700/70 rounded-xl px-4 py-2 flex items-center gap-3">
+          <span class="px-2 py-0.5 rounded text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shrink-0">${esc(job.category)}</span>
+          <span class="text-base font-extrabold text-amber-300 shrink-0">${esc(job.company)}</span>
+          <span class="text-base font-bold text-white truncate flex-1">${esc(job.title)}</span>
+          <span class="text-xs text-slate-300 shrink-0">📍 ${esc(job.location)}</span>
+          <span class="text-xs text-slate-300 shrink-0">🎓 ${esc(job.experience)}</span>
+          <img src="${qr(job.url)}" alt="" class="w-11 h-11 bg-white p-0.5 rounded-lg shrink-0" />
+        </div>`;
+    }
+    html += '</div>';
+
+    if (open.length) {
+      html += `
+      <div class="mt-2 pt-2.5 border-t border-slate-700/70 flex items-center gap-2 flex-wrap">
+        <span class="text-sm font-bold text-slate-400 shrink-0">🔄 마감일 없는 공고</span>
+        ${open.map(j => `<span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700">${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
+      </div>`;
+    }
+    box.innerHTML = html;
+  }
+
+  function renderNews() {
+    const daily = S.news.filter(n => (n.scope || 'daily') === 'daily');
+    const weekly = S.news.filter(n => n.scope === 'weekly');
+    if (activeNewsIndex >= daily.length + weekly.length) activeNewsIndex = 0;
+    paintNews('news-daily', daily, 0, false);
+    paintNews('news-weekly', weekly, daily.length, true);
+  }
+
+  // compact = 주간 카드. 요약 1줄·작은 QR로 줄여 일간 카드가 눈에 먼저 들어오게 한다.
+  function paintNews(id, items, offset, compact) {
+    const box = document.getElementById(id);
+    if (!items.length) {
+      box.innerHTML = `<div class="text-slate-500 text-sm py-2">표시할 뉴스가 없습니다</div>`;
+      return;
+    }
+    box.innerHTML = items.map((n, i) => {
+      const gi = offset + i;
+      const on = gi === activeNewsIndex;
+      const lines = compact ? (n.summary || []).slice(0, 1) : (n.summary || []);
       return `
-      <div onclick="setActiveNews(${i})" class="rounded-2xl p-4 flex justify-between items-center gap-4 transition-all duration-300 ${on ? 'bg-slate-800/95 border-2 border-cyan-400/80 shadow-[0_0_20px_rgba(34,211,238,0.12)]' : 'bg-slate-800/50 border border-slate-700/60 opacity-85'}">
-        <div class="flex-1">
+      <div onclick="setActiveNews(${gi})" class="rounded-2xl ${compact ? 'p-3' : 'p-4'} flex justify-between items-center gap-3 transition-all duration-300 ${on ? 'bg-slate-800/95 border-2 border-cyan-400/80 shadow-[0_0_20px_rgba(34,211,238,0.12)]' : 'bg-slate-800/50 border border-slate-700/60 opacity-85'}">
+        <div class="flex-1 min-w-0">
           <div class="flex items-center gap-2 mb-1">
             <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">${esc(n.tag)}</span>
             <span class="text-xs font-semibold text-slate-400">${esc(n.press)} · ${esc(n.time)}</span>
           </div>
-          <h3 class="text-base font-extrabold text-white mb-2 leading-snug">${esc(n.title)}</h3>
+          <h3 class="${compact ? 'text-sm' : 'text-base'} font-extrabold text-white mb-1.5 leading-snug">${esc(n.title)}</h3>
           <ul class="space-y-1 text-xs text-slate-300 leading-relaxed">
-            ${(n.summary || []).map(l => `<li class="flex items-start gap-1.5"><span class="text-cyan-400 font-bold">•</span><span>${esc(l)}</span></li>`).join('')}
+            ${lines.map(l => `<li class="flex items-start gap-1.5"><span class="text-cyan-400 font-bold">•</span><span>${esc(l)}</span></li>`).join('')}
           </ul>
         </div>
         <div class="flex flex-col items-center justify-center bg-white p-1.5 rounded-xl shrink-0 shadow">
-          <img src="${qr(n.url)}" alt="" class="w-16 h-16 object-contain" />
-          <span class="text-[10px] font-bold text-slate-800 mt-0.5">원문 보기</span>
+          <img src="${qr(n.url)}" alt="" class="${compact ? 'w-12 h-12' : 'w-16 h-16'} object-contain" />
+          <span class="text-[10px] font-bold text-slate-800 mt-0.5">원문</span>
         </div>
       </div>`;
     }).join('');
@@ -215,7 +319,7 @@
     timerSeconds = 0;
     updateProgressBar();
     renderFilters();
-    renderJobs();
+    render();
   }
 
   function setActiveNews(i) { activeNewsIndex = i; renderNews(); }
@@ -244,9 +348,9 @@
     updateProgressBar();
     if (timerSeconds >= ROLLING_INTERVAL) {
       timerSeconds = 0;
-      currentPage++;
+      advance();
       activeNewsIndex = S.news.length ? (activeNewsIndex + 1) % S.news.length : 0;
-      renderJobs();
+      render();
       renderNews();
       updateProgressBar();
     }
@@ -266,7 +370,7 @@
       // 30시간 넘게 갱신이 없으면 숨기지 말고 드러낸다. 조용히 낡은 화면이 더 위험하다.
       const stale = !S.updatedAtISO || (Date.now() - new Date(S.updatedAtISO)) > 30 * 3600 * 1000;
       document.getElementById('stale-badge').classList.toggle('hidden', !stale);
-      renderJobs(); renderNews(); renderTicker();
+      render(); renderNews(); renderTicker();
     } catch (e) {
       console.log('data.json 로드 실패, 기존 화면 유지:', e);
       document.getElementById('stale-badge').classList.remove('hidden');
@@ -280,7 +384,7 @@
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') keepAwake(); });
 
   renderFilters();
-  renderJobs();
+  render();
   renderNews();
   loadData();
   keepAwake();
