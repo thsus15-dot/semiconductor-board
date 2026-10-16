@@ -39,10 +39,6 @@
         <span class="text-xs font-semibold text-slate-400">마감 임박 (7일)</span>
         <span id="m-urgent" class="text-lg font-extrabold text-rose-400">-</span>
       </div>
-      <div class="bg-slate-800/80 border border-slate-700/80 rounded-xl px-4 py-2 flex items-center gap-3">
-        <span class="text-xs font-semibold text-slate-400">데이터 갱신</span>
-        <span id="m-updated" class="text-base font-bold text-slate-200">-</span>
-      </div>
     </div>
 
     <div class="flex items-center gap-5">
@@ -68,7 +64,8 @@
         <div class="flex items-center gap-2">
           <span class="text-2xl">💼</span>
           <h2 class="text-xl font-bold text-white">반도체 채용 공고</h2>
-          <span class="text-xs text-slate-400 ml-2">* 직무 탭을 터치하면 필터링됩니다</span>
+          <span id="jobs-stamp" class="text-xs font-semibold text-slate-400 bg-slate-800/80 border border-slate-700 px-2 py-0.5 rounded-md ml-1">-</span>
+          <span class="text-xs text-slate-400 ml-1">* 직무 탭을 터치하면 필터링됩니다</span>
         </div>
         <div class="flex items-center gap-2">
           <button id="btn-list" onclick="setView('list')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-cyan-500 text-slate-950">목록</button>
@@ -89,7 +86,7 @@
           <span class="text-2xl">📰</span>
           <h2 class="text-xl font-bold text-white">오늘의 주요 뉴스</h2>
         </div>
-        <span class="text-xs font-medium text-slate-400 bg-slate-800/80 border border-slate-700 px-2.5 py-1 rounded-lg">매일 아침 자동 수집</span>
+        <span id="news-stamp" class="text-xs font-medium text-slate-400 bg-slate-800/80 border border-slate-700 px-2.5 py-1 rounded-lg">-</span>
       </div>
       <div id="news-daily" class="flex flex-col gap-3 flex-1 justify-evenly"></div>
 
@@ -111,7 +108,9 @@
 
 <script>
   // data.json 이 유일한 데이터 소스. 화면에는 계산 가능한 값만 띄운다.
-  const S = { jobs: [], news: [], ticker: [], updatedAt: '', updatedAtISO: '', sample: false };
+  // 뉴스는 월~금 아침, 공고는 월·수 아침에 각각 갱신된다. 그래서 수집 시각도 따로 들고 따로 표시한다.
+  const S = { jobs: [], news: [], ticker: [], newsAt: '', jobsAt: '', sample: false };
+  const STALE_H = { news: 30, jobs: 8 * 24 };   // 이 시간이 지나면 "갱신 지연"
   const CATEGORIES = ['전체', '공정/소자', '첨단패키징', '회로설계', '장비/설비', '품질/테스트'];
   const MAJORS = ['재료', '화학', '전자전기'];
   const ROLLING_INTERVAL = 15;
@@ -124,6 +123,14 @@
   let isAutoPlaying = true;
   let timerSeconds = 0;
   let activeNewsIndex = 0;
+
+  // "뉴스 10/19 08:00 수집" — 어느 섹션이 언제 수집된 건지 화면에서 바로 보이게.
+  function stampText(label, iso) {
+    const d = iso && new Date(iso);
+    if (!d || isNaN(d)) return `${label} 수집 시각 미상`;
+    const p = n => String(n).padStart(2, '0');
+    return `${label} ${p(d.getMonth() + 1)}/${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())} 수집`;
+  }
 
   const qr = link => `https://api.qrserver.com/v1/create-qr-code/?size=90x90&margin=4&data=${encodeURIComponent(link || '')}`;
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -461,13 +468,20 @@
       const d = await res.json();
       Object.assign(S, {
         jobs: d.jobs || [], news: d.news || [], ticker: d.ticker || [],
-        updatedAt: d.updatedAt || '', updatedAtISO: d.updatedAtISO || '', sample: !!d.sample
+        // 구버전 data.json(단일 updatedAtISO)도 그대로 읽히게 둔다
+        newsAt: d.newsUpdatedAt || d.updatedAtISO || '',
+        jobsAt: d.jobsUpdatedAt || d.updatedAtISO || '', sample: !!d.sample
       });
-      document.getElementById('m-updated').innerText = S.updatedAt || '-';
+      document.getElementById('news-stamp').innerText = stampText('뉴스', S.newsAt);
+      document.getElementById('jobs-stamp').innerText = stampText('공고', S.jobsAt);
       document.getElementById('sample-badge').classList.toggle('hidden', !S.sample);
-      // 30시간 넘게 갱신이 없으면 숨기지 말고 드러낸다. 조용히 낡은 화면이 더 위험하다.
-      const stale = !S.updatedAtISO || (Date.now() - new Date(S.updatedAtISO)) > 30 * 3600 * 1000;
-      document.getElementById('stale-badge').classList.toggle('hidden', !stale);
+      // 갱신이 끊기면 숨기지 말고 드러낸다. 조용히 낡은 화면이 더 위험하다.
+      const old = [['뉴스', S.newsAt, STALE_H.news], ['공고', S.jobsAt, STALE_H.jobs]]
+        .filter(([, iso, h]) => !iso || Date.now() - new Date(iso) > h * 3600 * 1000)
+        .map(([label]) => label);
+      const badge = document.getElementById('stale-badge');
+      badge.innerText = `${old.join('·')} 갱신 지연`;
+      badge.classList.toggle('hidden', !old.length);
       render(); renderNews(); renderTicker();
     } catch (e) {
       console.log('data.json 로드 실패, 기존 화면 유지:', e);
