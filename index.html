@@ -269,10 +269,26 @@
     box.innerHTML = html;
   }
 
+  // 기사 날짜("MM/DD")로 나이를 센다. 12월 기사가 1월에 남아 있으면 작년으로 본다.
+  function newsAge(t) {
+    const m = /^(\d{1,2})\/(\d{1,2})$/.exec((t || '').trim());
+    if (!m) return 0;                                   // 형식이 다르면 거르지 않는다
+    const now = new Date();
+    const d = new Date(now.getFullYear(), m[1] - 1, m[2]);
+    if (d - now > 7 * 864e5) d.setFullYear(d.getFullYear() - 1);
+    return Math.floor((now - d) / 864e5);
+  }
+
+  // 오래된 기사가 "오늘"·"이번 주" 칸에 눌러앉지 않게 거른다. 비면 빈 칸이 뜨는 쪽이 맞다.
+  function newsLists() {
+    const daily = S.news.filter(n => (n.scope || 'daily') === 'daily' && newsAge(n.time) <= 4);
+    const weekly = S.news.filter(n => n.scope === 'weekly' && newsAge(n.time) <= 14);
+    return { daily, weekly, total: daily.length + weekly.length };
+  }
+
   function renderNews() {
-    const daily = S.news.filter(n => (n.scope || 'daily') === 'daily');
-    const weekly = S.news.filter(n => n.scope === 'weekly');
-    if (activeNewsIndex >= daily.length + weekly.length) activeNewsIndex = 0;
+    const { daily, weekly, total } = newsLists();
+    if (activeNewsIndex >= total) activeNewsIndex = 0;
     paintNews('news-daily', daily, 0, false);
     paintNews('news-weekly', weekly, daily.length, true);
   }
@@ -349,7 +365,8 @@
     if (timerSeconds >= ROLLING_INTERVAL) {
       timerSeconds = 0;
       advance();
-      activeNewsIndex = S.news.length ? (activeNewsIndex + 1) % S.news.length : 0;
+      const nv = newsLists().total;
+      activeNewsIndex = nv ? (activeNewsIndex + 1) % nv : 0;
       render();
       renderNews();
       updateProgressBar();
