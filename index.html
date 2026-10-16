@@ -61,7 +61,7 @@
 
   <!-- 중앙 -->
   <main class="h-[81%] grid grid-cols-12 gap-5">
-    <section class="col-span-7 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-5 flex flex-col shadow-xl relative overflow-hidden">
+    <section class="col-span-7 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-4 flex flex-col shadow-xl relative overflow-hidden">
       <div class="absolute top-0 left-0 w-full h-1 bg-slate-800">
         <div id="job-progress-bar" class="h-full bg-cyan-400 progress-transition" style="width:0%"></div>
       </div>
@@ -81,12 +81,12 @@
         </div>
       </div>
 
-      <div id="category-filters" class="flex items-center gap-2.5 mb-4"></div>
+      <div id="category-filters" class="flex items-center gap-2 mb-3 flex-wrap"></div>
 
       <div id="job-list-container" class="grid grid-cols-2 gap-3.5 flex-1"></div>
     </section>
 
-    <section class="col-span-5 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-5 flex flex-col shadow-xl overflow-hidden">
+    <section class="col-span-5 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-4 flex flex-col shadow-xl overflow-hidden">
       <div class="flex items-center justify-between mb-2.5">
         <div class="flex items-center gap-2">
           <span class="text-2xl">📰</span>
@@ -94,13 +94,13 @@
         </div>
         <span id="news-stamp" class="text-xs font-medium text-slate-400 bg-slate-800/80 border border-slate-700 px-2.5 py-1 rounded-lg">-</span>
       </div>
-      <div id="news-daily" class="flex flex-col gap-3 flex-[3] min-h-0 overflow-y-auto scroll-thin"></div>
+      <div id="news-daily" class="flex flex-col gap-2.5 flex-1 min-h-0 overflow-y-auto scroll-thin"></div>
 
       <div class="flex items-center gap-2 mt-3 mb-2.5 pt-3 border-t border-slate-700/70">
         <span class="text-xl">🗓️</span>
         <h2 class="text-lg font-bold text-white">이번 주 핵심 흐름</h2>
       </div>
-      <div id="news-weekly" class="flex flex-col gap-2.5 flex-[2] min-h-0 overflow-y-auto scroll-thin"></div>
+      <div id="news-weekly" class="flex flex-col gap-2 flex-1 min-h-0 overflow-y-auto scroll-thin"></div>
     </section>
   </main>
 
@@ -120,7 +120,7 @@
   const CATEGORIES = ['전체', '공정/소자', '첨단패키징', '회로설계', '장비/설비', '품질/테스트'];
   const MAJORS = ['재료', '화학', '전자전기'];
   const ROLLING_INTERVAL = 15;
-  const itemsPerPage = 4;
+  const itemsPerPage = 6;
 
   let currentCategory = '전체';
   let viewMode = 'list';        // 'list' = 카드 목록, 'timeline' = 마감일 순, 'calendar' = 월 달력
@@ -181,6 +181,12 @@
 
   // 목록을 끝까지 넘긴 뒤 마감일 → 달력을 한 번씩 보여주고 처음으로 돌아온다.
   function advance() {
+    // 잘린 내용이 남아 있으면 먼저 한 화면 내린다. 다 내려간 뒤에야 다음 화면으로 넘어간다.
+    const sc = document.querySelector('#job-list-container .job-scroll') || document.getElementById('job-list-container');
+    if (sc && sc.scrollTop + sc.clientHeight < sc.scrollHeight - 8) {
+      sc.scrollTop += Math.max(120, sc.clientHeight - 48);
+      return;
+    }
     if (viewMode === 'calendar') { viewMode = 'list'; currentPage = 0; calOffset = 0; }
     else if (viewMode === 'timeline') { viewMode = 'calendar'; calOffset = 0; }
     else if (currentPage + 1 >= pageCount()) viewMode = 'timeline';
@@ -219,16 +225,16 @@
     if (viewMode === 'calendar') {
       const m = calBase();
       label.innerText = `${m.getFullYear()}년 ${m.getMonth() + 1}월`;
-      box.className = 'flex flex-col flex-1 overflow-hidden';
+      box.className = 'flex flex-col flex-1 min-h-0 overflow-hidden';
       renderCalendar();
     } else if (viewMode === 'timeline') {
       label.innerText = '마감 임박순';
-      box.className = 'flex flex-col flex-1 overflow-hidden';
+      box.className = 'flex flex-col flex-1 min-h-0 overflow-hidden';
       renderTimeline();
     } else {
       if (currentPage >= pageCount()) currentPage = 0;
       label.innerText = `Page ${currentPage + 1} / ${pageCount()}`;
-      box.className = 'grid grid-cols-2 gap-3.5 flex-1';
+      box.className = 'grid grid-cols-2 gap-3.5 flex-1 min-h-0 overflow-y-auto scroll-thin job-scroll';
       renderJobs();
     }
   }
@@ -242,7 +248,7 @@
       return;
     }
     box.innerHTML = items.map(job => `
-      <div${urlAttr(job.url)} class="bg-slate-800/75 border border-slate-700/80 rounded-2xl p-4 flex justify-between items-center gap-3 shadow-md transition active:scale-[0.98] active:border-cyan-500/60">
+      <div${urlAttr(job.url)} class="bg-slate-800/75 border border-slate-700/80 rounded-2xl p-3.5 flex justify-between items-center gap-3 shadow-md transition active:scale-[0.98] active:border-cyan-500/60">
         <div class="flex flex-col justify-between h-full flex-1 pr-2">
           <div>
             <div class="flex items-center gap-1.5 flex-wrap mb-1.5">
@@ -251,7 +257,7 @@
               <span class="px-2 py-0.5 rounded-md text-xs font-extrabold ${job.dd.urgent ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' : 'bg-slate-700 text-slate-300'}">${esc(job.dd.text)}</span>
               <span class="text-sm font-extrabold text-amber-300 ml-1">${esc(job.company)}</span>
             </div>
-            <h3 class="text-lg font-bold text-white leading-snug line-clamp-2 mb-2">${esc(job.title)}</h3>
+            <h3 class="text-base font-bold text-white leading-snug line-clamp-2 mb-1.5">${esc(job.title)}</h3>
           </div>
           <div class="flex items-center gap-4 text-xs text-slate-300 font-medium">
             <span>📍 ${esc(job.location)}</span>
@@ -259,7 +265,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-center bg-white p-1.5 rounded-xl shrink-0 shadow">
-          <img src="${qr(job.url)}" alt="" class="w-16 h-16 object-contain" />
+          <img src="${qr(job.url)}" alt="" class="w-14 h-14 object-contain" />
           <span class="text-[10px] font-bold text-slate-800 mt-0.5">공고 스캔</span>
         </div>
       </div>`).join('');
@@ -334,7 +340,7 @@
     }
 
     const days = ['일', '월', '화', '수', '목', '금', '토'];
-    let html = '<div class="flex-1 flex flex-col gap-1.5 overflow-hidden">';
+    let html = '<div class="flex-1 min-h-0 flex flex-col gap-1.5 overflow-y-auto scroll-thin job-scroll">';
     let lastDate = '';
     for (const job of dated) {
       if (job.deadline !== lastDate) {
@@ -406,7 +412,7 @@
       const on = gi === activeNewsIndex;
       const lines = compact ? (n.summary || []).slice(0, 1) : (n.summary || []);
       return `
-      <div onclick="setActiveNews(${gi})"${urlAttr(n.url)} class="rounded-2xl ${compact ? 'p-3' : 'p-4'} flex justify-between items-center gap-3 transition-all duration-300 ${on ? 'bg-slate-800/95 border-2 border-cyan-400/80 shadow-[0_0_20px_rgba(34,211,238,0.12)]' : 'bg-slate-800/50 border border-slate-700/60 opacity-85'}">
+      <div onclick="setActiveNews(${gi})"${urlAttr(n.url)} class="rounded-2xl ${compact ? 'p-2.5' : 'p-3.5'} flex justify-between items-center gap-3 transition-all duration-300 ${on ? 'bg-slate-800/95 border-2 border-cyan-400/80 shadow-[0_0_20px_rgba(34,211,238,0.12)]' : 'bg-slate-800/50 border border-slate-700/60 opacity-85'}">
         <div class="flex-1 min-w-0">
           <div class="flex items-center gap-2 mb-1">
             <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">${esc(n.tag)}</span>
@@ -418,7 +424,7 @@
           </ul>
         </div>
         <div class="flex flex-col items-center justify-center bg-white p-1.5 rounded-xl shrink-0 shadow">
-          <img src="${qr(n.url)}" alt="" class="${compact ? 'w-12 h-12' : 'w-16 h-16'} object-contain" />
+          <img src="${qr(n.url)}" alt="" class="${compact ? 'w-11 h-11' : 'w-14 h-14'} object-contain" />
           <span class="text-[10px] font-bold text-slate-800 mt-0.5">원문</span>
         </div>
       </div>`;
