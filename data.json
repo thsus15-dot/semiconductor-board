@@ -1,6 +1,6 @@
 {
-  "updatedAt": "10/16 14:04",
-  "updatedAtISO": "2026-10-16T14:04:34.099854+09:00",
+  "updatedAt": "10/16 14:17",
+  "updatedAtISO": "2026-10-16T14:17:06.650517+09:00",
   "sample": false,
   "jobs": [
     {
@@ -67,6 +67,45 @@
       "experience": "신입·경력 (대졸 이상)",
       "deadline": "2026-10-25",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50146833"
+    },
+    {
+      "company": "㈜원익아이피에스",
+      "title": "CS 엔지니어 신입/경력 (SKH·SEC 고객지원, GSO)",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 평택 (전국 배치)",
+      "experience": "신입·경력 (초대졸 이상)",
+      "deadline": "2026-10-26",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50161444"
+    },
+    {
+      "company": "솔브레인㈜",
+      "title": "공주공장 제조직 (12개월 계약직)",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "충남 공주",
+      "experience": "신입 (초대졸 이상)",
+      "deadline": "2026-10-28",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50133712"
+    },
+    {
+      "company": "솔브레인멤시스㈜",
+      "title": "반도체 장비/시설 관리 제조직 (파주)",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기",
+        "화학"
+      ],
+      "location": "경기 파주",
+      "experience": "경력무관 (고졸 이상)",
+      "deadline": "2026-10-31",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50090675"
     },
     {
       "company": "머크퍼포먼스머티리얼즈",
