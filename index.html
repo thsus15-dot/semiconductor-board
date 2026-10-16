@@ -73,6 +73,7 @@
         <div class="flex items-center gap-2">
           <button id="btn-list" onclick="setView('list')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-cyan-500 text-slate-950">목록</button>
           <button id="btn-timeline" onclick="setView('timeline')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-slate-800 text-slate-300 border border-slate-700">📅 마감일</button>
+          <button id="btn-calendar" onclick="setView('calendar')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-slate-800 text-slate-300 border border-slate-700">🗓 달력</button>
           <div id="job-page-indicator" class="text-sm font-bold text-cyan-400 bg-cyan-950/60 border border-cyan-800/60 px-3 py-1 rounded-lg">Page 1 / 1</div>
         </div>
       </div>
@@ -112,11 +113,13 @@
   // data.json 이 유일한 데이터 소스. 화면에는 계산 가능한 값만 띄운다.
   const S = { jobs: [], news: [], ticker: [], updatedAt: '', updatedAtISO: '', sample: false };
   const CATEGORIES = ['전체', '공정/소자', '첨단패키징', '회로설계', '장비/설비', '품질/테스트'];
+  const MAJORS = ['재료', '화학', '전자전기'];
   const ROLLING_INTERVAL = 15;
   const itemsPerPage = 4;
 
   let currentCategory = '전체';
-  let viewMode = 'list';        // 'list' = 카드 목록, 'timeline' = 마감일 순
+  let viewMode = 'list';        // 'list' = 카드 목록, 'timeline' = 마감일 순, 'calendar' = 월 달력
+  let calOffset = 0;            // 달력에서 이번 달 기준 ±N개월
   let currentPage = 0;
   let isAutoPlaying = true;
   let timerSeconds = 0;
@@ -138,8 +141,9 @@
   }
 
   const liveJobs = () => S.jobs.map(j => ({ ...j, dd: dday(j.deadline) })).filter(j => j.dd);
-  const filteredJobs = () => currentCategory === '전체'
-    ? liveJobs() : liveJobs().filter(j => j.category === currentCategory);
+  // 필터 값 하나로 직무 태그와 전공 태그를 함께 받는다. 전공은 한 공고에 여러 개 붙는다.
+  const filteredJobs = () => currentCategory === '전체' ? liveJobs()
+    : liveJobs().filter(j => j.category === currentCategory || (j.majors || []).includes(currentCategory));
   const pageCount = () => Math.max(1, Math.ceil(filteredJobs().length / itemsPerPage));
   const viewBtnClass = on => `px-3 py-1.5 rounded-lg text-sm font-bold transition active:scale-95 ${
     on ? 'bg-cyan-500 text-slate-950' : 'bg-slate-800 text-slate-300 border border-slate-700'}`;
@@ -147,24 +151,38 @@
   function setView(mode) {
     viewMode = mode;
     currentPage = 0;
+    calOffset = 0;
     timerSeconds = 0;
     updateProgressBar();
     render();
   }
 
-  // 목록 페이지를 끝까지 넘긴 뒤 마감일 화면을 한 번 보여주고 다시 처음으로 돌아온다.
+  function shiftMonth(n) { calOffset += n; timerSeconds = 0; render(); }
+
+  // 목록을 끝까지 넘긴 뒤 마감일 → 달력을 한 번씩 보여주고 처음으로 돌아온다.
   function advance() {
-    if (viewMode === 'timeline') { viewMode = 'list'; currentPage = 0; }
+    if (viewMode === 'calendar') { viewMode = 'list'; currentPage = 0; calOffset = 0; }
+    else if (viewMode === 'timeline') { viewMode = 'calendar'; calOffset = 0; }
     else if (currentPage + 1 >= pageCount()) viewMode = 'timeline';
     else currentPage++;
   }
 
   function renderFilters() {
-    document.getElementById('category-filters').innerHTML = CATEGORIES.map(c => {
+    const chip = (c, label) => {
       const on = c === currentCategory;
       const style = on ? 'bg-cyan-500 text-slate-950 shadow-md' : 'bg-slate-800 text-slate-300 border border-slate-700';
-      return `<button onclick="filterJobs('${c}')" class="px-4 py-2 rounded-xl text-sm font-bold transition active:scale-95 ${style}">${c === '전체' ? '전체' : '#' + c}</button>`;
-    }).join('');
+      return `<button onclick="filterJobs('${c}')" class="px-4 py-2 rounded-xl text-sm font-bold transition active:scale-95 ${style}">${label}</button>`;
+    };
+    const majorChip = c => {
+      const on = c === currentCategory;
+      const style = on ? 'bg-violet-500 text-white shadow-md' : 'bg-slate-800 text-violet-300 border border-violet-500/40';
+      return `<button onclick="filterJobs('${c}')" class="px-3.5 py-2 rounded-xl text-sm font-bold transition active:scale-95 ${style}">${c}</button>`;
+    };
+    document.getElementById('category-filters').innerHTML =
+      CATEGORIES.map(c => chip(c, c === '전체' ? '전체' : '#' + c)).join('') +
+      '<span class="w-px h-6 bg-slate-700 mx-1"></span>' +
+      '<span class="text-xs font-bold text-slate-500">전공</span>' +
+      MAJORS.map(majorChip).join('');
   }
 
   // 지표·버튼·컨테이너 전환은 여기서 하고, 실제 그리기는 두 렌더러에 맡긴다.
@@ -174,10 +192,16 @@
     document.getElementById('m-urgent').innerText = `${all.filter(j => j.dd.urgent).length}건`;
     document.getElementById('btn-list').className = viewBtnClass(viewMode === 'list');
     document.getElementById('btn-timeline').className = viewBtnClass(viewMode === 'timeline');
+    document.getElementById('btn-calendar').className = viewBtnClass(viewMode === 'calendar');
 
     const box = document.getElementById('job-list-container');
     const label = document.getElementById('job-page-indicator');
-    if (viewMode === 'timeline') {
+    if (viewMode === 'calendar') {
+      const m = calBase();
+      label.innerText = `${m.getFullYear()}년 ${m.getMonth() + 1}월`;
+      box.className = 'flex flex-col flex-1 overflow-hidden';
+      renderCalendar();
+    } else if (viewMode === 'timeline') {
       label.innerText = '마감 임박순';
       box.className = 'flex flex-col flex-1 overflow-hidden';
       renderTimeline();
@@ -201,8 +225,10 @@
       <div class="bg-slate-800/75 border border-slate-700/80 rounded-2xl p-4 flex justify-between items-center gap-3 shadow-md">
         <div class="flex flex-col justify-between h-full flex-1 pr-2">
           <div>
-            <div class="flex items-center gap-2 mb-1.5">
+            <div class="flex items-center gap-1.5 flex-wrap mb-1.5">
+              ${job.reviewed ? '<span class="px-2 py-0.5 rounded-md text-xs font-extrabold bg-amber-400/20 text-amber-200 border border-amber-400/50">⭐면접후기</span>' : ''}
               <span class="px-2.5 py-0.5 rounded-md text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">${esc(job.category)}</span>
+              ${(job.majors || []).map(mj => `<span class="px-2 py-0.5 rounded-md text-xs font-bold bg-violet-500/15 text-violet-300 border border-violet-500/30">${esc(mj)}</span>`).join('')}
               <span class="px-2 py-0.5 rounded-md text-xs font-extrabold ${job.dd.urgent ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' : 'bg-slate-700 text-slate-300'}">${esc(job.dd.text)}</span>
               <span class="text-sm font-extrabold text-amber-300 ml-1">${esc(job.company)}</span>
             </div>
@@ -218,6 +244,62 @@
           <span class="text-[10px] font-bold text-slate-800 mt-0.5">공고 스캔</span>
         </div>
       </div>`).join('');
+  }
+
+  const calBase = () => { const n = new Date(); return new Date(n.getFullYear(), n.getMonth() + calOffset, 1); };
+
+  // 사람인 채용 캘린더식 월 달력. 공고를 마감일 칸에 찍는다. QR은 칸이 좁아 뺐고 목록·마감일 화면에서 본다.
+  function renderCalendar() {
+    const jobs = filteredJobs();
+    const base = calBase();
+    const y = base.getFullYear(), m = base.getMonth();
+    const pad = n => String(n).padStart(2, '0');
+    const byDate = {};
+    for (const j of jobs) if (!j.dd.open) (byDate[j.deadline] = byDate[j.deadline] || []).push(j);
+
+    const now = new Date();
+    const todayKey = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+    const days = ['일', '월', '화', '수', '목', '금', '토'];
+    const navBtn = 'px-3 py-1 rounded-lg text-sm font-bold bg-slate-800 text-slate-300 border border-slate-700 active:scale-95';
+
+    let html = `
+      <div class="flex items-center justify-between mb-2">
+        <button onclick="shiftMonth(-1)" class="${navBtn}">‹ 이전달</button>
+        <span class="text-xs font-semibold text-slate-500">마감일 기준 · 지원은 QR이 있는 목록·마감일 화면에서</span>
+        <button onclick="shiftMonth(1)" class="${navBtn}">다음달 ›</button>
+      </div>
+      <div class="grid grid-cols-7 gap-1 mb-1">
+        ${days.map((d, i) => `<div class="text-center text-xs font-bold ${i === 0 ? 'text-rose-400' : i === 6 ? 'text-sky-400' : 'text-slate-400'}">${d}</div>`).join('')}
+      </div>
+      <div class="grid grid-cols-7 auto-rows-fr gap-1 flex-1 min-h-0">`;
+
+    for (let i = 0; i < base.getDay(); i++) html += '<div></div>';
+    for (let d = 1; d <= new Date(y, m + 1, 0).getDate(); d++) {
+      const key = `${y}-${pad(m + 1)}-${pad(d)}`;
+      const list = byDate[key] || [];
+      const urgent = list.some(j => j.dd.urgent);
+      const tone = !list.length ? 'bg-slate-800/40 border-slate-700/50'
+        : urgent ? 'bg-rose-500/15 border-rose-500/40' : 'bg-amber-500/10 border-amber-500/30';
+      const ring = key === todayKey ? ' ring-2 ring-cyan-400' : '';
+      const dow = new Date(y, m, d).getDay();
+      html += `
+        <div class="rounded-lg border p-1 flex flex-col gap-0.5 min-h-0 overflow-hidden ${tone}${ring}">
+          <span class="text-xs font-black tabular-nums ${dow === 0 ? 'text-rose-300' : dow === 6 ? 'text-sky-300' : 'text-slate-300'}">${d}</span>
+          ${list.slice(0, 2).map(j => `<span class="truncate text-[11px] font-bold leading-tight ${urgent ? 'text-rose-200' : 'text-amber-200'}">${j.reviewed ? '⭐' : ''}${esc(j.company)}</span>`).join('')}
+          ${list.length > 2 ? `<span class="text-[10px] font-bold text-slate-400">+${list.length - 2}건</span>` : ''}
+        </div>`;
+    }
+    html += '</div>';
+
+    const open = jobs.filter(j => j.dd.open);
+    if (open.length) {
+      html += `
+      <div class="mt-2 pt-2 border-t border-slate-700/70 flex items-center gap-2 flex-wrap">
+        <span class="text-sm font-bold text-slate-400 shrink-0">🔄 마감일 없는 공고</span>
+        ${open.map(j => `<span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700">${j.reviewed ? '⭐' : ''}${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
+      </div>`;
+    }
+    document.getElementById('job-list-container').innerHTML = html;
   }
 
   // 마감일 순 타임라인. 마감일이 없는 공고는 사라지지 않고 하단에 묶어 둔다.
@@ -249,6 +331,7 @@
       }
       html += `
         <div class="bg-slate-800/70 border border-slate-700/70 rounded-xl px-4 py-2 flex items-center gap-3">
+          ${job.reviewed ? '<span class="text-base shrink-0" title="면접 후기 있는 기업">⭐</span>' : ''}
           <span class="px-2 py-0.5 rounded text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shrink-0">${esc(job.category)}</span>
           <span class="text-base font-extrabold text-amber-300 shrink-0">${esc(job.company)}</span>
           <span class="text-base font-bold text-white truncate flex-1">${esc(job.title)}</span>
@@ -263,7 +346,7 @@
       html += `
       <div class="mt-2 pt-2.5 border-t border-slate-700/70 flex items-center gap-2 flex-wrap">
         <span class="text-sm font-bold text-slate-400 shrink-0">🔄 마감일 없는 공고</span>
-        ${open.map(j => `<span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700">${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
+        ${open.map(j => `<span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700">${j.reviewed ? '⭐' : ''}${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
       </div>`;
     }
     box.innerHTML = html;

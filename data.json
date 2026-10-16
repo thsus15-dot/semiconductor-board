@@ -10,7 +10,12 @@
       "location": "충북 청주 오창",
       "experience": "신입·경력 (초대졸 이상)",
       "deadline": "2026-10-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49797613"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49797613",
+      "majors": [
+        "전자전기",
+        "화학"
+      ],
+      "reviewed": false
     },
     {
       "company": "더블유테크㈜",
@@ -19,7 +24,12 @@
       "location": "경기 시흥",
       "experience": "경력 5년 이상",
       "deadline": "2026-10-20",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49827773"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49827773",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "reviewed": false
     },
     {
       "company": "버슘머트리얼즈코리아 (머크)",
@@ -28,7 +38,12 @@
       "location": "경기 시흥",
       "experience": "신입·경력 1년 이상",
       "deadline": "2026-10-24",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50050861"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50050861",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "reviewed": false
     },
     {
       "company": "㈜엘에이티",
@@ -37,7 +52,12 @@
       "location": "경기 수원",
       "experience": "신입·경력 (대졸 이상)",
       "deadline": "2026-11-14",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50174346"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50174346",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "reviewed": false
     },
     {
       "company": "램리서치매뉴팩춰링코리아",
@@ -46,7 +66,11 @@
       "location": "경기 오산",
       "experience": "신입·경력",
       "deadline": "2026-11-28",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50074469"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50074469",
+      "majors": [
+        "전자전기"
+      ],
+      "reviewed": false
     },
     {
       "company": "에스앤에스텍",
@@ -55,7 +79,12 @@
       "location": "대구 달서구",
       "experience": "신입·경력",
       "deadline": "상시",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49808046"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49808046",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "reviewed": false
     },
     {
       "company": "㈜오디텍",
@@ -64,7 +93,12 @@
       "location": "전북 완주",
       "experience": "경력무관",
       "deadline": "상시",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50179344"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50179344",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "reviewed": false
     },
     {
       "company": "어보브반도체㈜",
@@ -73,7 +107,11 @@
       "location": "서울 강남",
       "experience": "경력",
       "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50150152"
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50150152",
+      "majors": [
+        "전자전기"
+      ],
+      "reviewed": false
     }
   ],
   "news": [
