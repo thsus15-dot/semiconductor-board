@@ -7,15 +7,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <style>
-    body { font-family:'Pretendard',-apple-system,system-ui,sans-serif; background-color:#0b0f19; color:#f8fafc; user-select:none; cursor:none; }
+    body { font-family:'Pretendard',-apple-system,system-ui,sans-serif; background-color:#0b0f19; color:#f8fafc; user-select:none; }
     @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
     .animate-ticker { display:flex; width:max-content; animation:ticker 40s linear infinite; }
     .progress-transition { transition:width 1s linear; }
     /* 멀리서도 "더 있다"가 보이게 얇지만 또렷한 스크롤바 */
-    .scroll-thin { scrollbar-width:thin; scrollbar-color:#475569 transparent; scroll-behavior:smooth; }
-    .scroll-thin::-webkit-scrollbar { width:8px; }
-    .scroll-thin::-webkit-scrollbar-thumb { background:#475569; border-radius:4px; }
-    .scroll-thin::-webkit-scrollbar-track { background:transparent; }
+    .scroll-thin { scrollbar-width:auto; scrollbar-color:#64748b #1e293b; -webkit-overflow-scrolling:touch; overscroll-behavior:contain; }
+    .scroll-thin::-webkit-scrollbar { width:14px; }
+    .scroll-thin::-webkit-scrollbar-thumb { background:#64748b; border-radius:7px; border:3px solid transparent; background-clip:content-box; }
+    .scroll-thin::-webkit-scrollbar-thumb:hover { background:#94a3b8; background-clip:content-box; }
+    .scroll-thin::-webkit-scrollbar-track { background:#1e293b; border-radius:7px; }
     [data-url] { cursor:pointer; }
   </style>
 </head>
@@ -181,12 +182,6 @@
 
   // 목록을 끝까지 넘긴 뒤 마감일 → 달력을 한 번씩 보여주고 처음으로 돌아온다.
   function advance() {
-    // 잘린 내용이 남아 있으면 먼저 한 화면 내린다. 다 내려간 뒤에야 다음 화면으로 넘어간다.
-    const sc = document.querySelector('#job-list-container .job-scroll') || document.getElementById('job-list-container');
-    if (sc && sc.scrollTop + sc.clientHeight < sc.scrollHeight - 8) {
-      sc.scrollTop += Math.max(120, sc.clientHeight - 48);
-      return;
-    }
     if (viewMode === 'calendar') { viewMode = 'list'; currentPage = 0; calOffset = 0; }
     else if (viewMode === 'timeline') { viewMode = 'calendar'; calOffset = 0; }
     else if (currentPage + 1 >= pageCount()) viewMode = 'timeline';
@@ -451,11 +446,32 @@
 
   function setActiveNews(i) { activeNewsIndex = i; renderNews(); }
 
+  function setAutoPlay(on, held) {
+    isAutoPlaying = on;
+    if (on) timerSeconds = 0;
+    document.getElementById('play-icon').innerText = on ? '⏸' : '▶';
+    document.getElementById('play-icon').className = on ? 'text-emerald-400' : 'text-amber-400';
+    document.getElementById('play-text').innerText = on ? '자동롤링 중 (15s)'
+      : (held ? '보는 중 — 1분 뒤 자동 재개' : '일시정지됨 (터치하여 재생)');
+    updateProgressBar();
+  }
+
   function toggleAutoPlay() {
-    isAutoPlaying = !isAutoPlaying;
-    document.getElementById('play-icon').innerText = isAutoPlaying ? '⏸' : '▶';
-    document.getElementById('play-icon').className = isAutoPlaying ? 'text-emerald-400' : 'text-amber-400';
-    document.getElementById('play-text').innerText = isAutoPlaying ? '자동롤링 중 (15s)' : '일시정지됨 (터치하여 재생)';
+    clearTimeout(holdTimer);
+    setAutoPlay(!isAutoPlaying, false);
+  }
+
+  // 손으로 스크롤하는 중에 화면이 넘어가면 읽을 수가 없다. 1분간 멈췄다가 알아서 되돌아간다.
+  let holdTimer = null;
+  function holdAutoPlay() {
+    if (isAutoPlaying) setAutoPlay(false, true);
+    clearTimeout(holdTimer);
+    holdTimer = setTimeout(() => setAutoPlay(true, false), 60000);
+  }
+  for (const ev of ['wheel', 'touchstart', 'pointerdown']) {   // 'scroll'은 넣지 마라: scrollIntoView가 스스로 쏜다
+    document.addEventListener(ev, e => {
+      if (e.target.closest && e.target.closest('.scroll-thin')) holdAutoPlay();
+    }, { passive: true, capture: true });
   }
 
   function updateProgressBar() {
