@@ -1,6 +1,6 @@
 {
-  "updatedAt": "10/16 13:17",
-  "updatedAtISO": "2026-10-16T13:17:36.949234+09:00",
+  "updatedAt": "10/16 14:04",
+  "updatedAtISO": "2026-10-16T14:04:34.099854+09:00",
   "sample": false,
   "jobs": [
     {
@@ -15,6 +15,19 @@
         "전자전기",
         "화학"
       ]
+    },
+    {
+      "company": "스템코㈜",
+      "title": "10월 공정기술 신입/경력 (제조기술·검사기술)",
+      "category": "첨단패키징",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "충북 청주 오창",
+      "experience": "신입·경력 2년↑ (졸업예정 가능)",
+      "deadline": "2026-10-18",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50133572"
     },
     {
       "company": "더블유테크㈜",
@@ -43,6 +56,57 @@
       ]
     },
     {
+      "company": "㈜코미코",
+      "title": "2026년 10월 수시채용 (3개월 평가 후 정규직 전환)",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "location": "경기 안성",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-10-25",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50146833"
+    },
+    {
+      "company": "머크퍼포먼스머티리얼즈",
+      "title": "QC Engineer (12개월 계약직, 포승)",
+      "category": "품질/테스트",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "경기 평택",
+      "experience": "신입·경력 1년↑ (대졸 이상)",
+      "deadline": "2026-11-01",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50102492"
+    },
+    {
+      "company": "㈜영도글로발",
+      "title": "반도체 Ingot Grower 공정기술",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "location": "충남 천안",
+      "experience": "신입·경력 3년↑ (고졸 이상)",
+      "deadline": "2026-11-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49918046"
+    },
+    {
+      "company": "에이에스에이씨㈜",
+      "title": "반도체 장비 유지보수 엔지니어",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경기 화성",
+      "experience": "신입·경력 1년↑ (학력무관)",
+      "deadline": "2026-11-11",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50143818"
+    },
+    {
       "company": "㈜엘에이티",
       "title": "반도체·디스플레이 장비 공정개발팀 모집",
       "category": "장비/설비",
@@ -56,6 +120,18 @@
       ]
     },
     {
+      "company": "㈜인코원",
+      "title": "반도체 광학 검사장비 Setup·유지보수 (CS팀)",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경기 성남 분당",
+      "experience": "신입·경력 (학력무관)",
+      "deadline": "2026-11-14",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50174211"
+    },
+    {
       "company": "램리서치매뉴팩춰링코리아",
       "title": "반도체 장비 Test Engineer (계약직)",
       "category": "품질/테스트",
@@ -63,6 +139,30 @@
       "experience": "신입·경력",
       "deadline": "2026-11-28",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50074469",
+      "majors": [
+        "전자전기"
+      ]
+    },
+    {
+      "company": "㈜에이피텍",
+      "title": "자동화 장비 제조·Set-up 엔지니어 (구미)",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경북 구미",
+      "experience": "신입·경력 5년↑ (초대졸 이상)",
+      "deadline": "2026-12-14",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50175190"
+    },
+    {
+      "company": "어보브반도체㈜",
+      "title": "MCU 반도체 디지털 설계 (경력)",
+      "category": "회로설계",
+      "location": "서울 강남",
+      "experience": "경력",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50150152",
       "majors": [
         "전자전기"
       ]
@@ -94,16 +194,17 @@
       ]
     },
     {
-      "company": "어보브반도체㈜",
-      "title": "MCU 반도체 디지털 설계 (경력)",
-      "category": "회로설계",
-      "location": "서울 강남",
-      "experience": "경력",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50150152",
+      "company": "동진쎄미켐",
+      "title": "반도체·디스플레이 소재 연구보조/생산기술 (인재풀)",
+      "category": "공정/소자",
       "majors": [
-        "전자전기"
-      ]
+        "화학",
+        "재료"
+      ],
+      "location": "경기 화성",
+      "experience": "신입·경력 (고졸 이상)",
+      "deadline": "상시",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50100608"
     }
   ],
   "news": [
