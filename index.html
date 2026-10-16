@@ -11,6 +11,12 @@
     @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
     .animate-ticker { display:flex; width:max-content; animation:ticker 40s linear infinite; }
     .progress-transition { transition:width 1s linear; }
+    /* 멀리서도 "더 있다"가 보이게 얇지만 또렷한 스크롤바 */
+    .scroll-thin { scrollbar-width:thin; scrollbar-color:#475569 transparent; scroll-behavior:smooth; }
+    .scroll-thin::-webkit-scrollbar { width:8px; }
+    .scroll-thin::-webkit-scrollbar-thumb { background:#475569; border-radius:4px; }
+    .scroll-thin::-webkit-scrollbar-track { background:transparent; }
+    [data-url] { cursor:pointer; }
   </style>
 </head>
 <body class="h-screen w-screen overflow-hidden flex flex-col justify-between p-5 gap-4 bg-gradient-to-br from-[#0b0f19] via-[#111827] to-[#0f172a]">
@@ -88,13 +94,13 @@
         </div>
         <span id="news-stamp" class="text-xs font-medium text-slate-400 bg-slate-800/80 border border-slate-700 px-2.5 py-1 rounded-lg">-</span>
       </div>
-      <div id="news-daily" class="flex flex-col gap-3 flex-1 justify-evenly"></div>
+      <div id="news-daily" class="flex flex-col gap-3 flex-[3] min-h-0 overflow-y-auto scroll-thin"></div>
 
       <div class="flex items-center gap-2 mt-3 mb-2.5 pt-3 border-t border-slate-700/70">
         <span class="text-xl">🗓️</span>
         <h2 class="text-lg font-bold text-white">이번 주 핵심 흐름</h2>
       </div>
-      <div id="news-weekly" class="flex flex-col gap-2.5"></div>
+      <div id="news-weekly" class="flex flex-col gap-2.5 flex-[2] min-h-0 overflow-y-auto scroll-thin"></div>
     </section>
   </main>
 
@@ -131,6 +137,13 @@
     const p = n => String(n).padStart(2, '0');
     return `${label} ${p(d.getMonth() + 1)}/${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())} 수집`;
   }
+
+  // 카드마다 data-url만 달아두면 아래 위임 리스너가 받는다. 터치하면 원문이 새 탭으로 열린다.
+  const urlAttr = u => u ? ` data-url="${esc(u)}"` : '';
+  document.addEventListener('click', e => {
+    const el = e.target.closest('[data-url]');
+    if (el && el.dataset.url) window.open(el.dataset.url, '_blank', 'noopener');
+  });
 
   const qr = link => `https://api.qrserver.com/v1/create-qr-code/?size=90x90&margin=4&data=${encodeURIComponent(link || '')}`;
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -229,7 +242,7 @@
       return;
     }
     box.innerHTML = items.map(job => `
-      <div class="bg-slate-800/75 border border-slate-700/80 rounded-2xl p-4 flex justify-between items-center gap-3 shadow-md">
+      <div${urlAttr(job.url)} class="bg-slate-800/75 border border-slate-700/80 rounded-2xl p-4 flex justify-between items-center gap-3 shadow-md transition active:scale-[0.98] active:border-cyan-500/60">
         <div class="flex flex-col justify-between h-full flex-1 pr-2">
           <div>
             <div class="flex items-center gap-1.5 flex-wrap mb-1.5">
@@ -291,7 +304,7 @@
       html += `
         <div class="rounded-lg border p-1 flex flex-col gap-0.5 min-h-0 overflow-hidden ${tone}${ring}">
           <span class="text-xs font-black tabular-nums ${dow === 0 ? 'text-rose-300' : dow === 6 ? 'text-sky-300' : 'text-slate-300'}">${d}</span>
-          ${list.slice(0, 2).map(j => `<span class="truncate text-[11px] font-bold leading-tight ${urgent ? 'text-rose-200' : 'text-amber-200'}">${esc(j.company)}</span>`).join('')}
+          ${list.slice(0, 2).map(j => `<span${urlAttr(j.url)} class="truncate text-[11px] font-bold leading-tight ${urgent ? 'text-rose-200' : 'text-amber-200'}">${esc(j.company)}</span>`).join('')}
           ${list.length > 2 ? `<span class="text-[10px] font-bold text-slate-400">+${list.length - 2}건</span>` : ''}
         </div>`;
     }
@@ -302,7 +315,7 @@
       html += `
       <div class="mt-2 pt-2 border-t border-slate-700/70 flex items-center gap-2 flex-wrap">
         <span class="text-sm font-bold text-slate-400 shrink-0">🔄 마감일 없는 공고</span>
-        ${open.map(j => `<span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700">${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
+        ${open.map(j => `<span${urlAttr(j.url)} class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700 active:border-cyan-500/60">${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
       </div>`;
     }
     document.getElementById('job-list-container').innerHTML = html;
@@ -336,7 +349,7 @@
         </div>`;
       }
       html += `
-        <div class="bg-slate-800/70 border border-slate-700/70 rounded-xl px-4 py-2 flex items-center gap-3">
+        <div${urlAttr(job.url)} class="bg-slate-800/70 border border-slate-700/70 rounded-xl px-4 py-2 flex items-center gap-3 transition active:scale-[0.99] active:border-cyan-500/60">
           <span class="px-2 py-0.5 rounded text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shrink-0">${esc(job.category)}</span>
           <span class="text-base font-extrabold text-amber-300 shrink-0">${esc(job.company)}</span>
           <span class="text-base font-bold text-white truncate flex-1">${esc(job.title)}</span>
@@ -351,7 +364,7 @@
       html += `
       <div class="mt-2 pt-2.5 border-t border-slate-700/70 flex items-center gap-2 flex-wrap">
         <span class="text-sm font-bold text-slate-400 shrink-0">🔄 마감일 없는 공고</span>
-        ${open.map(j => `<span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700">${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
+        ${open.map(j => `<span${urlAttr(j.url)} class="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700 active:border-cyan-500/60">${esc(j.company)} · ${esc(j.dd.text)}</span>`).join('')}
       </div>`;
     }
     box.innerHTML = html;
@@ -393,7 +406,7 @@
       const on = gi === activeNewsIndex;
       const lines = compact ? (n.summary || []).slice(0, 1) : (n.summary || []);
       return `
-      <div onclick="setActiveNews(${gi})" class="rounded-2xl ${compact ? 'p-3' : 'p-4'} flex justify-between items-center gap-3 transition-all duration-300 ${on ? 'bg-slate-800/95 border-2 border-cyan-400/80 shadow-[0_0_20px_rgba(34,211,238,0.12)]' : 'bg-slate-800/50 border border-slate-700/60 opacity-85'}">
+      <div onclick="setActiveNews(${gi})"${urlAttr(n.url)} class="rounded-2xl ${compact ? 'p-3' : 'p-4'} flex justify-between items-center gap-3 transition-all duration-300 ${on ? 'bg-slate-800/95 border-2 border-cyan-400/80 shadow-[0_0_20px_rgba(34,211,238,0.12)]' : 'bg-slate-800/50 border border-slate-700/60 opacity-85'}">
         <div class="flex-1 min-w-0">
           <div class="flex items-center gap-2 mb-1">
             <span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">${esc(n.tag)}</span>
@@ -410,6 +423,10 @@
         </div>
       </div>`;
     }).join('');
+
+    // 잘려 있는 카드도 순번이 오면 저절로 보이게. 아무도 안 만져도 전체가 돌아간다.
+    const on = box.children[activeNewsIndex - offset];
+    if (on) on.scrollIntoView({ block: 'nearest' });
   }
 
   function renderTicker() {
