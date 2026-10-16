@@ -143,7 +143,16 @@
   const urlAttr = u => u ? ` data-url="${esc(u)}"` : '';
   document.addEventListener('click', e => {
     const el = e.target.closest('[data-url]');
-    if (el && el.dataset.url) window.open(el.dataset.url, '_blank', 'noopener');
+    if (!el || !el.dataset.url) return;
+    // window.open에 features 인자를 주면 크롬이 '팝업'으로 보고 차단한다.
+    // 임시 <a>를 눌러 평범한 링크 이동으로 처리한다.
+    const a = document.createElement('a');
+    a.href = el.dataset.url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
   });
 
   const qr = link => `https://api.qrserver.com/v1/create-qr-code/?size=90x90&margin=4&data=${encodeURIComponent(link || '')}`;
