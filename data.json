@@ -1,0 +1,122 @@
+{
+  "updatedAt": "10/16 10:44",
+  "updatedAtISO": "2026-10-16T10:44:37.472303+09:00",
+  "sample": false,
+  "jobs": [
+    {
+      "company": "에스앤에스텍",
+      "title": "IC공정 엔지니어 모집",
+      "category": "공정/소자",
+      "location": "공고 참조",
+      "experience": "신입 지원 가능",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49808046"
+    },
+    {
+      "company": "버슘머트리얼즈코리아 (머크)",
+      "title": "Junior Production Engineer (생산운영/관리)",
+      "category": "공정/소자",
+      "location": "경기 시화",
+      "experience": "신입 지원 가능",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50050861"
+    },
+    {
+      "company": "㈜엘에이티",
+      "title": "반도체 및 디스플레이 장비 공정개발팀 모집",
+      "category": "장비/설비",
+      "location": "공고 참조",
+      "experience": "신입 지원 가능",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50174346"
+    },
+    {
+      "company": "㈜네패스",
+      "title": "유틸리티파트 장비기술직 (네패스 1·2캠퍼스)",
+      "category": "장비/설비",
+      "location": "공고 참조",
+      "experience": "신입 지원 가능",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49797613"
+    },
+    {
+      "company": "램리서치매뉴팩춰링코리아",
+      "title": "반도체 장비 Test Engineer (계약직)",
+      "category": "품질/테스트",
+      "location": "공고 참조",
+      "experience": "신입 지원 가능",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50074469"
+    },
+    {
+      "company": "㈜오디텍",
+      "title": "반도체부문 품질 신입/경력사원 모집",
+      "category": "품질/테스트",
+      "location": "공고 참조",
+      "experience": "신입 / 경력",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50179344"
+    },
+    {
+      "company": "어보브반도체㈜",
+      "title": "MCU 반도체 디지털 설계 (경력)",
+      "category": "회로설계",
+      "location": "공고 참조",
+      "experience": "경력",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50150152"
+    },
+    {
+      "company": "더블유테크㈜",
+      "title": "반도체 후공정(패키징) 장비 CS Engineer",
+      "category": "첨단패키징",
+      "location": "공고 참조",
+      "experience": "경력",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49827773"
+    }
+  ],
+  "news": [
+    {
+      "tag": "첨단패키징",
+      "press": "뉴스핌",
+      "time": "10/14",
+      "title": "한미반도체, SEDEX 2026서 HBM4·2.5D 패키징 장비 공개",
+      "summary": [
+        "HBM4 생산용 TC본더4와 2027년 출시 예정 와이드 TC본더 공개",
+        "2.5D 패키징용 TC본더 3종·FC본더 2종 등 총 5종 전시",
+        "전시는 10월 14~16일 코엑스, 미국 세미콘 웨스트에도 동시 출품"
+      ],
+      "url": "https://www.newspim.com/news/view/20261014000752"
+    },
+    {
+      "tag": "메모리/HBM",
+      "press": "뉴데일리경제",
+      "time": "10/14",
+      "title": "[르포] HBM4E·TC본더·MSVP 한자리에… AI 반도체 경쟁 무대 된 세덱스 2026",
+      "summary": [
+        "삼성전자·SK하이닉스가 차세대 AI 메모리 기술을 나란히 공개",
+        "HBM4를 넘어 HBM4E로 경쟁 축이 옮겨가는 흐름이 드러남",
+        "본딩·검사 장비 중심으로 후공정 소부장 전시 비중 확대"
+      ],
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/10/14/2026101400356.html"
+    },
+    {
+      "tag": "시장전망",
+      "press": "SBS Biz",
+      "time": "09/28",
+      "title": "DS증권 \"삼성전자·SK하이닉스 3분기 실적, 시장 전망치 하회 전망\"",
+      "summary": [
+        "컨센서스는 삼성 영업익 111조·SK하이닉스 78조 수준",
+        "원/달러 환율 약 11% 하락이 실적 하향의 주된 요인으로 지목",
+        "4분기는 HBM4 매출 기여 확대로 개선 전망"
+      ],
+      "url": "https://biz.sbs.co.kr/amp/article/20000337156"
+    }
+  ],
+  "ticker": [
+    "📱 관심 있는 공고·뉴스 옆 QR코드를 휴대폰 카메라로 비추면 원문으로 바로 이동합니다",
+    "👆 좌측 상단 직무 태그(#공정/소자, #첨단패키징 등)를 터치하면 해당 직무만 모아 볼 수 있습니다",
+    "📌 공고는 매일 아침 자동 수집됩니다 · 근무지·마감일·자격요건은 반드시 QR로 원문을 확인하세요"
+  ]
+}
