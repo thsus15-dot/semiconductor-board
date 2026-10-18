@@ -1,21 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-19T08:07:00+09:00",
-  "jobsUpdatedAt": "2026-10-19T08:57:41+09:00",
+  "jobsUpdatedAt": "2026-10-19T08:59:13+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "더블유테크㈜",
-      "title": "반도체 후공정(패키징) 장비 CS Engineer",
-      "category": "첨단패키징",
-      "location": "경기 시흥",
-      "experience": "경력 5년 이상",
-      "deadline": "2026-10-20",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49827773",
-      "majors": [
-        "전자전기",
-        "재료"
-      ]
-    },
     {
       "company": "㈜아이케이세미콘",
       "title": "반도체 부설연구소 연구원(FAE) 신입 채용",
@@ -157,19 +144,6 @@
       "experience": "경력무관 (고졸 이상)",
       "deadline": "2026-10-31",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50090675"
-    },
-    {
-      "company": "에스케이머티리얼즈㈜",
-      "title": "반도체 소재 분석 연구원 (판교)",
-      "category": "품질/테스트",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "경기 성남 판교",
-      "experience": "경력 5년↑ (석사 이상)",
-      "deadline": "2026-10-31",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50170673"
     },
     {
       "company": "머크퍼포먼스머티리얼즈",
