@@ -1,34 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-19T08:07:00+09:00",
-  "jobsUpdatedAt": "2026-10-16T15:17:04.966940+09:00",
+  "jobsUpdatedAt": "2026-10-19T08:55:10+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "㈜네패스",
-      "title": "유틸리티파트 장비기술직 (네패스 1·2캠퍼스)",
-      "category": "장비/설비",
-      "location": "충북 청주 오창",
-      "experience": "신입·경력 (초대졸 이상)",
-      "deadline": "2026-10-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49797613",
-      "majors": [
-        "전자전기",
-        "화학"
-      ]
-    },
-    {
-      "company": "스템코㈜",
-      "title": "10월 공정기술 신입/경력 (제조기술·검사기술)",
-      "category": "첨단패키징",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "충북 청주 오창",
-      "experience": "신입·경력 2년↑ (졸업예정 가능)",
-      "deadline": "2026-10-18",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50133572"
-    },
     {
       "company": "더블유테크㈜",
       "title": "반도체 후공정(패키징) 장비 CS Engineer",
@@ -41,6 +15,31 @@
         "전자전기",
         "재료"
       ]
+    },
+    {
+      "company": "㈜아이케이세미콘",
+      "title": "반도체 부설연구소 연구원(FAE) 신입 채용",
+      "category": "회로설계",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "서울 마포",
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-10-21",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50033732"
+    },
+    {
+      "company": "코스텍시스템㈜",
+      "title": "반도체 장비 제조 신입/경력직",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 평택",
+      "experience": "신입·경력 1년↑ (초대졸 이상)",
+      "deadline": "2026-10-22",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50040389"
     },
     {
       "company": "버슘머트리얼즈코리아 (머크)",
@@ -93,6 +92,19 @@
       "experience": "신입 (초대졸 이상)",
       "deadline": "2026-10-28",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50133712"
+    },
+    {
+      "company": "㈜이지켐",
+      "title": "2026년 반도체 소재 OQC 신입 채용",
+      "category": "품질/테스트",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "충남 공주",
+      "experience": "신입 (학력무관)",
+      "deadline": "2026-10-28",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50058743"
     },
     {
       "company": "한국세라믹기술원",
@@ -159,6 +171,19 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50143818"
     },
     {
+      "company": "㈜한국시바우라 메카트로닉스",
+      "title": "PKG설비 기술영업·CS 엔지니어 (신입/경력)",
+      "category": "첨단패키징",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 평택",
+      "experience": "신입·경력 (초대졸 이상)",
+      "deadline": "2026-11-11",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50143539"
+    },
+    {
       "company": "㈜엘에이티",
       "title": "반도체·디스플레이 장비 공정개발팀 모집",
       "category": "장비/설비",
@@ -196,6 +221,30 @@
       ]
     },
     {
+      "company": "㈜지아이에스",
+      "title": "반도체 Set-up·A/S 장비기술팀 신입/경력",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경기 안양",
+      "experience": "신입·경력 (초대졸 이상)",
+      "deadline": "2026-11-28",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50069047"
+    },
+    {
+      "company": "㈜피델릭스",
+      "title": "[신입] 메모리반도체 Project Manager",
+      "category": "회로설계",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경기 성남 수지",
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-12-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50121161"
+    },
+    {
       "company": "㈜에이피텍",
       "title": "자동화 장비 제조·Set-up 엔지니어 (구미)",
       "category": "장비/설비",
@@ -206,18 +255,6 @@
       "experience": "신입·경력 5년↑ (초대졸 이상)",
       "deadline": "2026-12-14",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50175190"
-    },
-    {
-      "company": "어보브반도체㈜",
-      "title": "MCU 반도체 디지털 설계 (경력)",
-      "category": "회로설계",
-      "location": "서울 강남",
-      "experience": "경력",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50150152",
-      "majors": [
-        "전자전기"
-      ]
     },
     {
       "company": "에스앤에스텍",
@@ -257,6 +294,18 @@
       "experience": "신입·경력 (고졸 이상)",
       "deadline": "상시",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50100608"
+    },
+    {
+      "company": "어보브반도체㈜",
+      "title": "MCU 반도체 디지털 설계 (경력)",
+      "category": "회로설계",
+      "location": "서울 강남",
+      "experience": "경력",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50150152",
+      "majors": [
+        "전자전기"
+      ]
     }
   ],
   "news": [
