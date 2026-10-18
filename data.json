@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-10-19T08:07:00+09:00",
-  "jobsUpdatedAt": "2026-10-19T08:55:10+09:00",
+  "jobsUpdatedAt": "2026-10-19T08:57:41+09:00",
   "sample": false,
   "jobs": [
     {
@@ -42,6 +42,19 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50040389"
     },
     {
+      "company": "㈜동성케미컬",
+      "title": "연구소 연구1그룹 Interface materials (Project Assistant)",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "부산 사하",
+      "experience": "경력무관 (석사 이상)",
+      "deadline": "2026-10-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50159416"
+    },
+    {
       "company": "버슘머트리얼즈코리아 (머크)",
       "title": "Junior Production Engineer (생산운영/관리)",
       "category": "공정/소자",
@@ -79,6 +92,19 @@
       "experience": "신입·경력 (초대졸 이상)",
       "deadline": "2026-10-26",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50161444"
+    },
+    {
+      "company": "㈜나노신소재",
+      "title": "첨단소재 R&D 연구원 채용",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "location": "대전 유성",
+      "experience": "경력무관 (대졸 이상)",
+      "deadline": "2026-10-27",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50154284"
     },
     {
       "company": "솔브레인㈜",
@@ -133,6 +159,19 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50090675"
     },
     {
+      "company": "에스케이머티리얼즈㈜",
+      "title": "반도체 소재 분석 연구원 (판교)",
+      "category": "품질/테스트",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "경기 성남 판교",
+      "experience": "경력 5년↑ (석사 이상)",
+      "deadline": "2026-10-31",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50170673"
+    },
+    {
       "company": "머크퍼포먼스머티리얼즈",
       "title": "QC Engineer (12개월 계약직, 포승)",
       "category": "품질/테스트",
@@ -182,6 +221,19 @@
       "experience": "신입·경력 (초대졸 이상)",
       "deadline": "2026-11-11",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50143539"
+    },
+    {
+      "company": "㈜루트세미콘",
+      "title": "반도체 품질관리·품질검사 인턴 (정규직 전환 가능)",
+      "category": "품질/테스트",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 부천",
+      "experience": "신입 인턴 3개월 (고졸 이상)",
+      "deadline": "2026-11-13",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50163908"
     },
     {
       "company": "㈜엘에이티",
