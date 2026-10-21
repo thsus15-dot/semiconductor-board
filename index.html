@@ -396,6 +396,8 @@
   function newsLists() {
     const daily = S.news.filter(n => (n.scope || 'daily') === 'daily' && newsAge(n.time) <= 4);
     const weekly = S.news.filter(n => n.scope === 'weekly' && newsAge(n.time) <= 14);
+    const newest = (x, y) => newsAge(x.time) - newsAge(y.time);   // 루틴은 새 기사를 뒤에 덧붙인다
+    daily.sort(newest); weekly.sort(newest);
     return { daily, weekly, total: daily.length + weekly.length };
   }
 
