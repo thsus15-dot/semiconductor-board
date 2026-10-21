@@ -1,20 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-22T08:15:54+09:00",
-  "jobsUpdatedAt": "2026-10-21T08:27:15+09:00",
+  "jobsUpdatedAt": "2026-10-22T08:27:13+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "㈜아이케이세미콘",
-      "title": "반도체 부설연구소 연구원(FAE) 신입 채용",
-      "category": "회로설계",
-      "majors": [
-        "전자전기"
-      ],
-      "location": "서울 마포",
-      "experience": "신입 (대졸 이상)",
-      "deadline": "2026-10-21",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50033732"
-    },
     {
       "company": "코스텍시스템㈜",
       "title": "반도체 장비 제조 신입/경력직",
