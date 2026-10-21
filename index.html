@@ -121,6 +121,8 @@
   const CATEGORIES = ['전체', '공정/소자', '첨단패키징', '회로설계', '장비/설비', '품질/테스트'];
   const MAJORS = ['재료', '화학', '전자전기'];
   const ROLLING_INTERVAL = 15;
+  const NEWS_INTERVAL = 10;
+  let newsSeconds = 0;
   const itemsPerPage = 6;
 
   let currentCategory = '전체';
@@ -457,11 +459,11 @@
 
   function setAutoPlay(on, held) {
     isAutoPlaying = on;
-    if (on) timerSeconds = 0;
+    if (on) timerSeconds = newsSeconds = 0;
     document.getElementById('play-icon').innerText = on ? '⏸' : '▶';
     document.getElementById('play-icon').className = on ? 'text-emerald-400' : 'text-amber-400';
     document.getElementById('play-text').innerText = on ? '자동롤링 중 (15s)'
-      : (held ? '보는 중 — 1분 뒤 자동 재개' : '일시정지됨 (터치하여 재생)');
+      : (held ? '보는 중 — 20초 뒤 자동 재개' : '일시정지됨 (터치하여 재생)');
     updateProgressBar();
   }
 
@@ -470,12 +472,12 @@
     setAutoPlay(!isAutoPlaying, false);
   }
 
-  // 손으로 스크롤하는 중에 화면이 넘어가면 읽을 수가 없다. 1분간 멈췄다가 알아서 되돌아간다.
+  // 손으로 스크롤하는 중에 화면이 넘어가면 읽을 수가 없다. 20초간 멈췄다가 알아서 되돌아간다.
   let holdTimer = null;
   function holdAutoPlay() {
     if (isAutoPlaying) setAutoPlay(false, true);
     clearTimeout(holdTimer);
-    holdTimer = setTimeout(() => setAutoPlay(true, false), 60000);
+    holdTimer = setTimeout(() => setAutoPlay(true, false), 20000);
   }
   for (const ev of ['wheel', 'touchstart', 'pointerdown']) {   // 'scroll'은 넣지 마라: scrollIntoView가 스스로 쏜다
     document.addEventListener(ev, e => {
@@ -501,11 +503,14 @@
     if (timerSeconds >= ROLLING_INTERVAL) {
       timerSeconds = 0;
       advance();
+      render();
+      updateProgressBar();
+    }
+    if (++newsSeconds >= NEWS_INTERVAL) {
+      newsSeconds = 0;
       const nv = newsLists().total;
       activeNewsIndex = nv ? (activeNewsIndex + 1) % nv : 0;
-      render();
       renderNews();
-      updateProgressBar();
     }
   }
 
