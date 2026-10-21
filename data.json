@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-21T15:37:58+09:00",
+  "newsUpdatedAt": "2026-10-22T08:15:54+09:00",
   "jobsUpdatedAt": "2026-10-21T08:27:15+09:00",
   "sample": false,
   "jobs": [
@@ -409,6 +409,44 @@
         "SK 최태원 회장의 증설 메시지 잇따라, 삼성 대응에 관심"
       ],
       "url": "https://www.newsway.co.kr/news/view?ud=2026101315375983977"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외경쟁",
+      "press": "한국경제",
+      "time": "10/21",
+      "title": "마이크론 파업 예고…삼성·SK, 메모리 공급 주도권 커진다",
+      "summary": [
+        "마이크론 타오위안 공장 노조 22일 파업 예고",
+        "타오위안은 마이크론 D램 생산능력 약 22%",
+        "HBM 거점 타이중은 노사 협상 중, 파업 미확정"
+      ],
+      "url": "https://hankyung.com/article/2026102147966"
+    },
+    {
+      "scope": "daily",
+      "tag": "파운드리",
+      "press": "한국경제",
+      "time": "10/19",
+      "title": "TSMC 3나노 공장 또 짓는다…삼성, GAA 2나노 승부수로 맞불",
+      "summary": [
+        "TSMC, 3나노 수요 예상 초과로 신규 공장 결정",
+        "삼성은 GAA 2나노로 맞대응하는 구도"
+      ],
+      "url": "https://www.hankyung.com/article/202610191471i"
+    },
+    {
+      "scope": "weekly",
+      "tag": "TSMC 실적",
+      "press": "ZDNet Korea",
+      "time": "10/15",
+      "title": "TSMC, 3분기 2나노 매출 비중 8%로 급성장...분기 최대 실적",
+      "summary": [
+        "3분기 순이익 전년비 69%↑, 6분기 연속 최대",
+        "HPC 비중 68%, 2나노 8%·3나노 33%",
+        "4분기 매출 전년비 최대 61% 증가 가이던스"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261015145902"
     }
   ],
   "ticker": [
