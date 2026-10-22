@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-22T10:53:54+09:00",
+  "newsUpdatedAt": "2026-10-22T10:56:26+09:00",
   "jobsUpdatedAt": "2026-10-22T10:55:23+09:00",
   "sample": false,
   "jobs": [
@@ -364,14 +364,15 @@
     {
       "scope": "daily",
       "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "10/21",
-      "title": "삼성·SK하이닉스, YMTC 경쟁 속 中 낸드 공장 200단 이상 업그레이드 추진 보도",
+      "press": "뉴스1",
+      "time": "10/22",
+      "title": "램리서치, AI 호황에 사상 최대 실적…시간외 주가는 6% 급락",
       "summary": [
-        "로이터 인용: 삼성 시안 286단, SK 다롄 240단 이상 전환 검토",
-        "미국 연간 장비 허가 필요, 세부 계획은 양사 비공개"
+        "9월 분기 매출 82.2억 달러, 직전 분기 대비 22% 증가",
+        "12월 분기 가이던스(전망) 매출 86억 달러 안팎",
+        "시간외 거래에서 주가 약 6% 하락"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/21/news-samsung-sk-hynix-reportedly-push-china-nand-upgrades-beyond-200-layers-as-ymtc-competition-heats-up/"
+      "url": "https://www.news1.kr/world/international-economy/6327890"
     },
     {
       "scope": "daily",
