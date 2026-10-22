@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-22T10:51:08+09:00",
+  "newsUpdatedAt": "2026-10-22T10:53:54+09:00",
   "jobsUpdatedAt": "2026-10-22T10:53:00+09:00",
   "sample": false,
   "jobs": [
@@ -411,6 +411,18 @@
         "업계 보도 기반, 삼성 공식 발표는 미확인"
       ],
       "url": "https://fnnews.com/news/202610211836169151"
+    },
+    {
+      "scope": "weekly",
+      "tag": "정책",
+      "press": "산업통상부",
+      "time": "10/21",
+      "title": "M.AX 원팀으로 車반도체 생태계 성장 가속화",
+      "summary": [
+        "'차량용 반도체 원팀 TF' 출범, 생태계 역량 결집",
+        "ZDNet Korea 등 복수 매체도 보도"
+      ],
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172319/view"
     },
     {
       "scope": "weekly",
