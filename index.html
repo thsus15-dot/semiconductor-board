@@ -395,7 +395,7 @@
   // 오래된 기사가 "오늘"·"이번 주" 칸에 눌러앉지 않게 거른다. 비면 빈 칸이 뜨는 쪽이 맞다.
   function newsLists() {
     const daily = S.news.filter(n => (n.scope || 'daily') === 'daily' && newsAge(n.time) <= 4);
-    const weekly = S.news.filter(n => n.scope === 'weekly' && newsAge(n.time) <= 14);
+    const weekly = S.news.filter(n => n.scope === 'weekly' && newsAge(n.time) <= 7);
     const newest = (x, y) => newsAge(x.time) - newsAge(y.time);   // 루틴은 새 기사를 뒤에 덧붙인다
     daily.sort(newest); weekly.sort(newest);
     return { daily, weekly, total: daily.length + weekly.length };
