@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-22T10:56:26+09:00",
+  "newsUpdatedAt": "2026-10-22T11:03:26+09:00",
   "jobsUpdatedAt": "2026-10-22T10:58:25+09:00",
   "sample": false,
   "jobs": [
@@ -436,6 +436,68 @@
         "삼성·SK 가격 협상력 변수로 거론"
       ],
       "url": "https://m.sedaily.com/article/20102290"
+    },
+    {
+      "scope": "weekly",
+      "tag": "첨단패키징",
+      "press": "ZDNet Korea",
+      "time": "10/20",
+      "title": "그록, 차세대 칩에 'D램 3차원 적층' 도입 추진…S램 한계 넘는다",
+      "summary": [
+        "그록, 차세대 칩에 TSV 연결 D램 3DS 검토 보도",
+        "TrendForce(영문)도 22일 보도, 공식 확인은 없음"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261019161431"
+    },
+    {
+      "scope": "weekly",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/20",
+      "title": "4분기 D램 가격 전분기 대비 20% 상승 전망…상승폭은 둔화",
+      "summary": [
+        "4Q26 D램 계약가격 전분기 대비 약 20% 상승 전망",
+        "2분기 약 80%, 3분기 약 40%보다 상승폭 둔화",
+        "AI 추론 수요가 지지, 장기계약 가격 상한은 둔화 요인"
+      ],
+      "url": "https://www.trendforce.com/news/2026/10/20/news-dram-prices-seen-rising-20-qoq-in-4q26-despite-slower-gains-ai-demand-tight-supply-support-outlook/"
+    },
+    {
+      "scope": "weekly",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/21",
+      "title": "삼성·SK하이닉스, 중국 낸드 200단 이상 업그레이드 추진 보도",
+      "summary": [
+        "삼성 시안 286층 V9, SK 다롄 240층 이상 전환 추진",
+        "익명 소식통 기반 보도, 양사는 세부 계획 미공개"
+      ],
+      "url": "https://www.trendforce.com/news/2026/10/21/news-samsung-sk-hynix-reportedly-push-china-nand-upgrades-beyond-200-layers-as-ymtc-competition-heats-up/"
+    },
+    {
+      "scope": "weekly",
+      "tag": "소재",
+      "press": "디일렉",
+      "time": "10/21",
+      "title": "후지필름, 평택 거점 EUV PR 양산 채비…삼성전자 초밀착 공조",
+      "summary": [
+        "평택 EUV 포토레지스트, 일부 제품 고객사 인증 통과",
+        "대량 양산 진입 전 단계",
+        "천안 인근 CMP 슬러리 증설, 2027년 상반기 가동 예정"
+      ],
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64058"
+    },
+    {
+      "scope": "weekly",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/21",
+      "title": "TSMC 애리조나, 올해 애플용 칩 1억 개 이상 공급 예정",
+      "summary": [
+        "애플 발표(10/20): 아이폰·아이패드·워치용 칩",
+        "TSMC 애리조나 공장 생산 물량 1억 개 이상"
+      ],
+      "url": "https://www.trendforce.com/news/2026/10/21/news-apple-signs-up-to-us100m-titanium-deal-for-products-including-iphone-duo-tsmc-arizona-to-supply-100m-chips/"
     }
   ],
   "ticker": [
