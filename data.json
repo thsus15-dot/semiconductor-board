@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-22T11:03:26+09:00",
+  "newsUpdatedAt": "2026-10-23T08:27:13+09:00",
   "jobsUpdatedAt": "2026-10-22T11:04:51+09:00",
   "sample": false,
   "jobs": [
@@ -313,53 +313,55 @@
   "news": [
     {
       "scope": "daily",
-      "tag": "첨단패키징",
+      "tag": "투자·상장",
       "press": "ZDNet Korea",
-      "time": "10/21",
-      "title": "삼성전기, 엔비디아 전용 반도체기판 공장 구축",
+      "time": "10/23",
+      "title": "SK하이닉스, 솔리다임 美 상장 검토 중단…\"기존 주주 이익 고려\"",
       "summary": [
-        "세종·부산에 엔비디아 전용 기판 라인 신설",
-        "엔비디아에 2026년부터 기판 공급",
-        "투자액 미공개, 2028년 비중 확대는 전망"
+        "솔리다임 나스닥 상장·프리IPO 검토 전면 중단",
+        "자본시장 여건·주가 흐름 고려한 판단",
+        "성장성·투자 필요성이 달라진 것은 아니라고 밝힘"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261021204750"
+      "url": "https://zdnet.co.kr/view/?no=20261023080241"
     },
     {
       "scope": "daily",
-      "tag": "기술유출",
+      "tag": "해외",
       "press": "ZDNet Korea",
       "time": "10/22",
-      "title": "'CXMT 유출 혐의' 전직 삼성맨 2심 징역 5년 선고",
+      "title": "인텔 \"애리조나 '팹62' 제조장비 반입 본격화...2028년 가동\"",
       "summary": [
-        "서울고법, 1심 징역 7년에서 5년으로 감형",
-        "삼성 D램 기술을 중국 CXMT에 유출한 혐의"
+        "애리조나 팹62, 2028년 말까지 가동 시작 예상",
+        "오하이오 첫 공장은 2030~2031년 가동 목표",
+        "적용 공정은 미공개, 인텔 14A 거론"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261022094705"
-    },
-    {
-      "scope": "daily",
-      "tag": "장비",
-      "press": "ZDNet Korea",
-      "time": "10/22",
-      "title": "한미반도체, 2년 연속 마이크론 '최우수 서플라이어'상 수상",
-      "summary": [
-        "마이크론 공급사 행사서 국내 기업 중 유일 수상",
-        "HBM용 TC본더 업체, 미국 현지법인 설립"
-      ],
-      "url": "https://zdnet.co.kr/view/?no=20261022094722"
+      "url": "https://zdnet.co.kr/view/?no=20261022104559"
     },
     {
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
       "time": "10/22",
-      "title": "엔비디아, 실리콘 인터포저 위에 광학엔진 얹은 차세대 CPO 시제품 공개",
+      "title": "마이크론, 4F² D램 배제…6F² 연장·3D D램 병행 로드맵 보도",
       "summary": [
-        "광학엔진을 패키지 기판에서 실리콘 인터포저로 이동",
-        "DWDM 시연: 파장 8개, 광섬유당 256Gb/s",
-        "연구 단계, 상용화 일정은 미공개"
+        "CTO \"4F²는 현재 로드맵에 없다\"(니혼게이자이 보도)",
+        "1δ 2027년 하반기 양산 예상, 3D D램은 장기 대안",
+        "임원 웨비나 발언 기반, 로드맵은 변경 가능"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/22/news-nvidia-unveils-next-gen-cpo-prototype-with-optics-on-silicon-interposer-targets-higher-bandwidth-density/"
+      "url": "https://www.trendforce.com/news/2026/10/22/news-micron-reportedly-rules-out-4f%c2%b2-dram-scaling-backs-6f%c2%b2-and-3d-dram-in-next-gen-memory-roadmap/"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/22",
+      "title": "테슬라, 삼성전기 기판 생산능력 확보에 1.1조원 투자 보도…엔비디아도 참여",
+      "summary": [
+        "테슬라 약 1.1조원, 2029~2033 FC-BGA 장기공급",
+        "엔비디아 약 2.6조원은 매일경제 추정치",
+        "세종 증설, 2028년 하반기 양산 예정(보도)"
+      ],
+      "url": "https://www.trendforce.com/news/2026/10/22/news-tesla-reportedly-to-invest-krw-1-1t-to-secure-samsung-electro-mechanics-substrate-capacity-nvidia-also-commits/"
     },
     {
       "scope": "daily",
@@ -376,29 +378,29 @@
     },
     {
       "scope": "daily",
-      "tag": "정책",
-      "press": "산업통상부",
-      "time": "10/21",
-      "title": "오늘의 호황을 내일의 초격차로, K-반도체 새로운 도약 다짐",
+      "tag": "장비",
+      "press": "ZDNet Korea",
+      "time": "10/22",
+      "title": "PSK, 램리서치 상대 베벨에처 특허침해소송 승소",
       "summary": [
-        "제19회 반도체의 날, 유공자 54명 정부 포상",
-        "9월 반도체 수출 약 603억 달러",
-        "1~9월 누적 340.3억 달러, 작년 연간의 2배 육박"
+        "서울중앙지법, 램리서치 패소 선고(2021년 제기)",
+        "특허 6건 중 5건 무효, 나머지는 침해 아니라 판단",
+        "램리서치는 항소 가능"
       ],
-      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172316/view"
+      "url": "https://zdnet.co.kr/view/?no=20261022125253"
     },
     {
       "scope": "daily",
-      "tag": "소재",
-      "press": "ZDNet Korea",
+      "tag": "기판·투자",
+      "press": "디일렉",
       "time": "10/22",
-      "title": "머크, \"한국서 반도체 신소재 생산능력 확대\"…삼성·SK 밀착 지원",
+      "title": "대덕전자, 6150억원 또 투자…올해만 1.3조원 이상",
       "summary": [
-        "충북 음성에 몰리브덴 소재(MoO₂Cl₂) 생산설비 개소",
-        "한국 내 누적 투자 8억 2000만 유로",
-        "5년 내 반도체 소재 수요 2배 가능성 대비"
+        "반도체용 생산설비·부대시설에 6150억원 투입",
+        "올해 세 차례 공시, 신규 시설투자 총 1조3250억원",
+        "FC-BGA·FC-CSP·메모리 기판 장기공급계약 추진"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261021214552"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64153"
     },
     {
       "scope": "weekly",
@@ -489,15 +491,16 @@
     },
     {
       "scope": "weekly",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
+      "tag": "정책",
+      "press": "산업통상부",
       "time": "10/21",
-      "title": "TSMC 애리조나, 올해 애플용 칩 1억 개 이상 공급 예정",
+      "title": "오늘의 호황을 내일의 초격차로, K-반도체 새로운 도약 다짐",
       "summary": [
-        "애플 발표(10/20): 아이폰·아이패드·워치용 칩",
-        "TSMC 애리조나 공장 생산 물량 1억 개 이상"
+        "제19회 반도체의 날, 유공자 54명 정부 포상",
+        "9월 반도체 수출 약 603억 달러",
+        "1~9월 누적 340.3억 달러, 작년 연간의 2배 육박"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/21/news-apple-signs-up-to-us100m-titanium-deal-for-products-including-iphone-duo-tsmc-arizona-to-supply-100m-chips/"
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172316/view"
     }
   ],
   "ticker": [
