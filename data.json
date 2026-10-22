@@ -1,21 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-23T08:27:13+09:00",
-  "jobsUpdatedAt": "2026-10-22T11:04:51+09:00",
+  "jobsUpdatedAt": "2026-10-23T08:29:23+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "코스텍시스템㈜",
-      "title": "반도체 장비 제조 신입/경력직",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "경기 평택",
-      "experience": "신입·경력 1년↑ (초대졸 이상)",
-      "deadline": "2026-10-22",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50040389"
-    },
     {
       "company": "㈜동성케미컬",
       "title": "연구소 연구1그룹 Interface materials (Project Assistant)",
