@@ -1,47 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-26T08:38:32+09:00",
-  "jobsUpdatedAt": "2026-10-23T08:29:23+09:00",
+  "jobsUpdatedAt": "2026-10-26T08:40:41+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "㈜동성케미컬",
-      "title": "연구소 연구1그룹 Interface materials (Project Assistant)",
-      "category": "공정/소자",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "부산 사하",
-      "experience": "경력무관 (석사 이상)",
-      "deadline": "2026-10-23",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50159416"
-    },
-    {
-      "company": "버슘머트리얼즈코리아 (머크)",
-      "title": "Junior Production Engineer (생산운영/관리)",
-      "category": "공정/소자",
-      "location": "경기 시흥",
-      "experience": "신입·경력 1년 이상",
-      "deadline": "2026-10-24",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50050861",
-      "majors": [
-        "화학",
-        "재료"
-      ]
-    },
-    {
-      "company": "㈜코미코",
-      "title": "2026년 10월 수시채용 (3개월 평가 후 정규직 전환)",
-      "category": "공정/소자",
-      "majors": [
-        "재료",
-        "화학"
-      ],
-      "location": "경기 안성",
-      "experience": "신입·경력 (대졸 이상)",
-      "deadline": "2026-10-25",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50146833"
-    },
     {
       "company": "㈜원익아이피에스",
       "title": "CS 엔지니어 신입/경력 (SKH·SEC 고객지원, GSO)",
