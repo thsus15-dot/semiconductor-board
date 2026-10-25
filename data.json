@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-23T08:27:13+09:00",
+  "newsUpdatedAt": "2026-10-26T08:38:32+09:00",
   "jobsUpdatedAt": "2026-10-23T08:29:23+09:00",
   "sample": false,
   "jobs": [
@@ -300,55 +300,55 @@
   "news": [
     {
       "scope": "daily",
-      "tag": "투자·상장",
+      "tag": "실적",
+      "press": "ZDNet Korea",
+      "time": "10/25",
+      "title": "[ZD브리핑] 최대 실적 SK하이닉스‧삼성전자…주가 견인할까",
+      "summary": [
+        "삼성전자 3Q 잠정 영업익 약 107.4조, 확정치 29일",
+        "SK하이닉스 28일 발표, 컨센서스 영업익 약 76.96조",
+        "AI 버블 우려 속 향후 사업 전망 발언이 관건"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261025131537"
+    },
+    {
+      "scope": "daily",
+      "tag": "채용",
+      "press": "ZDNet Korea",
+      "time": "10/25",
+      "title": "삼성, 하반기 GSAT 실시…4대 그룹 중 유일하게 공채 유지",
+      "summary": [
+        "10/24~25 GSAT 실시, 19개 관계사 참여",
+        "11월 면접·건강검진 거쳐 최종 합격자 선발",
+        "5년간 6만명 채용 계획, 반도체·바이오·AI 중심"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261025090226"
+    },
+    {
+      "scope": "daily",
+      "tag": "정책",
+      "press": "산업통상부",
+      "time": "10/23",
+      "title": "반도체 경쟁은 '시간'의 싸움으로 변천, 반도체 규제 합리화로 투자·연구·지원의 시간을 다시 설계한다",
+      "summary": [
+        "규제합리화위, 반도체 13개 개선과제 발표",
+        "산단 인허가·보상·설계 동시 추진(패스트트랙)",
+        "초광역특구 R&D 인력 근로시간 특례 검토"
+      ],
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172327/view"
+    },
+    {
+      "scope": "daily",
+      "tag": "파운드리",
       "press": "ZDNet Korea",
       "time": "10/23",
-      "title": "SK하이닉스, 솔리다임 美 상장 검토 중단…\"기존 주주 이익 고려\"",
+      "title": "삼성전자, 테일러 1공장 후속 설비투자…2나노 생산거점 완성 수순",
       "summary": [
-        "솔리다임 나스닥 상장·프리IPO 검토 전면 중단",
-        "자본시장 여건·주가 흐름 고려한 판단",
-        "성장성·투자 필요성이 달라진 것은 아니라고 밝힘"
+        "2나노 월 6,000장분 장비 발주, 연말부터 도입",
+        "파일럿 라인 합산 2027년 하반기 월 2만장 확보",
+        "테일러 2공장은 연말 착공·2030년 가동 목표"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261023080241"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "ZDNet Korea",
-      "time": "10/22",
-      "title": "인텔 \"애리조나 '팹62' 제조장비 반입 본격화...2028년 가동\"",
-      "summary": [
-        "애리조나 팹62, 2028년 말까지 가동 시작 예상",
-        "오하이오 첫 공장은 2030~2031년 가동 목표",
-        "적용 공정은 미공개, 인텔 14A 거론"
-      ],
-      "url": "https://zdnet.co.kr/view/?no=20261022104559"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "10/22",
-      "title": "마이크론, 4F² D램 배제…6F² 연장·3D D램 병행 로드맵 보도",
-      "summary": [
-        "CTO \"4F²는 현재 로드맵에 없다\"(니혼게이자이 보도)",
-        "1δ 2027년 하반기 양산 예상, 3D D램은 장기 대안",
-        "임원 웨비나 발언 기반, 로드맵은 변경 가능"
-      ],
-      "url": "https://www.trendforce.com/news/2026/10/22/news-micron-reportedly-rules-out-4f%c2%b2-dram-scaling-backs-6f%c2%b2-and-3d-dram-in-next-gen-memory-roadmap/"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "10/22",
-      "title": "테슬라, 삼성전기 기판 생산능력 확보에 1.1조원 투자 보도…엔비디아도 참여",
-      "summary": [
-        "테슬라 약 1.1조원, 2029~2033 FC-BGA 장기공급",
-        "엔비디아 약 2.6조원은 매일경제 추정치",
-        "세종 증설, 2028년 하반기 양산 예정(보도)"
-      ],
-      "url": "https://www.trendforce.com/news/2026/10/22/news-tesla-reportedly-to-invest-krw-1-1t-to-secure-samsung-electro-mechanics-substrate-capacity-nvidia-also-commits/"
+      "url": "https://zdnet.co.kr/view/?no=20261023110604"
     },
     {
       "scope": "daily",
@@ -365,29 +365,29 @@
     },
     {
       "scope": "daily",
-      "tag": "장비",
+      "tag": "해외",
       "press": "ZDNet Korea",
-      "time": "10/22",
-      "title": "PSK, 램리서치 상대 베벨에처 특허침해소송 승소",
+      "time": "10/24",
+      "title": "'중국판 엔비디아' 캠브리콘, 매출 급등…\"국산화 노력 수혜\"",
       "summary": [
-        "서울중앙지법, 램리서치 패소 선고(2021년 제기)",
-        "특허 6건 중 5건 무효, 나머지는 침해 아니라 판단",
-        "램리서치는 항소 가능"
+        "3분기 매출 35억 3000만위안, 전년 동기 대비 105% 증가",
+        "순이익 14억위안(148% 증가), 시장 예상치는 하회",
+        "제조 제약·메모리 부족이 원인(블룸버그)"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261022125253"
+      "url": "https://zdnet.co.kr/view/?no=20261024160155"
     },
     {
       "scope": "daily",
-      "tag": "기판·투자",
+      "tag": "장비·투자",
       "press": "디일렉",
-      "time": "10/22",
-      "title": "대덕전자, 6150억원 또 투자…올해만 1.3조원 이상",
+      "time": "10/23",
+      "title": "피에스케이, 국민성장펀드 받아 용인에 신규 공장 세운다",
       "summary": [
-        "반도체용 생산설비·부대시설에 6150억원 투입",
-        "올해 세 차례 공시, 신규 시설투자 총 1조3250억원",
-        "FC-BGA·FC-CSP·메모리 기판 장기공급계약 추진"
+        "이사회, 1,800억원 신규 생산시설 투자 결의",
+        "용인 반도체 클러스터 일반산단, 2028년 5월 준공 예정",
+        "국민성장펀드 1,200억원은 아직 확정 전"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64153"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64203"
     },
     {
       "scope": "weekly",
@@ -416,15 +416,16 @@
     },
     {
       "scope": "weekly",
-      "tag": "중국·낸드",
-      "press": "서울경제",
-      "time": "10/16",
-      "title": "中 YMTC, 낸드 출하 세계 3위로…삼성·SK 격차 좁혔다",
+      "tag": "해외",
+      "press": "ZDNet Korea",
+      "time": "10/22",
+      "title": "인텔 \"애리조나 '팹62' 제조장비 반입 본격화...2028년 가동\"",
       "summary": [
-        "카운터포인트: YMTC 2분기 낸드 출하 3위",
-        "삼성·SK 가격 협상력 변수로 거론"
+        "애리조나 팹62, 2028년 말까지 가동 시작 예상",
+        "오하이오 첫 공장은 2030~2031년 가동 목표",
+        "적용 공정은 미공개, 인텔 14A 거론"
       ],
-      "url": "https://m.sedaily.com/article/20102290"
+      "url": "https://zdnet.co.kr/view/?no=20261022104559"
     },
     {
       "scope": "weekly",
