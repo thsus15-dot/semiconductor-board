@@ -1,21 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-27T08:27:11+09:00",
-  "jobsUpdatedAt": "2026-10-26T08:40:41+09:00",
+  "jobsUpdatedAt": "2026-10-27T08:29:07+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "㈜원익아이피에스",
-      "title": "CS 엔지니어 신입/경력 (SKH·SEC 고객지원, GSO)",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "경기 평택 (전국 배치)",
-      "experience": "신입·경력 (초대졸 이상)",
-      "deadline": "2026-10-26",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50161444"
-    },
     {
       "company": "㈜나노신소재",
       "title": "첨단소재 R&D 연구원 채용",
