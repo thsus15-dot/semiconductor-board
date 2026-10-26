@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-26T08:38:32+09:00",
+  "newsUpdatedAt": "2026-10-27T08:27:11+09:00",
   "jobsUpdatedAt": "2026-10-26T08:40:41+09:00",
   "sample": false,
   "jobs": [
@@ -261,6 +261,58 @@
   "news": [
     {
       "scope": "daily",
+      "tag": "HBM",
+      "press": "ZDNet Korea",
+      "time": "10/26",
+      "title": "삼성·SK, 내년 2분기 HBM4 8단 양산 출하...엔비디아향 공급",
+      "summary": [
+        "엔비디아 루빈 울트라, HBM4 8단·HBM4E 8단 병행 탑재 검토",
+        "12단 발열·수율 문제가 배경, 양사 12단 인증은 완료",
+        "8단은 별도 인증 필요, 공급 일정은 당초 관측보다 지연"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261026115227"
+    },
+    {
+      "scope": "daily",
+      "tag": "주주환원",
+      "press": "ZDNet Korea",
+      "time": "10/26",
+      "title": "SK하이닉스, '키오시아 지분 차익 16조 특별배당' 보도에 \"확정사항 없다\"",
+      "summary": [
+        "특별배당 약 16조원 추진 보도에 \"확정된 사항 없다\" 공시",
+        "28일 3분기 실적발표에서 추가 주주환원 방안 발표 예정",
+        "23일 솔리다임 상장 전 지분투자·IPO 검토 중단 밝힘"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261026144216"
+    },
+    {
+      "scope": "daily",
+      "tag": "후공정",
+      "press": "디일렉",
+      "time": "10/26",
+      "title": "단독 LB세미콘, 퀄컴 10년 계약 등에 업고 캐파 월 1만장 증설",
+      "summary": [
+        "평택 PMIC 후공정, 200mm 월 2.6만→3.6만장(2028년까지)",
+        "300mm는 월 3,000→5,000장, 총 투자 약 300억원",
+        "퀄컴과 10년 장기 공급계약(MSA), 2월 1일 발효"
+      ],
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64269"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/26",
+      "title": "SICC, 1~3분기 순이익 2,330% 급증…8인치 SiC 기판 매출 절반 넘어",
+      "summary": [
+        "1~3분기 매출 15.59억 위안(전년비 40.22%↑)",
+        "3분기 매출 6.46억 위안(102.89%↑), 매출총이익률 27.46%",
+        "800V 전기차·AI 서버 전원 수요, 8인치가 3분기 매출 50% 초과"
+      ],
+      "url": "https://www.trendforce.com/news/2026/10/26/news-sicc-reports-2330-24-surge-in-net-profit-for-first-three-quarters/"
+    },
+    {
+      "scope": "daily",
       "tag": "실적",
       "press": "ZDNet Korea",
       "time": "10/25",
@@ -286,7 +338,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261025090226"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "정책",
       "press": "산업통상부",
       "time": "10/23",
@@ -299,20 +351,7 @@
       "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172327/view"
     },
     {
-      "scope": "daily",
-      "tag": "파운드리",
-      "press": "ZDNet Korea",
-      "time": "10/23",
-      "title": "삼성전자, 테일러 1공장 후속 설비투자…2나노 생산거점 완성 수순",
-      "summary": [
-        "2나노 월 6,000장분 장비 발주, 연말부터 도입",
-        "파일럿 라인 합산 2027년 하반기 월 2만장 확보",
-        "테일러 2공장은 연말 착공·2030년 가동 목표"
-      ],
-      "url": "https://zdnet.co.kr/view/?no=20261023110604"
-    },
-    {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "해외",
       "press": "뉴스1",
       "time": "10/22",
@@ -338,7 +377,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261024160155"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "장비·투자",
       "press": "디일렉",
       "time": "10/23",
@@ -349,19 +388,6 @@
         "국민성장펀드 1,200억원은 아직 확정 전"
       ],
       "url": "https://www.thelec.kr/news/articleView.html?idxno=64203"
-    },
-    {
-      "scope": "weekly",
-      "tag": "조직·보상",
-      "press": "파이낸셜뉴스",
-      "time": "10/21",
-      "title": "‘반도체 코어팀’ 꾸린 삼성… 초격차 드라이브",
-      "summary": [
-        "반도체연구소 내 최선단 기술 개발 코어팀 신설",
-        "목표 달성 시 메모리사업부 기준 성과급 적용 보도",
-        "업계 보도 기반, 삼성 공식 발표는 미확인"
-      ],
-      "url": "https://fnnews.com/news/202610211836169151"
     },
     {
       "scope": "weekly",
@@ -390,18 +416,6 @@
     },
     {
       "scope": "weekly",
-      "tag": "첨단패키징",
-      "press": "ZDNet Korea",
-      "time": "10/20",
-      "title": "그록, 차세대 칩에 'D램 3차원 적층' 도입 추진…S램 한계 넘는다",
-      "summary": [
-        "그록, 차세대 칩에 TSV 연결 D램 3DS 검토 보도",
-        "TrendForce(영문)도 22일 보도, 공식 확인은 없음"
-      ],
-      "url": "https://zdnet.co.kr/view/?no=20261019161431"
-    },
-    {
-      "scope": "weekly",
       "tag": "해외",
       "press": "TrendForce(영문)",
       "time": "10/20",
@@ -412,18 +426,6 @@
         "AI 추론 수요가 지지, 장기계약 가격 상한은 둔화 요인"
       ],
       "url": "https://www.trendforce.com/news/2026/10/20/news-dram-prices-seen-rising-20-qoq-in-4q26-despite-slower-gains-ai-demand-tight-supply-support-outlook/"
-    },
-    {
-      "scope": "weekly",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "10/21",
-      "title": "삼성·SK하이닉스, 중국 낸드 200단 이상 업그레이드 추진 보도",
-      "summary": [
-        "삼성 시안 286층 V9, SK 다롄 240층 이상 전환 추진",
-        "익명 소식통 기반 보도, 양사는 세부 계획 미공개"
-      ],
-      "url": "https://www.trendforce.com/news/2026/10/21/news-samsung-sk-hynix-reportedly-push-china-nand-upgrades-beyond-200-layers-as-ymtc-competition-heats-up/"
     },
     {
       "scope": "weekly",
