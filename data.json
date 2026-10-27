@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-27T08:27:11+09:00",
+  "newsUpdatedAt": "2026-10-28T08:27:11+09:00",
   "jobsUpdatedAt": "2026-10-27T08:29:07+09:00",
   "sample": false,
   "jobs": [
@@ -289,40 +289,40 @@
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "10/26",
-      "title": "SICC, 1~3분기 순이익 2,330% 급증…8인치 SiC 기판 매출 절반 넘어",
+      "time": "10/27",
+      "title": "어플라이드머티어리얼즈, 하이브리드 본딩 수요에 BESI 지분 20%로 확대(미국 반독점 심사 대기)",
       "summary": [
-        "1~3분기 매출 15.59억 위안(전년비 40.22%↑)",
-        "3분기 매출 6.46억 위안(102.89%↑), 매출총이익률 27.46%",
-        "800V 전기차·AI 서버 전원 수요, 8인치가 3분기 매출 50% 초과"
+        "지분 약 9%→약 20%, 가속 주식매입 계약 체결(로이터 보도 인용)",
+        "20% 초과 확대 의사 없음, 이사회 의석 추진 안 함",
+        "BESI 3분기 수주 전년비 96%↑ 3.426억 유로"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/26/news-sicc-reports-2330-24-surge-in-net-profit-for-first-three-quarters/"
+      "url": "https://www.trendforce.com/news/2026/10/27/news-applied-materials-to-double-besi-stake-to-20-on-hybrid-bonding-demand-pending-u-s-antitrust-review/"
     },
     {
       "scope": "daily",
-      "tag": "실적",
-      "press": "ZDNet Korea",
-      "time": "10/25",
-      "title": "[ZD브리핑] 최대 실적 SK하이닉스‧삼성전자…주가 견인할까",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/27",
+      "title": "TSMC, CoWoS 가격 최대 20% 인상 검토…장비 가격 재협상은 생략(보도)",
       "summary": [
-        "삼성전자 3Q 잠정 영업익 약 107.4조, 확정치 29일",
-        "SK하이닉스 28일 발표, 컨센서스 영업익 약 76.96조",
-        "AI 버블 우려 속 향후 사업 전망 발언이 관건"
+        "커머셜타임스 인용, 파운드리·OSAT 10~20% 인상 저울질",
+        "장비 납기 3~6개월→6~8개월, 올해 기존 가격으로 발주",
+        "2027년 1월 웨이퍼 가격 3~6% 인상 계획도 보도(리버티타임스)"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261025131537"
+      "url": "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge/"
     },
     {
       "scope": "daily",
-      "tag": "채용",
-      "press": "ZDNet Korea",
-      "time": "10/25",
-      "title": "삼성, 하반기 GSAT 실시…4대 그룹 중 유일하게 공채 유지",
+      "tag": "소재장비",
+      "press": "디일렉",
+      "time": "10/27",
+      "title": "두산, 김제에 약 4000억원 규모 광모듈 CCL 전용 라인 구축",
       "summary": [
-        "10/24~25 GSAT 실시, 19개 관계사 참여",
-        "11월 면접·건강검진 거쳐 최종 합격자 선발",
-        "5년간 6만명 채용 계획, 반도체·바이오·AI 중심"
+        "2028년까지 3,992억원 투자, 신규 채용 200명 이상",
+        "AI 데이터센터용 800Gbps급 광모듈 CCL, 2028년 하반기 단계 가동",
+        "10/27 전북도·김제시와 MOU 체결"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261025090226"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64382"
     },
     {
       "scope": "weekly",
@@ -352,16 +352,16 @@
     },
     {
       "scope": "daily",
-      "tag": "해외",
+      "tag": "유리기판",
       "press": "ZDNet Korea",
-      "time": "10/24",
-      "title": "'중국판 엔비디아' 캠브리콘, 매출 급등…\"국산화 노력 수혜\"",
+      "time": "10/27",
+      "title": "\"홀 불량률 백만분의 1도 안돼\"…中, 유리기판 수율 안정화 박차",
       "summary": [
-        "3분기 매출 35억 3000만위안, 전년 동기 대비 105% 증가",
-        "순이익 14억위안(148% 증가), 시장 예상치는 하회",
-        "제조 제약·메모리 부족이 원인(블룸버그)"
+        "렌즈테크놀로지 TGV 식각 라인, 홀 100만 개 중 불량 0 주장",
+        "20㎛ 이상 홀 형성, 식각·도금 후 보이드 없는 충진",
+        "7월 인텔과 유리기판 패키징 개발 계약"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261024160155"
+      "url": "https://zdnet.co.kr/view/?no=20261027155855"
     },
     {
       "scope": "weekly",
