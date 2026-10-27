@@ -1,21 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-28T08:27:11+09:00",
-  "jobsUpdatedAt": "2026-10-27T08:29:07+09:00",
+  "jobsUpdatedAt": "2026-10-28T08:29:07+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "㈜나노신소재",
-      "title": "첨단소재 R&D 연구원 채용",
-      "category": "공정/소자",
-      "majors": [
-        "재료",
-        "화학"
-      ],
-      "location": "대전 유성",
-      "experience": "경력무관 (대졸 이상)",
-      "deadline": "2026-10-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50154284"
-    },
     {
       "company": "솔브레인㈜",
       "title": "공주공장 제조직 (12개월 계약직)",
