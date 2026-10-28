@@ -1,34 +1,8 @@
 {
   "newsUpdatedAt": "2026-10-29T08:27:12+09:00",
-  "jobsUpdatedAt": "2026-10-28T08:29:07+09:00",
+  "jobsUpdatedAt": "2026-10-29T08:29:27+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "솔브레인㈜",
-      "title": "공주공장 제조직 (12개월 계약직)",
-      "category": "공정/소자",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "충남 공주",
-      "experience": "신입 (초대졸 이상)",
-      "deadline": "2026-10-28",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50133712"
-    },
-    {
-      "company": "㈜이지켐",
-      "title": "2026년 반도체 소재 OQC 신입 채용",
-      "category": "품질/테스트",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "충남 공주",
-      "experience": "신입 (학력무관)",
-      "deadline": "2026-10-28",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50058743"
-    },
     {
       "company": "한국세라믹기술원",
       "title": "4분기 체험형 인턴연구원 23명 (반도체용 세라믹 방열소재 등 19개 분야)",
