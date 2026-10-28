@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-28T08:27:11+09:00",
+  "newsUpdatedAt": "2026-10-29T08:27:12+09:00",
   "jobsUpdatedAt": "2026-10-28T08:29:07+09:00",
   "sample": false,
   "jobs": [
@@ -234,7 +234,7 @@
   ],
   "news": [
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "HBM",
       "press": "ZDNet Korea",
       "time": "10/26",
@@ -248,29 +248,29 @@
     },
     {
       "scope": "daily",
-      "tag": "주주환원",
+      "tag": "실적",
       "press": "ZDNet Korea",
-      "time": "10/26",
-      "title": "SK하이닉스, '키오시아 지분 차익 16조 특별배당' 보도에 \"확정사항 없다\"",
+      "time": "10/28",
+      "title": "SK하이닉스, 분기 매출 100조 첫 돌파…영업익 83조 '어닝 서프라이즈'",
       "summary": [
-        "특별배당 약 16조원 추진 보도에 \"확정된 사항 없다\" 공시",
-        "28일 3분기 실적발표에서 추가 주주환원 방안 발표 예정",
-        "23일 솔리다임 상장 전 지분투자·IPO 검토 중단 밝힘"
+        "3분기 매출 104조 6154억, 영업이익 83조 3338억(영업이익률 80%↑)",
+        "HBM4 출하 본격화, 4분기부터 HBM3E 넘어 주력 전망",
+        "14개 고객 장기공급계약(LTA), 2027~28년 캐파 50%↑ 선점"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261026144216"
+      "url": "https://zdnet.co.kr/view/?no=20261028085225"
     },
     {
       "scope": "daily",
-      "tag": "후공정",
-      "press": "디일렉",
-      "time": "10/26",
-      "title": "단독 LB세미콘, 퀄컴 10년 계약 등에 업고 캐파 월 1만장 증설",
+      "tag": "낸드·투자",
+      "press": "ZDNet Korea",
+      "time": "10/28",
+      "title": "블룸버그 \"솔리다임, 美에 60조원 낸드 공장 투자 추진\"",
       "summary": [
-        "평택 PMIC 후공정, 200mm 월 2.6만→3.6만장(2028년까지)",
-        "300mm는 월 3,000→5,000장, 총 투자 약 300억원",
-        "퀄컴과 10년 장기 공급계약(MSA), 2월 1일 발효"
+        "미 상무부와 협의 중, 약 450억 달러 규모 첫 미국 낸드 공장",
+        "뉴욕주 등 검토, 착공은 이르면 내년 — 확정된 계획은 아님",
+        "다롄 팹 장비 반입 승인 요청, IPO는 중단"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64269"
+      "url": "https://zdnet.co.kr/view/?no=20261028083419"
     },
     {
       "scope": "daily",
@@ -339,16 +339,16 @@
     },
     {
       "scope": "daily",
-      "tag": "유리기판",
+      "tag": "패키지기판",
       "press": "ZDNet Korea",
-      "time": "10/27",
-      "title": "\"홀 불량률 백만분의 1도 안돼\"…中, 유리기판 수율 안정화 박차",
+      "time": "10/28",
+      "title": "삼성전기, 3분기 영업익 165% 증가...매출·영업익 역대 최대",
       "summary": [
-        "렌즈테크놀로지 TGV 식각 라인, 홀 100만 개 중 불량 0 주장",
-        "20㎛ 이상 홀 형성, 식각·도금 후 보이드 없는 충진",
-        "7월 인텔과 유리기판 패키징 개발 계약"
+        "매출 3조 7633억, 영업이익 6910억(전년비 165%↑)",
+        "패키지솔루션 9390억(전년비 58%↑), AI 가속기·서버용 기판 성장",
+        "4분기 서버 CPU·AI 가속기용 고부가 FC-BGA 신제품 공급 계획"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261027155855"
+      "url": "https://zdnet.co.kr/view/?no=20261028122201"
     },
     {
       "scope": "weekly",
@@ -364,16 +364,17 @@
       "url": "https://www.thelec.kr/news/articleView.html?idxno=64203"
     },
     {
-      "scope": "weekly",
-      "tag": "정책",
-      "press": "산업통상부",
-      "time": "10/21",
-      "title": "M.AX 원팀으로 車반도체 생태계 성장 가속화",
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/28",
+      "title": "CXMT, HBM3E 샘플 출하 보도…수율 20~30%에도 2개월 내 양산 노려",
       "summary": [
-        "'차량용 반도체 원팀 TF' 출범, 생태계 역량 결집",
-        "ZDNet Korea 등 복수 매체도 보도"
+        "중국 AI 칩 설계사에 HBM3E 샘플 전달(익명 소식통 보도)",
+        "수율 20~30%, SK하이닉스 약 70%에 크게 못 미침",
+        "T-Head·캠브리콘 테스트 중, 탑재 제품은 2027년 전망"
       ],
-      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172319/view"
+      "url": "https://www.trendforce.com/news/2026/10/28/news-cxmt-reportedly-ships-hbm3e-samples-eyes-production-within-2-months-despite-20-30-yields/"
     },
     {
       "scope": "weekly",
@@ -390,42 +391,16 @@
     },
     {
       "scope": "weekly",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "10/20",
-      "title": "4분기 D램 가격 전분기 대비 20% 상승 전망…상승폭은 둔화",
+      "tag": "파운드리",
+      "press": "ZDNet Korea",
+      "time": "10/23",
+      "title": "삼성전자, 테일러 1공장 후속 설비투자…2나노 생산거점 완성 수순",
       "summary": [
-        "4Q26 D램 계약가격 전분기 대비 약 20% 상승 전망",
-        "2분기 약 80%, 3분기 약 40%보다 상승폭 둔화",
-        "AI 추론 수요가 지지, 장기계약 가격 상한은 둔화 요인"
+        "2나노 월 6,000장 규모 추가 장비 발주(업계 파악 보도)",
+        "2027년 하반기 2나노 월 2만장 확보 목표(계획)",
+        "테일러 2공장은 연말 착공·2030년 가동 목표"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/20/news-dram-prices-seen-rising-20-qoq-in-4q26-despite-slower-gains-ai-demand-tight-supply-support-outlook/"
-    },
-    {
-      "scope": "weekly",
-      "tag": "소재",
-      "press": "디일렉",
-      "time": "10/21",
-      "title": "후지필름, 평택 거점 EUV PR 양산 채비…삼성전자 초밀착 공조",
-      "summary": [
-        "평택 EUV 포토레지스트, 일부 제품 고객사 인증 통과",
-        "대량 양산 진입 전 단계",
-        "천안 인근 CMP 슬러리 증설, 2027년 상반기 가동 예정"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64058"
-    },
-    {
-      "scope": "weekly",
-      "tag": "정책",
-      "press": "산업통상부",
-      "time": "10/21",
-      "title": "오늘의 호황을 내일의 초격차로, K-반도체 새로운 도약 다짐",
-      "summary": [
-        "제19회 반도체의 날, 유공자 54명 정부 포상",
-        "9월 반도체 수출 약 603억 달러",
-        "1~9월 누적 340.3억 달러, 작년 연간의 2배 육박"
-      ],
-      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172316/view"
+      "url": "https://zdnet.co.kr/view/?no=20261023110604"
     }
   ],
   "ticker": [
