@@ -172,7 +172,12 @@
     return { text: d === 0 ? '오늘 마감' : `D-${d}`, urgent: d <= 7 };
   }
 
-  const liveJobs = () => S.jobs.map(j => ({ ...j, dd: dday(j.deadline) })).filter(j => j.dd);
+  // added = 루틴이 공고를 처음 넣은 날(KST). NEW 는 3일(당일 포함), 맨 앞 배치는 첫날만이고 그 뒤엔 마감순.
+  const addedAge = a => a ? Math.floor((Date.now() - new Date(a + 'T00:00:00+09:00')) / 86400000) : Infinity;
+  const liveJobs = () => S.jobs
+    .map(j => { const age = addedAge(j.added); return { ...j, dd: dday(j.deadline), isNew: age <= 2, first: age === 0 }; })
+    .filter(j => j.dd)
+    .sort((a, b) => (b.first - a.first) || (a.dd.open ? '9' : a.deadline).localeCompare(b.dd.open ? '9' : b.deadline));
   // 필터 값 하나로 직무 태그와 전공 태그를 함께 받는다. 전공은 한 공고에 여러 개 붙는다.
   const filteredJobs = () => currentCategory === '전체' ? liveJobs()
     : liveJobs().filter(j => j.category === currentCategory || (j.majors || []).includes(currentCategory));
@@ -258,6 +263,7 @@
         <div class="flex flex-col justify-between h-full flex-1 pr-2">
           <div>
             <div class="flex items-center gap-1.5 flex-wrap mb-1.5">
+              ${job.isNew ? '<span class="px-2 py-0.5 rounded-md text-xs font-black bg-emerald-400 text-slate-950">NEW</span>' : ''}
               <span class="px-2.5 py-0.5 rounded-md text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">${esc(job.category)}</span>
               ${(job.majors || []).map(mj => `<span class="px-2 py-0.5 rounded-md text-xs font-bold bg-violet-500/15 text-violet-300 border border-violet-500/30">${esc(mj)}</span>`).join('')}
               <span class="px-2 py-0.5 rounded-md text-xs font-extrabold ${job.dd.urgent ? 'bg-rose-500/20 text-rose-300 border border-rose-500/40' : 'bg-slate-700 text-slate-300'}">${esc(job.dd.text)}</span>
@@ -363,6 +369,7 @@
       html += `
         <div${urlAttr(job.url)} class="bg-slate-800/70 border border-slate-700/70 rounded-xl px-4 py-2 flex items-center gap-3 transition active:scale-[0.99] active:border-cyan-500/60">
           <span class="px-2 py-0.5 rounded text-xs font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shrink-0">${esc(job.category)}</span>
+          ${job.isNew ? '<span class="px-2 py-0.5 rounded-md text-xs font-black bg-emerald-400 text-slate-950">NEW</span>' : ''}
           <span class="text-base font-extrabold text-amber-300 shrink-0">${esc(job.company)}</span>
           <span class="text-base font-bold text-white truncate flex-1">${esc(job.title)}</span>
           <span class="text-xs text-slate-300 shrink-0">📍 ${esc(job.location)}</span>
