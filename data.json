@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-29T08:27:12+09:00",
+  "newsUpdatedAt": "2026-10-30T08:59:52+09:00",
   "jobsUpdatedAt": "2026-10-29T08:29:27+09:00",
   "sample": false,
   "jobs": [
@@ -234,7 +234,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261028085225"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "낸드·투자",
       "press": "ZDNet Korea",
       "time": "10/28",
@@ -247,7 +247,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261028083419"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "해외",
       "press": "TrendForce(영문)",
       "time": "10/27",
@@ -260,7 +260,7 @@
       "url": "https://www.trendforce.com/news/2026/10/27/news-applied-materials-to-double-besi-stake-to-20-on-hybrid-bonding-demand-pending-u-s-antitrust-review/"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "해외",
       "press": "TrendForce(영문)",
       "time": "10/27",
@@ -273,7 +273,7 @@
       "url": "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge/"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "소재장비",
       "press": "디일렉",
       "time": "10/27",
@@ -299,17 +299,17 @@
       "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172327/view"
     },
     {
-      "scope": "weekly",
-      "tag": "해외",
-      "press": "뉴스1",
-      "time": "10/22",
-      "title": "램리서치, AI 호황에 사상 최대 실적…시간외 주가는 6% 급락",
+      "scope": "daily",
+      "tag": "실적·HBM",
+      "press": "ZDNet Korea",
+      "time": "10/29",
+      "title": "삼성전자 \"메모리, 2028년까지 수급 빠듯...내년 HBM 완판\"",
       "summary": [
-        "9월 분기 매출 82.2억 달러, 직전 분기 대비 22% 증가",
-        "12월 분기 가이던스(전망) 매출 86억 달러 안팎",
-        "시간외 거래에서 주가 약 6% 하락"
+        "3분기 매출 195조 2532억, 영업이익 107조 4405억(DS 106조 5000억)",
+        "2027년 HBM 물량 협상 완료, 대형 고객 10곳과 LTA 체결",
+        "미국 테일러 팹1 클린룸 가동·설비 반입 시작"
       ],
-      "url": "https://www.news1.kr/world/international-economy/6327890"
+      "url": "https://zdnet.co.kr/view/?no=20261029114926"
     },
     {
       "scope": "daily",
@@ -351,17 +351,43 @@
       "url": "https://www.trendforce.com/news/2026/10/28/news-cxmt-reportedly-ships-hbm3e-samples-eyes-production-within-2-months-despite-20-30-yields/"
     },
     {
-      "scope": "weekly",
+      "scope": "daily",
       "tag": "해외",
       "press": "ZDNet Korea",
-      "time": "10/22",
-      "title": "인텔 \"애리조나 '팹62' 제조장비 반입 본격화...2028년 가동\"",
+      "time": "10/30",
+      "title": "인텔, 3분기 매출 증가에도 주가 급락...PC 침체 4분기 전망이 발목",
       "summary": [
-        "애리조나 팹62, 2028년 말까지 가동 시작 예상",
-        "오하이오 첫 공장은 2030~2031년 가동 목표",
-        "적용 공정은 미공개, 인텔 14A 거론"
+        "3분기 매출 165억 달러(전년비 21%↑), 파운드리 영업손실 19억 달러",
+        "18A 제조원가 1분기 대비 약 40% 감소",
+        "4분기 가이던스(전망) 매출 150억~160억 달러, 시간외 약 23% 급락"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261022104559"
+      "url": "https://zdnet.co.kr/view/?no=20261030082330"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외·기판",
+      "press": "디일렉",
+      "time": "10/29",
+      "title": "이비덴, 1조3000억원 투입해 CPU 기판 생산능력 확충",
+      "summary": [
+        "기후현 가마 공장 6동 CPU용 패키지 기판 증설, 이사회 승인",
+        "신규 설비는 2029 회계연도부터 순차 가동(증설 규모 미공개)",
+        "올해 매출 전망 5500억→5650억엔, 영업익 1270억→1330억엔 상향"
+      ],
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64567"
+    },
+    {
+      "scope": "daily",
+      "tag": "소재",
+      "press": "ZDNet Korea",
+      "time": "10/29",
+      "title": "고려아연, 美 반도체 공장에 황산 공급 나서…마이크론·인텔과 협의",
+      "summary": [
+        "美 제련소 'Project Crucible'서 반도체급 황산(순도 99.9999%↑) 생산 구상",
+        "마이크론·인텔·글로벌파운드리스와 협의, 인텔은 샘플 검증 후 결정",
+        "실제 공급은 품질 평가·가격 합의에 달림"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261029145044"
     },
     {
       "scope": "weekly",
