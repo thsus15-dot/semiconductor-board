@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-10-30T08:59:52+09:00",
+  "newsUpdatedAt": "2026-11-02T08:27:15+09:00",
   "jobsUpdatedAt": "2026-10-30T09:02:00+09:00",
   "sample": false,
   "jobs": [
@@ -195,20 +195,20 @@
   ],
   "news": [
     {
-      "scope": "weekly",
-      "tag": "HBM",
-      "press": "ZDNet Korea",
-      "time": "10/26",
-      "title": "삼성·SK, 내년 2분기 HBM4 8단 양산 출하...엔비디아향 공급",
+      "scope": "daily",
+      "tag": "수출",
+      "press": "산업통상부",
+      "time": "11/01",
+      "title": "2026년 10월 수출입 동향",
       "summary": [
-        "엔비디아 루빈 울트라, HBM4 8단·HBM4E 8단 병행 탑재 검토",
-        "12단 발열·수율 문제가 배경, 양사 12단 인증은 완료",
-        "8단은 별도 인증 필요, 공급 일정은 당초 관측보다 지연"
+        "반도체 수출 564.4억 달러, 전년 동월비 259.4%↑",
+        "총수출 1,152.8억 달러(93.7%↑), 무역수지 425.0억 달러 흑자",
+        "1~10월 누적 수출 9,300억 달러, 사상 첫 9,000억 돌파"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261026115227"
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view?mno=&pageIndex=1"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "실적",
       "press": "ZDNet Korea",
       "time": "10/28",
@@ -286,7 +286,7 @@
       "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172327/view"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "실적·HBM",
       "press": "ZDNet Korea",
       "time": "10/29",
@@ -300,32 +300,32 @@
     },
     {
       "scope": "daily",
-      "tag": "패키지기판",
+      "tag": "패키징",
       "press": "ZDNet Korea",
-      "time": "10/28",
-      "title": "삼성전기, 3분기 영업익 165% 증가...매출·영업익 역대 최대",
+      "time": "11/01",
+      "title": "이재용, 日서 AI 반도체 승부처 점검…첨단 패키징 협력 강화",
       "summary": [
-        "매출 3조 7633억, 영업이익 6910억(전년비 165%↑)",
-        "패키지솔루션 9390억(전년비 58%↑), AI 가속기·서버용 기판 성장",
-        "4분기 서버 CPU·AI 가속기용 고부가 FC-BGA 신제품 공급 계획"
+        "요코하마 어드밴스트 패키지랩(APL) 개소 후 첫 현장 점검",
+        "패키지 소재·공정 기술 점검, 일본 소부장 업체와 협력 논의",
+        "웨이퍼 본딩·유리기판 등으로 역할 확대 검토(삼성 발표)"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261028122201"
-    },
-    {
-      "scope": "weekly",
-      "tag": "장비·투자",
-      "press": "디일렉",
-      "time": "10/23",
-      "title": "피에스케이, 국민성장펀드 받아 용인에 신규 공장 세운다",
-      "summary": [
-        "이사회, 1,800억원 신규 생산시설 투자 결의",
-        "용인 반도체 클러스터 일반산단, 2028년 5월 준공 예정",
-        "국민성장펀드 1,200억원은 아직 확정 전"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64203"
+      "url": "https://zdnet.co.kr/view/?no=20261101160859"
     },
     {
       "scope": "daily",
+      "tag": "시황",
+      "press": "ZDNet Korea",
+      "time": "10/30",
+      "title": "10월 D램 가격 5.7% 상승…낸드는 보합 전환",
+      "summary": [
+        "PC용 DDR4 8Gb 고정가 27.50달러(전월 26.00달러), 역대 최고",
+        "낸드 128Gb MLC 30.61달러 보합, 21개월 연속 상승 멈춤",
+        "트렌드포스, 4분기 PC용 D램 계약가 13~18%↑ 전망"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261030163628"
+    },
+    {
+      "scope": "weekly",
       "tag": "해외",
       "press": "TrendForce(영문)",
       "time": "10/28",
@@ -377,17 +377,17 @@
       "url": "https://zdnet.co.kr/view/?no=20261029145044"
     },
     {
-      "scope": "weekly",
-      "tag": "파운드리",
-      "press": "ZDNet Korea",
-      "time": "10/23",
-      "title": "삼성전자, 테일러 1공장 후속 설비투자…2나노 생산거점 완성 수순",
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "10/30",
+      "title": "AUO, 타이중 공장 TSMC에 대만달러 388억에 매각…별도 콴타 거래는 취소",
       "summary": [
-        "2나노 월 6,000장 규모 추가 장비 발주(업계 파악 보도)",
-        "2027년 하반기 2나노 월 2만장 확보 목표(계획)",
-        "테일러 2공장은 연말 착공·2030년 가동 목표"
+        "타이중 2공장(5세대·7.5세대 디스플레이) 클린룸 등 포함, AUO 이사회 승인",
+        "TSMC는 타이중 제조·패키징 역량 강화 목적(업계 소식통)",
+        "예상 처분이익 약 대만달러 185억"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261023110604"
+      "url": "https://www.trendforce.com/news/2026/10/30/news-display-maker-auo-to-sell-taichung-plants-to-tsmc-for-twd-38-8b-separate-quanta-deal-canceled/"
     }
   ],
   "ticker": [
