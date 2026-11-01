@@ -1,34 +1,8 @@
 {
   "newsUpdatedAt": "2026-11-02T08:27:15+09:00",
-  "jobsUpdatedAt": "2026-10-30T09:02:00+09:00",
+  "jobsUpdatedAt": "2026-11-02T08:29:14+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "솔브레인멤시스㈜",
-      "title": "반도체 장비/시설 관리 제조직 (파주)",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기",
-        "화학"
-      ],
-      "location": "경기 파주",
-      "experience": "경력무관 (고졸 이상)",
-      "deadline": "2026-10-31",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50090675"
-    },
-    {
-      "company": "머크퍼포먼스머티리얼즈",
-      "title": "QC Engineer (12개월 계약직, 포승)",
-      "category": "품질/테스트",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "경기 평택",
-      "experience": "신입·경력 1년↑ (대졸 이상)",
-      "deadline": "2026-11-01",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50102492"
-    },
     {
       "company": "㈜영도글로발",
       "title": "반도체 Ingot Grower 공정기술",
@@ -191,6 +165,61 @@
       "experience": "신입·경력 (고졸 이상)",
       "deadline": "상시",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50100608"
+    },
+    {
+      "company": "칸켄테크노코리아㈜",
+      "title": "반도체 스크러버 장비 유지보수직 (청주 SK하이닉스)",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "충북 청주",
+      "experience": "경력무관 (학력무관)",
+      "deadline": "2026-12-05",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50116662",
+      "added": "2026-11-02"
+    },
+    {
+      "company": "칸켄테크노코리아㈜",
+      "title": "반도체 스크러버 장비 유지보수직 (청주 SK Siltron·Key-Foundry)",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "충북 청주",
+      "experience": "경력무관 (학력무관)",
+      "deadline": "2026-11-30",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50089328",
+      "added": "2026-11-02"
+    },
+    {
+      "company": "SFA반도체㈜",
+      "title": "2026년도 부문별 신입/경력 채용",
+      "category": "첨단패키징",
+      "majors": [
+        "재료",
+        "화학",
+        "전자전기"
+      ],
+      "location": "충남 천안",
+      "experience": "신입·경력 (고졸 이상, 직무별 상이)",
+      "deadline": "2026-11-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50268127",
+      "added": "2026-11-02"
+    },
+    {
+      "company": "한국전자기술연구원",
+      "title": "2026년 정규직 공개채용",
+      "category": "회로설계",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 성남",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-11-05",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50214527",
+      "added": "2026-11-02"
     }
   ],
   "news": [
