@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-02T08:27:15+09:00",
+  "newsUpdatedAt": "2026-11-03T08:27:14+09:00",
   "jobsUpdatedAt": "2026-11-02T08:29:14+09:00",
   "sample": false,
   "jobs": [
@@ -276,17 +276,17 @@
       "url": "https://www.trendforce.com/news/2026/10/27/news-applied-materials-to-double-besi-stake-to-20-on-hybrid-bonding-demand-pending-u-s-antitrust-review/"
     },
     {
-      "scope": "weekly",
+      "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "10/27",
-      "title": "TSMC, CoWoS 가격 최대 20% 인상 검토…장비 가격 재협상은 생략(보도)",
+      "time": "11/02",
+      "title": "TSMC, 텍사스 셔먼에 450억 달러 팹 확장 검토 보도…삼성 압박",
       "summary": [
-        "커머셜타임스 인용, 파운드리·OSAT 10~20% 인상 저울질",
-        "장비 납기 3~6개월→6~8개월, 올해 기존 가격으로 발주",
-        "2027년 1월 웨이퍼 가격 3~6% 인상 계획도 보도(리버티타임스)"
+        "텍사스주 문서: 미공개 업체가 450억 달러로 2개 팹, 2029년 말 생산 목표",
+        "TSMC는 \"부지 미확정\", 텍사스 후보지 평가 중이라고 확인",
+        "삼성 테일러·오스틴과 약 300km 거리, 설비 반입 중"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/27/news-tsmc-reportedly-eyes-20-cowos-price-hike-skips-equipment-price-renegotiations-amid-ai-demand-surge/"
+      "url": "https://www.trendforce.com/news/2026/11/02/news-tsmc-reportedly-eyes-potential-us45b-fab-expansion-in-sherman-texas-raising-stakes-for-samsung/"
     },
     {
       "scope": "weekly",
@@ -302,17 +302,17 @@
       "url": "https://www.thelec.kr/news/articleView.html?idxno=64382"
     },
     {
-      "scope": "weekly",
-      "tag": "정책",
-      "press": "산업통상부",
-      "time": "10/23",
-      "title": "반도체 경쟁은 '시간'의 싸움으로 변천, 반도체 규제 합리화로 투자·연구·지원의 시간을 다시 설계한다",
+      "scope": "daily",
+      "tag": "파운드리",
+      "press": "디일렉",
+      "time": "11/02",
+      "title": "단독 삼성전자, 2030년 8인치 파운드리 완전 철수",
       "summary": [
-        "규제합리화위, 반도체 13개 개선과제 발표",
-        "산단 인허가·보상·설계 동시 추진(패스트트랙)",
-        "초광역특구 R&D 인력 근로시간 특례 검토"
+        "2030년 말까지 8인치 라인 가동 종료, 고객사에 통보",
+        "기흥 S7 올해 폐쇄, 신규 수주 중단·12인치 미세공정 집중",
+        "국내 팹리스 대체 생산처 확보 비상, 정부 중재 요구"
       ],
-      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172327/view"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64709"
     },
     {
       "scope": "weekly",
@@ -341,7 +341,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261101160859"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "시황",
       "press": "ZDNet Korea",
       "time": "10/30",
@@ -354,20 +354,20 @@
       "url": "https://zdnet.co.kr/view/?no=20261030163628"
     },
     {
-      "scope": "weekly",
+      "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "10/28",
-      "title": "CXMT, HBM3E 샘플 출하 보도…수율 20~30%에도 2개월 내 양산 노려",
+      "time": "11/02",
+      "title": "CXMT 3분기 매출총이익률 89.53%…LTA·4F²·LPDDR6 핵심 3가지",
       "summary": [
-        "중국 AI 칩 설계사에 HBM3E 샘플 전달(익명 소식통 보도)",
-        "수율 20~30%, SK하이닉스 약 70%에 크게 못 미침",
-        "T-Head·캠브리콘 테스트 중, 탑재 제품은 2027년 전망"
+        "3분기 매출총이익률 89.53%(마이크론 87%, 삼성 연결 69.3%)",
+        "6세대 4F² 엔지니어링 샘플 검증 완료, 연내 DDR5 RDIMM 샘플 목표",
+        "LPDDR6 샤오미 등 스마트폰 업체에 출하 중, LTA는 협상 중"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/28/news-cxmt-reportedly-ships-hbm3e-samples-eyes-production-within-2-months-despite-20-30-yields/"
+      "url": "https://www.trendforce.com/news/2026/11/02/news-beyond-cxmts-89-53-gross-margin-in-3q26-3-key-takeaways-on-ltas-4f%c2%b2-advancement-and-lpddr6/"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "해외",
       "press": "ZDNet Korea",
       "time": "10/30",
@@ -380,7 +380,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261030082330"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "해외·기판",
       "press": "디일렉",
       "time": "10/29",
@@ -394,29 +394,29 @@
     },
     {
       "scope": "daily",
-      "tag": "소재",
+      "tag": "정책·팹",
       "press": "ZDNet Korea",
-      "time": "10/29",
-      "title": "고려아연, 美 반도체 공장에 황산 공급 나서…마이크론·인텔과 협의",
+      "time": "11/02",
+      "title": "\"반도체 클러스터 속도 더해야\"…정부, 팹 조기 구축에 '한목소리'",
       "summary": [
-        "美 제련소 'Project Crucible'서 반도체급 황산(순도 99.9999%↑) 생산 구상",
-        "마이크론·인텔·글로벌파운드리스와 협의, 인텔은 샘플 검증 후 결정",
-        "실제 공급은 품질 평가·가격 합의에 달림"
+        "산업부 장관 \"3대 메가 프로젝트 팹 가동 2년 이상 앞당길 것\"",
+        "삼성 용인 완성 2047→2040년, SK하이닉스 2045→2033년",
+        "부지 조성·에너지 조달 차질 우려도 제기"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261029145044"
+      "url": "https://zdnet.co.kr/view/?no=20261102173624"
     },
     {
       "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "10/30",
-      "title": "AUO, 타이중 공장 TSMC에 대만달러 388억에 매각…별도 콴타 거래는 취소",
+      "tag": "소재",
+      "press": "디일렉",
+      "time": "11/02",
+      "title": "이엔에프테크놀로지, 美카일 공장 삼성 인텔 이어 세 번째 고객 확보",
       "summary": [
-        "타이중 2공장(5세대·7.5세대 디스플레이) 클린룸 등 포함, AUO 이사회 승인",
-        "TSMC는 타이중 제조·패키징 역량 강화 목적(업계 소식통)",
-        "예상 처분이익 약 대만달러 185억"
+        "텍사스 카일 공장서 유럽계 종합반도체 기업에 암모니아수 공급 시작",
+        "삼성 테일러·오스틴에 5개 품목 공급, 테일러 내년 양산 시 물량 증가 전망",
+        "누적 투자 1000억원 넘어, 초기 물량은 많지 않음"
       ],
-      "url": "https://www.trendforce.com/news/2026/10/30/news-display-maker-auo-to-sell-taichung-plants-to-tsmc-for-twd-38-8b-separate-quanta-deal-canceled/"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64710"
     }
   ],
   "ticker": [
