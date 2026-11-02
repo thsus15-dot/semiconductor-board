@@ -1,21 +1,8 @@
 {
   "newsUpdatedAt": "2026-11-03T08:27:14+09:00",
-  "jobsUpdatedAt": "2026-11-02T08:29:14+09:00",
+  "jobsUpdatedAt": "2026-11-03T08:29:11+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "㈜영도글로발",
-      "title": "반도체 Ingot Grower 공정기술",
-      "category": "공정/소자",
-      "majors": [
-        "재료",
-        "화학"
-      ],
-      "location": "충남 천안",
-      "experience": "신입·경력 3년↑ (고졸 이상)",
-      "deadline": "2026-11-02",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49918046"
-    },
     {
       "company": "에이에스에이씨㈜",
       "title": "반도체 장비 유지보수 엔지니어",
