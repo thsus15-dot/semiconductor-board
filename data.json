@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-04T08:27:14+09:00",
-  "jobsUpdatedAt": "2026-11-03T08:29:11+09:00",
+  "jobsUpdatedAt": "2026-11-04T08:29:17+09:00",
   "sample": false,
   "jobs": [
     {
@@ -207,6 +207,20 @@
       "deadline": "2026-11-05",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50214527",
       "added": "2026-11-02"
+    },
+    {
+      "company": "덕산하이메탈",
+      "title": "공정기술 부문 엔지니어 채용",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "울산 북구",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-11-11",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50295095",
+      "added": "2026-11-04"
     }
   ],
   "news": [
