@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-03T08:27:14+09:00",
+  "newsUpdatedAt": "2026-11-04T08:27:14+09:00",
   "jobsUpdatedAt": "2026-11-03T08:29:11+09:00",
   "sample": false,
   "jobs": [
@@ -211,7 +211,7 @@
   ],
   "news": [
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "수출",
       "press": "산업통상부",
       "time": "11/01",
@@ -253,19 +253,6 @@
       "scope": "weekly",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "10/27",
-      "title": "어플라이드머티어리얼즈, 하이브리드 본딩 수요에 BESI 지분 20%로 확대(미국 반독점 심사 대기)",
-      "summary": [
-        "지분 약 9%→약 20%, 가속 주식매입 계약 체결(로이터 보도 인용)",
-        "20% 초과 확대 의사 없음, 이사회 의석 추진 안 함",
-        "BESI 3분기 수주 전년비 96%↑ 3.426억 유로"
-      ],
-      "url": "https://www.trendforce.com/news/2026/10/27/news-applied-materials-to-double-besi-stake-to-20-on-hybrid-bonding-demand-pending-u-s-antitrust-review/"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
       "time": "11/02",
       "title": "TSMC, 텍사스 셔먼에 450억 달러 팹 확장 검토 보도…삼성 압박",
       "summary": [
@@ -274,19 +261,6 @@
         "삼성 테일러·오스틴과 약 300km 거리, 설비 반입 중"
       ],
       "url": "https://www.trendforce.com/news/2026/11/02/news-tsmc-reportedly-eyes-potential-us45b-fab-expansion-in-sherman-texas-raising-stakes-for-samsung/"
-    },
-    {
-      "scope": "weekly",
-      "tag": "소재장비",
-      "press": "디일렉",
-      "time": "10/27",
-      "title": "두산, 김제에 약 4000억원 규모 광모듈 CCL 전용 라인 구축",
-      "summary": [
-        "2028년까지 3,992억원 투자, 신규 채용 200명 이상",
-        "AI 데이터센터용 800Gbps급 광모듈 CCL, 2028년 하반기 단계 가동",
-        "10/27 전북도·김제시와 MOU 체결"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64382"
     },
     {
       "scope": "daily",
@@ -318,14 +292,66 @@
       "scope": "daily",
       "tag": "패키징",
       "press": "ZDNet Korea",
-      "time": "11/01",
-      "title": "이재용, 日서 AI 반도체 승부처 점검…첨단 패키징 협력 강화",
+      "time": "11/03",
+      "title": "한화이센셜, 유리기판 사업 '고삐'…인력채용·핵심 공정 개발 나서",
       "summary": [
-        "요코하마 어드밴스트 패키지랩(APL) 개소 후 첫 현장 점검",
-        "패키지 소재·공정 기술 점검, 일본 소부장 업체와 협력 논의",
-        "웨이퍼 본딩·유리기판 등으로 역할 확대 검토(삼성 발표)"
+        "유리기판 핵심 공정 개발·기술 로드맵 총괄 인력 채용 중",
+        "도금·연마(CMP) 주력 개발, 도금이 상용화 핵심 병목",
+        "수십만 개 구멍을 빈틈없이 구리로 채우는 것이 과제"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261101160859"
+      "url": "https://zdnet.co.kr/view/?no=20261103092709"
+    },
+    {
+      "scope": "daily",
+      "tag": "채용",
+      "press": "ZDNet Korea",
+      "time": "11/03",
+      "title": "원익, 2027년 신입 공채에 1만2000명 몰려 '역대 최대'",
+      "summary": [
+        "지원자 1만2348명, 2014년 공채 시작 이래 최대",
+        "원익IPS·QnC 등 7개 계열사, 45개 직무 모집",
+        "면접에 생성형 AI 실무 과제 첫 도입, 12월 합격 발표"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261103101531"
+    },
+    {
+      "scope": "daily",
+      "tag": "소부장",
+      "press": "디일렉",
+      "time": "11/03",
+      "title": "테크윙, 반도체 장비 생산능력 확대…526억 투자",
+      "summary": [
+        "천안BIT산단에 신규 공장, 526억원 투입(2027.7까지)",
+        "메모리 테스트 핸들러·HBM 검사용 큐브 프로버 생산",
+        "고객사 삼성·SK하이닉스·마이크론"
+      ],
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64808"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/03",
+      "title": "애플, 연말 분기 매출총이익률 45~46% 전망…메모리 비용 급등, 재고 154% 급증",
+      "summary": [
+        "4분기 매출총이익률 가이던스(전망) 45~46%, 시장 예상 47% 하회",
+        "재고 145.4억 달러, 전년비 154.3%↑ — 메모리 등 부품 비축",
+        "4분기 매출 성장률 7~10% 전망"
+      ],
+      "url": "https://www.trendforce.com/news/2026/11/03/news-apple-sees-holiday-quarter-margins-at-45-46-as-memory-costs-soar-inventory-jumps-154-amid-stockpiling/"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/03",
+      "title": "중국, 서버 패키지에 끼워 HBM 밀수 보도…화웨이 960DT는 자국 HBM 부족",
+      "summary": [
+        "저성능 서버 프로세서와 함께 HBM을 들여와 메모리만 떼어내는 수법(보도)",
+        "CXMT HBM3E 수율 20~30%, SK하이닉스는 약 70%",
+        "어센드 960DT는 2027년 1분기 예상, 대역폭·용량 2배 목표"
+      ],
+      "url": "https://www.trendforce.com/news/2026/11/03/news-china-reportedly-obtains-smuggled-hbm-via-server-packages-huawei-960dt-faces-domestic-hbm-shortage/"
     },
     {
       "scope": "weekly",
@@ -339,19 +365,6 @@
         "트렌드포스, 4분기 PC용 D램 계약가 13~18%↑ 전망"
       ],
       "url": "https://zdnet.co.kr/view/?no=20261030163628"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/02",
-      "title": "CXMT 3분기 매출총이익률 89.53%…LTA·4F²·LPDDR6 핵심 3가지",
-      "summary": [
-        "3분기 매출총이익률 89.53%(마이크론 87%, 삼성 연결 69.3%)",
-        "6세대 4F² 엔지니어링 샘플 검증 완료, 연내 DDR5 RDIMM 샘플 목표",
-        "LPDDR6 샤오미 등 스마트폰 업체에 출하 중, LTA는 협상 중"
-      ],
-      "url": "https://www.trendforce.com/news/2026/11/02/news-beyond-cxmts-89-53-gross-margin-in-3q26-3-key-takeaways-on-ltas-4f%c2%b2-advancement-and-lpddr6/"
     },
     {
       "scope": "weekly",
@@ -368,16 +381,16 @@
     },
     {
       "scope": "weekly",
-      "tag": "해외·기판",
+      "tag": "기판·실적",
       "press": "디일렉",
-      "time": "10/29",
-      "title": "이비덴, 1조3000억원 투입해 CPU 기판 생산능력 확충",
+      "time": "11/03",
+      "title": "심텍, 영업익 4년 만에 1000억원 돌파",
       "summary": [
-        "기후현 가마 공장 6동 CPU용 패키지 기판 증설, 이사회 승인",
-        "신규 설비는 2029 회계연도부터 순차 가동(증설 규모 미공개)",
-        "올해 매출 전망 5500억→5650억엔, 영업익 1270억→1330억엔 상향"
+        "3분기 매출 5359억(43.7%↑), 영업이익 1018억(721.6%↑)",
+        "AI 서버용 SOCAMM 매출 증가, 2분기부터 가동률 80%↑",
+        "기판 증설 2742억 투입, 신규 라인 2028년부터 순차 가동"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64567"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64813"
     },
     {
       "scope": "daily",
@@ -391,19 +404,6 @@
         "부지 조성·에너지 조달 차질 우려도 제기"
       ],
       "url": "https://zdnet.co.kr/view/?no=20261102173624"
-    },
-    {
-      "scope": "daily",
-      "tag": "소재",
-      "press": "디일렉",
-      "time": "11/02",
-      "title": "이엔에프테크놀로지, 美카일 공장 삼성 인텔 이어 세 번째 고객 확보",
-      "summary": [
-        "텍사스 카일 공장서 유럽계 종합반도체 기업에 암모니아수 공급 시작",
-        "삼성 테일러·오스틴에 5개 품목 공급, 테일러 내년 양산 시 물량 증가 전망",
-        "누적 투자 1000억원 넘어, 초기 물량은 많지 않음"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64710"
     }
   ],
   "ticker": [
