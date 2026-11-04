@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-05T08:27:15+09:00",
+  "newsUpdatedAt": "2026-11-05T08:38:40+09:00",
   "jobsUpdatedAt": "2026-11-05T08:29:38+09:00",
   "sample": false,
   "jobs": [
@@ -293,14 +293,14 @@
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/04",
-      "title": "삼성 2나노 테일러 2공장, 2030년 양산 전 물량 소진 보도…AMD가 HBM 베이스다이 주문 주도",
+      "time": "11/05",
+      "title": "미쓰이화학, 82억 달러 규모 JSR 인수 추진 보도…EUV 소재 사업 확대",
       "summary": [
-        "매일경제 보도: 테일러 2공장 계획 생산능력만큼 주문 확보, 대부분 AMD(미확정)",
-        "2나노, 면적 약 25만㎡(1공장의 약 1.5배), 2030년 양산 예정",
-        "테일러 베이스다이+한국 D램 결합 HBM 공급 계획"
+        "닛케이 인용: 1조3000억엔 이상, 일본 화학업계 최대 인수 규모",
+        "JSR은 포토레지스트 중심, EUV 포토레지스트 강자(점유율 약 30% 추정)",
+        "미쓰이화학은 \"공식 발표 아님, 결정된 바 없다\"고 밝힘"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/04/news-samsungs-2nm-taylor-fab-2-reportedly-fully-booked-before-2030-output-with-amd-leading-hbm-base-die-orders/"
+      "url": "https://www.trendforce.com/news/2026/11/05/news-mitsui-chemicals-eyes-record-8-2b-jsr-acquisition-to-expand-euv-materials-business/"
     },
     {
       "scope": "weekly",
@@ -318,15 +318,15 @@
     {
       "scope": "daily",
       "tag": "파운드리",
-      "press": "디일렉",
-      "time": "11/02",
-      "title": "단독 삼성전자, 2030년 8인치 파운드리 완전 철수",
+      "press": "서울경제",
+      "time": "11/04",
+      "title": "[단독] 삼성, 기흥에 첨단 파운드리팹 짓는다",
       "summary": [
-        "2030년 말까지 8인치 라인 가동 종료, 고객사에 통보",
-        "기흥 S7 올해 폐쇄, 신규 수주 중단·12인치 미세공정 집중",
-        "국내 팹리스 대체 생산처 확보 비상, 정부 중재 요구"
+        "기흥 '카이로스' 프로젝트, 2·4나노급 팹 4개 페이즈 계획",
+        "6라인 일부는 첨단 패키징 시설로 전환, 총 30조원 안팎 추정",
+        "2나노 라인은 HBM5 베이스다이 겨냥(업계 추정)"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64709"
+      "url": "https://www.sedaily.com/article/20110329"
     },
     {
       "scope": "weekly",
@@ -392,6 +392,19 @@
         "4분기 가이던스(전망) 매출 150억~160억 달러, 시간외 약 23% 급락"
       ],
       "url": "https://zdnet.co.kr/view/?no=20261030082330"
+    },
+    {
+      "scope": "weekly",
+      "tag": "수출규제",
+      "press": "아주경제",
+      "time": "11/04",
+      "title": "中, 한국산 HBM 밀수 '기승'…\"저가 서버칩에 숨겨 수출 규제 우회\"",
+      "summary": [
+        "서버 프로세서와 묶어 반출 후 현지서 납땜 녹여 HBM만 분리",
+        "HBM3E 거래가 1년새 수백 달러→약 4000달러로 급등(중개상 전언)",
+        "삼성·SK \"美·韓 수출 규정 준수\", 중국 직접 공급 부인"
+      ],
+      "url": "https://www.ajunews.com/view/20261104085719980"
     },
     {
       "scope": "weekly",
