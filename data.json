@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-04T08:27:14+09:00",
+  "newsUpdatedAt": "2026-11-05T08:27:15+09:00",
   "jobsUpdatedAt": "2026-11-04T08:29:17+09:00",
   "sample": false,
   "jobs": [
@@ -238,30 +238,69 @@
       "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view?mno=&pageIndex=1"
     },
     {
-      "scope": "weekly",
-      "tag": "실적",
+      "scope": "daily",
+      "tag": "수출규제",
       "press": "ZDNet Korea",
-      "time": "10/28",
-      "title": "SK하이닉스, 분기 매출 100조 첫 돌파…영업익 83조 '어닝 서프라이즈'",
+      "time": "11/04",
+      "title": "美, SK하이닉스 中공장에 장비 수출 보류...\"관련 협의 진행 중\"",
       "summary": [
-        "3분기 매출 104조 6154억, 영업이익 83조 3338억(영업이익률 80%↑)",
-        "HBM4 출하 본격화, 4분기부터 HBM3E 넘어 주력 전망",
-        "14개 고객 장기공급계약(LTA), 2027~28년 캐파 50%↑ 선점"
+        "로이터: 美, 다롄 증설용 미국산 장비 수출 아직 미승인",
+        "올해부터 연 단위 수출 물량 승인(사이트 라이선스) 방식",
+        "내년분 라이선스 美와 협상 중, 회사는 \"절차 진행 중\""
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261028085225"
+      "url": "https://zdnet.co.kr/view/?no=20261104115221"
     },
     {
-      "scope": "weekly",
-      "tag": "낸드·투자",
-      "press": "ZDNet Korea",
-      "time": "10/28",
-      "title": "블룸버그 \"솔리다임, 美에 60조원 낸드 공장 투자 추진\"",
+      "scope": "daily",
+      "tag": "소부장",
+      "press": "디일렉",
+      "time": "11/05",
+      "title": "심텍, 청주에 1054억원 추가 투자…생산·물류시설 확충",
       "summary": [
-        "미 상무부와 협의 중, 약 450억 달러 규모 첫 미국 낸드 공장",
-        "뉴욕주 등 검토, 착공은 이르면 내년 — 확정된 계획은 아님",
-        "다롄 팹 장비 반입 승인 요청, IPO는 중단"
+        "청주2지점에 1054억원, 2028년 8월까지 내부유보금 투입",
+        "약 850억 신규 건물(mSAP 기판 공간), 약 200억 SiP 기판 설비",
+        "물류·사무공간 비중 커 생산능력 증가폭은 크지 않을 전망"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261028083419"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64834"
+    },
+    {
+      "scope": "daily",
+      "tag": "파운드리",
+      "press": "디일렉",
+      "time": "11/04",
+      "title": "단독  삼성, 폐쇄한 기흥 8인치 S7 장비 300대 DB에 통째 매각",
+      "summary": [
+        "S7 8인치 장비 약 300대를 ㈜DB에 현 상태로 매매계약",
+        "1~2주 전부터 반출 시작, 거래액 비공개(업계 수백억원 추정)",
+        "중고장비 대량 일괄 매각은 첫 사례, 중국 유출 방지 추정"
+      ],
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64905"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "ZDNet Korea",
+      "time": "11/04",
+      "title": "AMD, 3분기 영업이익 3.8조원...전년比 2.2배 증가",
+      "summary": [
+        "3분기 매출 133억 7700만 달러(전년비 45%↑), 분기 최대",
+        "데이터센터 매출 85억 달러, 영업이익 28억 3200만 달러",
+        "4분기 가이던스(전망) 매출 약 170억 달러"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261104064742"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/04",
+      "title": "삼성 2나노 테일러 2공장, 2030년 양산 전 물량 소진 보도…AMD가 HBM 베이스다이 주문 주도",
+      "summary": [
+        "매일경제 보도: 테일러 2공장 계획 생산능력만큼 주문 확보, 대부분 AMD(미확정)",
+        "2나노, 면적 약 25만㎡(1공장의 약 1.5배), 2030년 양산 예정",
+        "테일러 베이스다이+한국 D램 결합 HBM 공급 계획"
+      ],
+      "url": "https://www.trendforce.com/news/2026/11/04/news-samsungs-2nm-taylor-fab-2-reportedly-fully-booked-before-2030-output-with-amd-leading-hbm-base-die-orders/"
     },
     {
       "scope": "weekly",
@@ -316,7 +355,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261103092709"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "채용",
       "press": "ZDNet Korea",
       "time": "11/03",
@@ -327,45 +366,6 @@
         "면접에 생성형 AI 실무 과제 첫 도입, 12월 합격 발표"
       ],
       "url": "https://zdnet.co.kr/view/?no=20261103101531"
-    },
-    {
-      "scope": "daily",
-      "tag": "소부장",
-      "press": "디일렉",
-      "time": "11/03",
-      "title": "테크윙, 반도체 장비 생산능력 확대…526억 투자",
-      "summary": [
-        "천안BIT산단에 신규 공장, 526억원 투입(2027.7까지)",
-        "메모리 테스트 핸들러·HBM 검사용 큐브 프로버 생산",
-        "고객사 삼성·SK하이닉스·마이크론"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64808"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/03",
-      "title": "애플, 연말 분기 매출총이익률 45~46% 전망…메모리 비용 급등, 재고 154% 급증",
-      "summary": [
-        "4분기 매출총이익률 가이던스(전망) 45~46%, 시장 예상 47% 하회",
-        "재고 145.4억 달러, 전년비 154.3%↑ — 메모리 등 부품 비축",
-        "4분기 매출 성장률 7~10% 전망"
-      ],
-      "url": "https://www.trendforce.com/news/2026/11/03/news-apple-sees-holiday-quarter-margins-at-45-46-as-memory-costs-soar-inventory-jumps-154-amid-stockpiling/"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/03",
-      "title": "중국, 서버 패키지에 끼워 HBM 밀수 보도…화웨이 960DT는 자국 HBM 부족",
-      "summary": [
-        "저성능 서버 프로세서와 함께 HBM을 들여와 메모리만 떼어내는 수법(보도)",
-        "CXMT HBM3E 수율 20~30%, SK하이닉스는 약 70%",
-        "어센드 960DT는 2027년 1분기 예상, 대역폭·용량 2배 목표"
-      ],
-      "url": "https://www.trendforce.com/news/2026/11/03/news-china-reportedly-obtains-smuggled-hbm-via-server-packages-huawei-960dt-faces-domestic-hbm-shortage/"
     },
     {
       "scope": "weekly",
@@ -395,19 +395,6 @@
     },
     {
       "scope": "weekly",
-      "tag": "기판·실적",
-      "press": "디일렉",
-      "time": "11/03",
-      "title": "심텍, 영업익 4년 만에 1000억원 돌파",
-      "summary": [
-        "3분기 매출 5359억(43.7%↑), 영업이익 1018억(721.6%↑)",
-        "AI 서버용 SOCAMM 매출 증가, 2분기부터 가동률 80%↑",
-        "기판 증설 2742억 투입, 신규 라인 2028년부터 순차 가동"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64813"
-    },
-    {
-      "scope": "daily",
       "tag": "정책·팹",
       "press": "ZDNet Korea",
       "time": "11/02",
