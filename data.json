@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-05T08:38:40+09:00",
-  "jobsUpdatedAt": "2026-11-05T08:29:38+09:00",
+  "jobsUpdatedAt": "2026-11-05T08:40:51+09:00",
   "sample": false,
   "jobs": [
     {
@@ -221,6 +221,20 @@
       "deadline": "2026-11-11",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50295095",
       "added": "2026-11-04"
+    },
+    {
+      "company": "덕산하이메탈",
+      "title": "연구기획 부문 연구원 채용",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "울산 북구",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-11-11",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50295011",
+      "added": "2026-11-05"
     }
   ],
   "news": [
