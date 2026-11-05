@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-05T11:06:42+09:00",
-  "jobsUpdatedAt": "2026-11-05T08:40:51+09:00",
+  "jobsUpdatedAt": "2026-11-05T11:09:01+09:00",
   "sample": false,
   "jobs": [
     {
@@ -234,6 +234,21 @@
       "experience": "신입·경력 (대졸 이상)",
       "deadline": "2026-11-11",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50295011",
+      "added": "2026-11-05"
+    },
+    {
+      "company": "SK키파운드리",
+      "title": "신입 공채 — 제조기술·미래기술(R&D) Engineer",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학",
+        "전자전기"
+      ],
+      "location": "충북 청주",
+      "experience": "신입 (학사 이상)",
+      "deadline": "2026-11-08",
+      "url": "https://linkareer.com/activity/360654",
       "added": "2026-11-05"
     }
   ],
