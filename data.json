@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-05T11:02:47+09:00",
+  "newsUpdatedAt": "2026-11-05T11:06:42+09:00",
   "jobsUpdatedAt": "2026-11-05T08:40:51+09:00",
   "sample": false,
   "jobs": [
@@ -293,15 +293,15 @@
     {
       "scope": "daily",
       "tag": "해외",
-      "press": "ZDNet Korea",
-      "time": "11/04",
-      "title": "퀄컴, 3분기 영업익 1.8조원...전년比 54% 급감",
+      "press": "TrendForce(영문)",
+      "time": "11/05",
+      "title": "YMTC, 49억 달러 상하이 IPO 2027년 상반기로 연기 보도…CXMT는 자사주 매입 확대",
       "summary": [
-        "매출 103억 2200만 달러(8%↓), 영업이익 13억 5600만 달러",
-        "핸드셋 26%↓, 자동차 19억 9000만 달러(89%↑)",
-        "4분기 가이던스(전망) 매출 104억~112억 달러"
+        "로이터 인용: 모회사 CCSH, 330억 위안 조달 추진하던 IPO 보류",
+        "10월 CSI 300 8.5%↓ 등 증시 급락, 당국이 반도체 IPO 속도 조절 권고",
+        "CXMT, 자사주 매입 한도 10~20억 위안 → 25~50억 위안 상향 제안"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261105083430"
+      "url": "https://www.trendforce.com/news/2026/11/05/news-chinese-nand-giant-ymtcs-4-9b-ipo-reportedly-pushed-to-1h27-amid-market-rout-cxmt-doubles-down-on-buybacks/"
     },
     {
       "scope": "daily",
@@ -357,16 +357,16 @@
     },
     {
       "scope": "daily",
-      "tag": "패키징",
-      "press": "ZDNet Korea",
-      "time": "11/03",
-      "title": "한화이센셜, 유리기판 사업 '고삐'…인력채용·핵심 공정 개발 나서",
+      "tag": "AI반도체",
+      "press": "디일렉",
+      "time": "11/05",
+      "title": "오라클, 텐센트와 9조원대 AI 반도체 임대계약 취소",
       "summary": [
-        "유리기판 핵심 공정 개발·기술 로드맵 총괄 인력 채용 중",
-        "도금·연마(CMP) 주력 개발, 도금이 상용화 핵심 병목",
-        "수십만 개 구멍을 빈틈없이 구리로 채우는 것이 과제"
+        "FT 보도: 동남아 데이터센터 AI 반도체 최대 10만 개, 5년 임대(약 70억 달러)",
+        "美 정부 관계자 우려 전달 뒤 취소, 中 광둥성은 자국산 반도체 사용 요청",
+        "수출 규제 우회용 해외 연산자원 임대 방식이 막힌 사례"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261103092709"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=64928"
     },
     {
       "scope": "weekly",
