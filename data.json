@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-06T09:06:17+09:00",
+  "newsUpdatedAt": "2026-11-06T09:37:26+09:00",
   "jobsUpdatedAt": "2026-11-05T11:09:01+09:00",
   "sample": false,
   "jobs": [
@@ -268,16 +268,16 @@
     },
     {
       "scope": "daily",
-      "tag": "수출규제",
-      "press": "ZDNet Korea",
-      "time": "11/04",
-      "title": "美, SK하이닉스 中공장에 장비 수출 보류...\"관련 협의 진행 중\"",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/05",
+      "title": "파나소닉 공장 화재, 글로벌 고급 CCL 공급 4% 위험…대만 업체로 주문 이동 전망",
       "summary": [
-        "로이터: 美, 다롄 증설용 미국산 장비 수출 아직 미승인",
-        "올해부터 연 단위 수출 물량 승인(사이트 라이선스) 방식",
-        "내년분 라이선스 美와 협상 중, 회사는 \"절차 진행 중\""
+        "11/4 대만 후커우 공장 폭발·화재, AI서버용 초저손실 CCL 생산",
+        "메그트론 점유율 약 20%·후커우 생산능력 약 20% → 전체 약 4%(추정)",
+        "복구 수개월 이상 가능성, 파나소닉의 공식 확인은 아님"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261104115221"
+      "url": "https://www.trendforce.com/news/2026/11/05/news-panasonic-plant-fire-reportedly-puts-4-of-global-high-end-ccl-supply-at-risk-taiwan-makers-eye-order-shifts/"
     },
     {
       "scope": "daily",
@@ -309,43 +309,43 @@
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/05",
-      "title": "YMTC, 49억 달러 상하이 IPO 2027년 상반기로 연기 보도…CXMT는 자사주 매입 확대",
+      "time": "11/06",
+      "title": "미디어텍, 인텔 패키징 출신 영입 보도…CoWoS·EMIB 병행 전략 가속",
       "summary": [
-        "로이터 인용: 모회사 CCSH, 330억 위안 조달 추진하던 IPO 보류",
-        "10월 CSI 300 8.5%↓ 등 증시 급락, 당국이 반도체 IPO 속도 조절 권고",
-        "CXMT, 자사주 매입 한도 10~20억 위안 → 25~50억 위안 상향 제안"
+        "인텔 출신 나비드 샤리아리, 11/9 미디어텍 수석부사장 합류(보도)",
+        "첨단 패키징·테스트, 품질·신뢰성 담당, 5월엔 전 TSMC 임원 자문 영입",
+        "CoWoS·EMIB 둘 다 지원해 고객이 선택, 인텔 협력은 2차 보도 기반"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/05/news-chinese-nand-giant-ymtcs-4-9b-ipo-reportedly-pushed-to-1h27-amid-market-rout-cxmt-doubles-down-on-buybacks/"
+      "url": "https://www.trendforce.com/news/2026/11/06/news-mediatek-reportedly-taps-intel-packaging-veteran-after-tsmc-hire-advances-dual-cowos-emib-strategy/"
     },
     {
       "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/05",
-      "title": "미쓰이화학, 82억 달러 규모 JSR 인수 추진 보도…EUV 소재 사업 확대",
+      "tag": "해외·인력",
+      "press": "디지털데일리",
+      "time": "11/06",
+      "title": "\"SK·삼성처럼\"…마이크론, 노사 갈등에 45억달러 대만 반도체 공장 건설 중단",
       "summary": [
-        "닛케이 인용: 1조3000억엔 이상, 일본 화학업계 최대 인수 규모",
-        "JSR은 포토레지스트 중심, EUV 포토레지스트 강자(점유율 약 30% 추정)",
-        "미쓰이화학은 \"공식 발표 아님, 결정된 바 없다\"고 밝힘"
+        "타오위안 신규 팹(2028년 가동 목표, HBM·D램) 공사 중단 보도",
+        "노조, 삼성·SK 사례 들어 영업이익 15% 현금 배분 요구",
+        "마이크론은 \"현지 운영은 정상\"이라고 밝힘"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/05/news-mitsui-chemicals-eyes-record-8-2b-jsr-acquisition-to-expand-euv-materials-business/"
+      "url": "https://www.ddaily.co.kr/page/view/2026110608580601133"
     },
     {
       "scope": "weekly",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/02",
-      "title": "TSMC, 텍사스 셔먼에 450억 달러 팹 확장 검토 보도…삼성 압박",
+      "tag": "시황",
+      "press": "ZDNet Korea",
+      "time": "11/05",
+      "title": "3분기 D램 매출 369% 폭등…삼성, 점유율 38%로 1위 수성",
       "summary": [
-        "텍사스주 문서: 미공개 업체가 450억 달러로 2개 팹, 2029년 말 생산 목표",
-        "TSMC는 \"부지 미확정\", 텍사스 후보지 평가 중이라고 확인",
-        "삼성 테일러·오스틴과 약 300km 거리, 설비 반입 중"
+        "카운터포인트 집계, 3분기 D램 매출 전년 동기비 369%↑ 역대 최고",
+        "삼성 점유율 38%(전년 33%), SK하이닉스 매출 전분기비 40%↑",
+        "마이크론은 개선됐으나 한국 2사보다 성장 느려"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/02/news-tsmc-reportedly-eyes-potential-us45b-fab-expansion-in-sherman-texas-raising-stakes-for-samsung/"
+      "url": "https://zdnet.co.kr/view/?no=20261105170914"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "파운드리",
       "press": "서울경제",
       "time": "11/04",
@@ -385,42 +385,42 @@
     },
     {
       "scope": "weekly",
-      "tag": "채용",
-      "press": "ZDNet Korea",
-      "time": "11/03",
-      "title": "원익, 2027년 신입 공채에 1만2000명 몰려 '역대 최대'",
+      "tag": "투자",
+      "press": "메트로신문",
+      "time": "11/05",
+      "title": "최태원, SK하이닉스 美 AI 투자법인 이사회 의장 맡아",
       "summary": [
-        "지원자 1만2348명, 2014년 공채 시작 이래 최대",
-        "원익IPS·QnC 등 7개 계열사, 45개 직무 모집",
-        "면접에 생성형 AI 실무 과제 첫 도입, 12월 합격 발표"
+        "SEC 공시상 법인명 'HYAICO 코퍼레이션', 송현종 사장이 CEO",
+        "SK하이닉스, 100억 달러를 자금 요청(캐피털콜)에 따라 출자 예정",
+        "솔리다임 개편해 설립, 美 AI 기업·AI 인프라 투자 목적"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261103101531"
+      "url": "https://www.metroseoul.co.kr/article/20261105500495"
     },
     {
-      "scope": "weekly",
-      "tag": "시황",
-      "press": "ZDNet Korea",
-      "time": "10/30",
-      "title": "10월 D램 가격 5.7% 상승…낸드는 보합 전환",
+      "scope": "daily",
+      "tag": "공정·소재",
+      "press": "서울경제",
+      "time": "11/05",
+      "title": "[단독] 삼성, 반도체 네온가스 80% 다시 쓴다",
       "summary": [
-        "PC용 DDR4 8Gb 고정가 27.50달러(전월 26.00달러), 역대 최고",
-        "낸드 128Gb MLC 30.61달러 보합, 21개월 연속 상승 멈춤",
-        "트렌드포스, 4분기 PC용 D램 계약가 13~18%↑ 전망"
+        "노광 공정 네온 회수·정제 재사용 설비, 평택 P4에서 10월 가동",
+        "티이엠씨와 3~4년 실증, 폐가스 보내 고순도로 정제해 공급",
+        "P5·용인·호남 등에 순차 도입, 2030년 폐기물 재활용률 99.9% 목표"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261030163628"
+      "url": "https://www.sedaily.com/article/20110798"
     },
     {
       "scope": "weekly",
       "tag": "정책·시황",
       "press": "서울경제",
-      "time": "11/04",
-      "title": "“AIDC 규제 압박 불보 듯”…삼성·SK ‘美 투자 난도’ 높아져",
+      "time": "11/05",
+      "title": "AIDC 브레이크…파랗게 질린 반도체",
       "summary": [
-        "美 중간선거서 민주당 상·하원 장악, AI 데이터센터 규제 우려",
-        "착공 지연 시 서버 D램·HBM 수요 감소 가능성",
-        "반도체지원법 보조금 축소 견제 가능, 테일러 47억4500만 달러"
+        "美 민주당 승리로 AI 데이터센터 규제 우려, 투자 둔화 가능성",
+        "코스피 5.28%↓ 5,383.80, 삼성 7.57%↓·SK하이닉스 9.46%↓",
+        "두 회사 시총 하루 약 192.9조원 증발, 장비주도 동반 매도"
       ],
-      "url": "https://www.sedaily.com/article/20110353"
+      "url": "https://www.sedaily.com/article/20110823"
     },
     {
       "scope": "weekly",
