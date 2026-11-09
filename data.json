@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-06T09:37:26+09:00",
+  "newsUpdatedAt": "2026-11-09T09:06:14+09:00",
   "jobsUpdatedAt": "2026-11-06T09:40:30+09:00",
   "sample": false,
   "jobs": [
@@ -254,32 +254,6 @@
   ],
   "news": [
     {
-      "scope": "weekly",
-      "tag": "수출",
-      "press": "산업통상부",
-      "time": "11/01",
-      "title": "2026년 10월 수출입 동향",
-      "summary": [
-        "반도체 수출 564.4억 달러, 전년 동월비 259.4%↑",
-        "총수출 1,152.8억 달러(93.7%↑), 무역수지 425.0억 달러 흑자",
-        "1~10월 누적 수출 9,300억 달러, 사상 첫 9,000억 돌파"
-      ],
-      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172360/view?mno=&pageIndex=1"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/05",
-      "title": "파나소닉 공장 화재, 글로벌 고급 CCL 공급 4% 위험…대만 업체로 주문 이동 전망",
-      "summary": [
-        "11/4 대만 후커우 공장 폭발·화재, AI서버용 초저손실 CCL 생산",
-        "메그트론 점유율 약 20%·후커우 생산능력 약 20% → 전체 약 4%(추정)",
-        "복구 수개월 이상 가능성, 파나소닉의 공식 확인은 아님"
-      ],
-      "url": "https://www.trendforce.com/news/2026/11/05/news-panasonic-plant-fire-reportedly-puts-4-of-global-high-end-ccl-supply-at-risk-taiwan-makers-eye-order-shifts/"
-    },
-    {
       "scope": "daily",
       "tag": "소부장",
       "press": "디일렉",
@@ -359,32 +333,6 @@
     },
     {
       "scope": "weekly",
-      "tag": "패키징",
-      "press": "서울신문",
-      "time": "11/01",
-      "title": "이재용, 日서 AI 반도체 패키징 점검…현지 소부장 협력 확대",
-      "summary": [
-        "11/1 요코하마 첨단 패키징 연구거점(APL) 방문",
-        "패키징 소재·공정 개발 현황 점검, 일본 소부장 협력 논의",
-        "9/8 개소, 2027년까지 연구 인력 100명 이상 확보 계획"
-      ],
-      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261101500065"
-    },
-    {
-      "scope": "daily",
-      "tag": "AI반도체",
-      "press": "디일렉",
-      "time": "11/05",
-      "title": "오라클, 텐센트와 9조원대 AI 반도체 임대계약 취소",
-      "summary": [
-        "FT 보도: 동남아 데이터센터 AI 반도체 최대 10만 개, 5년 임대(약 70억 달러)",
-        "美 정부 관계자 우려 전달 뒤 취소, 中 광둥성은 자국산 반도체 사용 요청",
-        "수출 규제 우회용 해외 연산자원 임대 방식이 막힌 사례"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64928"
-    },
-    {
-      "scope": "weekly",
       "tag": "투자",
       "press": "메트로신문",
       "time": "11/05",
@@ -411,16 +359,16 @@
     },
     {
       "scope": "weekly",
-      "tag": "정책·시황",
-      "press": "서울경제",
-      "time": "11/05",
-      "title": "AIDC 브레이크…파랗게 질린 반도체",
+      "tag": "시황",
+      "press": "서울신문",
+      "time": "11/06",
+      "title": "美 ‘블루쓰나미’에 파랗게 질린 삼전닉스",
       "summary": [
-        "美 민주당 승리로 AI 데이터센터 규제 우려, 투자 둔화 가능성",
-        "코스피 5.28%↓ 5,383.80, 삼성 7.57%↓·SK하이닉스 9.46%↓",
-        "두 회사 시총 하루 약 192.9조원 증발, 장비주도 동반 매도"
+        "美 중간선거 뒤 AI 데이터센터 규제 우려",
+        "5일 삼성전자 -7.6%, SK하이닉스 -9.5%",
+        "외국인 이틀간 대량 순매도"
       ],
-      "url": "https://www.sedaily.com/article/20110823"
+      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106001007"
     },
     {
       "scope": "weekly",
@@ -436,17 +384,16 @@
       "url": "https://www.ajunews.com/view/20261104085719980"
     },
     {
-      "scope": "weekly",
-      "tag": "정책·팹",
-      "press": "ZDNet Korea",
-      "time": "11/02",
-      "title": "\"반도체 클러스터 속도 더해야\"…정부, 팹 조기 구축에 '한목소리'",
+      "scope": "daily",
+      "tag": "산업행사",
+      "press": "CEO스코어데일리",
+      "time": "11/06",
+      "title": "‘AI 쇼크’속, 엔디비아 포럼 서울서 열린다…삼성·SK·LG·네이버 ‘총출동’",
       "summary": [
-        "산업부 장관 \"3대 메가 프로젝트 팹 가동 2년 이상 앞당길 것\"",
-        "삼성 용인 완성 2047→2040년, SK하이닉스 2045→2033년",
-        "부지 조성·에너지 조달 차질 우려도 제기"
+        "엔비디아 AI 데이 서울, 9~10일 코엑스",
+        "삼성·SK하이닉스 등 20개 파트너 참여"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261102173624"
+      "url": "https://m.ceoscoredaily.com/page/view/2026110613125322651"
     }
   ],
   "ticker": [
