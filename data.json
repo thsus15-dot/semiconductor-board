@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-09T09:50:55+09:00",
-  "jobsUpdatedAt": "2026-11-06T09:40:30+09:00",
+  "jobsUpdatedAt": "2026-11-09T09:53:35+09:00",
   "sample": false,
   "jobs": [
     {
@@ -180,21 +180,6 @@
       "added": "2026-11-02"
     },
     {
-      "company": "SFA반도체㈜",
-      "title": "2026년도 부문별 신입/경력 채용",
-      "category": "첨단패키징",
-      "majors": [
-        "재료",
-        "화학",
-        "전자전기"
-      ],
-      "location": "충남 천안",
-      "experience": "신입·경력 (고졸 이상, 직무별 상이)",
-      "deadline": "2026-11-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50268127",
-      "added": "2026-11-02"
-    },
-    {
       "company": "덕산하이메탈",
       "title": "공정기술 부문 엔지니어 채용",
       "category": "공정/소자",
@@ -223,21 +208,6 @@
       "added": "2026-11-05"
     },
     {
-      "company": "SK키파운드리",
-      "title": "신입 공채 — 제조기술·미래기술(R&D) Engineer",
-      "category": "공정/소자",
-      "majors": [
-        "재료",
-        "화학",
-        "전자전기"
-      ],
-      "location": "충북 청주",
-      "experience": "신입 (학사 이상)",
-      "deadline": "2026-11-08",
-      "url": "https://linkareer.com/activity/360654",
-      "added": "2026-11-05"
-    },
-    {
       "company": "후성그룹",
       "title": "2027년 신입 공채 — 공정·생산기술·품질보증·연구개발",
       "category": "공정/소자",
@@ -250,6 +220,35 @@
       "deadline": "2026-11-11",
       "url": "https://linkareer.com/activity/361080",
       "added": "2026-11-06"
+    },
+    {
+      "company": "스태츠칩팩코리아",
+      "title": "R&D Engineer — SoC/SiP 패키징·소재·공정 개발",
+      "category": "첨단패키징",
+      "majors": [
+        "재료",
+        "화학",
+        "전자전기"
+      ],
+      "location": "인천 중구 영종",
+      "experience": "신입·경력 4년↑ (학사 이상)",
+      "deadline": "2026-11-15",
+      "url": "https://linkareer.com/activity/359911",
+      "added": "2026-11-09"
+    },
+    {
+      "company": "동진쎄미켐",
+      "title": "11월 정기 채용 — 반도체 소재 R&D·품질·생산기술",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "경기 화성·성남, 인천",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-11-15",
+      "url": "https://linkareer.com/activity/362815",
+      "added": "2026-11-09"
     }
   ],
   "news": [
