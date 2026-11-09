@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-09T09:06:14+09:00",
+  "newsUpdatedAt": "2026-11-09T09:50:55+09:00",
   "jobsUpdatedAt": "2026-11-06T09:40:30+09:00",
   "sample": false,
   "jobs": [
@@ -255,42 +255,55 @@
   "news": [
     {
       "scope": "daily",
-      "tag": "소부장",
-      "press": "디일렉",
-      "time": "11/05",
-      "title": "심텍, 청주에 1054억원 추가 투자…생산·물류시설 확충",
+      "tag": "스마트팹",
+      "press": "서울경제",
+      "time": "11/08",
+      "title": "[단독]메모리 빅3, 로봇 '충전 표준' 세운다 [로보 인사이트]",
       "summary": [
-        "청주2지점에 1054억원, 2028년 8월까지 내부유보금 투입",
-        "약 850억 신규 건물(mSAP 기판 공간), 약 200억 SiP 기판 설비",
-        "물류·사무공간 비중 커 생산능력 증가폭은 크지 않을 전망"
+        "삼성·SK하이닉스·마이크론 실무진, 팹용 이동로봇 충전 표준화 협의체 구성",
+        "SEMI 등 협회도 참여, 배터리·충전소 통신·BMS 규격 대상",
+        "구형 공장 무인화 위해 AMR·휴머노이드 도입 검토"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=64834"
+      "url": "https://www.sedaily.com/article/20111610"
     },
     {
       "scope": "daily",
-      "tag": "패키징",
+      "tag": "유리기판",
       "press": "ZDNet Korea",
-      "time": "11/05",
-      "title": "\"EMIB, 칩당 70개 이상 쓰인다\"…인텔, AI칩 대면적화에 수혜 전망",
+      "time": "11/09",
+      "title": "中 렌즈테크놀로지, 연내 유리기판 양산라인 가동…\"韓기업과 협력 기대\"",
       "summary": [
-        "인텔 이규오 이사, 11/4 ISMP 2026에서 EMIB 전망 발표",
-        "현재 120x120mm·HBM 12개 → 향후 240x240mm·HBM 32개 이상",
-        "웨이퍼 활용률 인터포저 약 60%, EMIB 브릿지 90% 이상"
+        "TGV 유리기판 파일럿 라인 연말 가동, 515×510mm 기준 월 약 300장",
+        "내년 월 3000장 수준으로 확대 계획, 7월 인텔과 공동개발 계약",
+        "레이저 장비·식각 약품 자체 개발, 한국 기업 협력 희망"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261104165623"
+      "url": "https://zdnet.co.kr/view/?no=20261109081004"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "ZDNet Korea",
+      "time": "11/08",
+      "title": "TSMC, 3D D램 진출설에 \"핵심 파운드리 사업 집중\" 부인",
+      "summary": [
+        "디인포메이션, TSMC가 엔비디아 요청으로 3D D램 생산 검토 중이라 보도",
+        "TSMC는 7일 \"로직 반도체 파운드리 사업에 집중\"이라며 사실상 부인",
+        "TSMC는 2024년 SK하이닉스와 HBM4·패키징 협력 MOU 체결"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261107230421"
     },
     {
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/06",
-      "title": "미디어텍, 인텔 패키징 출신 영입 보도…CoWoS·EMIB 병행 전략 가속",
+      "time": "11/09",
+      "title": "중국 텅스텐 수출 규제에 AI PCB 드릴 비트 가격 급등",
       "summary": [
-        "인텔 출신 나비드 샤리아리, 11/9 미디어텍 수석부사장 합류(보도)",
-        "첨단 패키징·테스트, 품질·신뢰성 담당, 5월엔 전 TSMC 임원 자문 영입",
-        "CoWoS·EMIB 둘 다 지원해 고객이 선택, 인텔 협력은 2차 보도 기반"
+        "중국이 2025년 세계 텅스텐 생산의 약 79% 차지(USGS 인용)",
+        "텅스텐 중간재 APT, 2025년 2월 RMB 212,750/톤 → 주간 기준 RMB 530,000 이상",
+        "AI 서버 기판 드릴 세트당 비트 약 3개 → 4~5개로 증가"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/06/news-mediatek-reportedly-taps-intel-packaging-veteran-after-tsmc-hire-advances-dual-cowos-emib-strategy/"
+      "url": "https://www.trendforce.com/news/2026/11/09/news-chinas-tungsten-export-curbs-send-ai-pcb-drill-bit-prices-soaring-nearly-80-global-output-share-highlights-supply-risks/"
     },
     {
       "scope": "daily",
@@ -356,6 +369,32 @@
         "P5·용인·호남 등에 순차 도입, 2030년 폐기물 재활용률 99.9% 목표"
       ],
       "url": "https://www.sedaily.com/article/20110798"
+    },
+    {
+      "scope": "weekly",
+      "tag": "차량반도체",
+      "press": "뉴스핌",
+      "time": "11/08",
+      "title": "삼성전자·현대차그룹, 첫 그룹 간 교류…경영진 170여명 한자리",
+      "summary": [
+        "11/9 용인 삼성 연수원서 개최 예정, 전영현·장재훈 부회장 주재",
+        "협력 분야 차량용 반도체·디스플레이에서 배터리·SW로 확대",
+        "파운드리 자율주행 반도체 수주, 삼성SDI 배터리 탑재 사례"
+      ],
+      "url": "https://www.newspim.com/news/view/20261108000075"
+    },
+    {
+      "scope": "weekly",
+      "tag": "투자",
+      "press": "EBN",
+      "time": "11/08",
+      "title": "삼성전자 현금 곳간 215조원 돌파…주주환원·미래투자 '통 큰 베팅' 전망",
+      "summary": [
+        "3분기말 현금 자산 214조8000억원, 직전 분기 190조원",
+        "올해 시설투자 84조4000억원 중 반도체 76조8000억원",
+        "주주환원 90~110조원 계획, 최종안은 내년 1월 확정"
+      ],
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1730821"
     },
     {
       "scope": "weekly",
