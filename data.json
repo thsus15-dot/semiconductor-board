@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-09T09:50:55+09:00",
+  "newsUpdatedAt": "2026-11-10T08:27:10+09:00",
   "jobsUpdatedAt": "2026-11-09T09:53:35+09:00",
   "sample": false,
   "jobs": [
@@ -306,16 +306,16 @@
     },
     {
       "scope": "daily",
-      "tag": "해외·인력",
-      "press": "디지털데일리",
-      "time": "11/06",
-      "title": "\"SK·삼성처럼\"…마이크론, 노사 갈등에 45억달러 대만 반도체 공장 건설 중단",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/09",
+      "title": "테라팹, 2032년 월 100만 웨이퍼 목표 보도…70만 장은 메모리용",
       "summary": [
-        "타오위안 신규 팹(2028년 가동 목표, HBM·D램) 공사 중단 보도",
-        "노조, 삼성·SK 사례 들어 영업이익 15% 현금 배분 요구",
-        "마이크론은 \"현지 운영은 정상\"이라고 밝힘"
+        "닛케이 인용 보도, 컴퓨팅용 30만 장 이상 포함(보도, 회사 확인 아님)",
+        "양산 2028년 하반기 목표, 일본 장비사에 조달팀 비공개 방문",
+        "구체적 발주 장비·업체는 확인되지 않음"
       ],
-      "url": "https://www.ddaily.co.kr/page/view/2026110608580601133"
+      "url": "https://www.trendforce.com/news/2026/11/09/news-terafab-reportedly-eyes-1m-wafers-monthly-by-2032-with-700k-for-memory-near-samsungs-total-dram-capacity/"
     },
     {
       "scope": "weekly",
@@ -358,16 +358,16 @@
     },
     {
       "scope": "daily",
-      "tag": "공정·소재",
-      "press": "서울경제",
-      "time": "11/05",
-      "title": "[단독] 삼성, 반도체 네온가스 80% 다시 쓴다",
+      "tag": "AI·공정",
+      "press": "뉴스1",
+      "time": "11/09",
+      "title": "삼성·SK, 엔비디아 AI로 반도체 개발 가속…LG·두산은 로봇 고도화",
       "summary": [
-        "노광 공정 네온 회수·정제 재사용 설비, 평택 P4에서 10월 가동",
-        "티이엠씨와 3~4년 실증, 폐가스 보내 고순도로 정제해 공급",
-        "P5·용인·호남 등에 순차 도입, 2030년 폐기물 재활용률 99.9% 목표"
+        "엔비디아 AI 데이 서울(9일), 삼성 열·기계 해석 18시간→41초",
+        "SK하이닉스 식각 형상 예측 AI 모델, 일부 시뮬레이션 30배↑",
+        "특정 조건 비교 결과, 개발 전체가 같은 비율로 빨라진 것은 아님"
       ],
-      "url": "https://www.sedaily.com/article/20110798"
+      "url": "https://www.news1.kr/industry/general-industry/6348239"
     },
     {
       "scope": "weekly",
@@ -397,19 +397,6 @@
     },
     {
       "scope": "weekly",
-      "tag": "시황",
-      "press": "서울신문",
-      "time": "11/06",
-      "title": "美 ‘블루쓰나미’에 파랗게 질린 삼전닉스",
-      "summary": [
-        "美 중간선거 뒤 AI 데이터센터 규제 우려",
-        "5일 삼성전자 -7.6%, SK하이닉스 -9.5%",
-        "외국인 이틀간 대량 순매도"
-      ],
-      "url": "https://www.seoul.co.kr/news/newsView.php?id=20261106001007"
-    },
-    {
-      "scope": "weekly",
       "tag": "수출규제",
       "press": "아주경제",
       "time": "11/04",
@@ -423,15 +410,16 @@
     },
     {
       "scope": "daily",
-      "tag": "산업행사",
-      "press": "CEO스코어데일리",
-      "time": "11/06",
-      "title": "‘AI 쇼크’속, 엔디비아 포럼 서울서 열린다…삼성·SK·LG·네이버 ‘총출동’",
+      "tag": "조직·인사",
+      "press": "매일일보",
+      "time": "11/09",
+      "title": "삼성·SK하이닉스, R&D 전문가에 美 반도체 사업 맡겼다",
       "summary": [
-        "엔비디아 AI 데이 서울, 9~10일 코엑스",
-        "삼성·SK하이닉스 등 20개 파트너 참여"
+        "SK하이닉스 안현 개발총괄 사장, 신설 미주총괄로 이동",
+        "삼성 DS 미주총괄은 메모리 개발 출신 조상연 부사장",
+        "기사는 기술 전문성이 수주를 자동 보장하진 않는다고 짚음"
       ],
-      "url": "https://m.ceoscoredaily.com/page/view/2026110613125322651"
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2016150"
     }
   ],
   "ticker": [
