@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-10T08:27:10+09:00",
-  "jobsUpdatedAt": "2026-11-09T09:53:35+09:00",
+  "jobsUpdatedAt": "2026-11-10T08:29:37+09:00",
   "sample": false,
   "jobs": [
     {
@@ -249,6 +249,20 @@
       "deadline": "2026-11-15",
       "url": "https://linkareer.com/activity/362815",
       "added": "2026-11-09"
+    },
+    {
+      "company": "싸이머코리아 (ASML 계열)",
+      "title": "평택 사업장 신입·경력 대규모 채용",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 평택",
+      "experience": "신입·경력 (고졸 이상)",
+      "deadline": "2026-11-15",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50301294",
+      "added": "2026-11-10"
     }
   ],
   "news": [
