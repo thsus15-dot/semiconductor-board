@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-11T08:27:10+09:00",
-  "jobsUpdatedAt": "2026-11-10T08:29:37+09:00",
+  "jobsUpdatedAt": "2026-11-11T08:30:31+09:00",
   "sample": false,
   "jobs": [
     {
@@ -103,16 +103,32 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50121161"
     },
     {
-      "company": "㈜에이피텍",
-      "title": "자동화 장비 제조·Set-up 엔지니어 (구미)",
+      "company": "세메스",
+      "title": "2026년 하반기 신입채용 — 기구·SW·전장·공정설계",
       "category": "장비/설비",
       "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "충남 천안·경기 화성",
+      "experience": "신입 (학력무관)",
+      "deadline": "2026-11-17",
+      "url": "https://linkareer.com/activity/363309",
+      "added": "2026-11-11"
+    },
+    {
+      "company": "LS머트리얼즈",
+      "title": "연구개발 신입(대졸) 채용",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
         "전자전기"
       ],
-      "location": "경북 구미",
-      "experience": "신입·경력 5년↑ (초대졸 이상)",
-      "deadline": "2026-12-14",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50175190"
+      "location": "경기 안양",
+      "experience": "신입 (대졸 이상, 석사 우대)",
+      "deadline": "2026-11-12",
+      "url": "https://linkareer.com/activity/360542",
+      "added": "2026-11-11"
     },
     {
       "company": "에스앤에스텍",
@@ -139,19 +155,6 @@
         "전자전기",
         "재료"
       ]
-    },
-    {
-      "company": "동진쎄미켐",
-      "title": "반도체·디스플레이 소재 연구보조/생산기술 (인재풀)",
-      "category": "공정/소자",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "경기 화성",
-      "experience": "신입·경력 (고졸 이상)",
-      "deadline": "상시",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50100608"
     },
     {
       "company": "칸켄테크노코리아㈜",
