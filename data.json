@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-10T08:27:10+09:00",
+  "newsUpdatedAt": "2026-11-11T08:27:10+09:00",
   "jobsUpdatedAt": "2026-11-10T08:29:37+09:00",
   "sample": false,
   "jobs": [
@@ -268,16 +268,16 @@
   "news": [
     {
       "scope": "daily",
-      "tag": "스마트팹",
-      "press": "서울경제",
-      "time": "11/08",
-      "title": "[단독]메모리 빅3, 로봇 '충전 표준' 세운다 [로보 인사이트]",
+      "tag": "첨단패키징",
+      "press": "ZDNet Korea",
+      "time": "11/10",
+      "title": "삼성전자, 첨단 패키징 '3D 큐브-H' 내년 초 개발완료 목표",
       "summary": [
-        "삼성·SK하이닉스·마이크론 실무진, 팹용 이동로봇 충전 표준화 협의체 구성",
-        "SEMI 등 협회도 참여, 배터리·충전소 통신·BMS 규격 대상",
-        "구형 공장 무인화 위해 AMR·휴머노이드 도입 검토"
+        "하이브리드 본딩 기반 3D 적층 패키징, 내년 초 개발 완료 계획",
+        "내년 초 첫 디자인 키트 완성 후 잠재 고객 평가 착수 예정",
+        "단자 간격 약 6um, TC 본딩 최소 25um보다 미세(양산 언급 없음)"
       ],
-      "url": "https://www.sedaily.com/article/20111610"
+      "url": "https://zdnet.co.kr/view/?no=20261110104822"
     },
     {
       "scope": "daily",
@@ -294,42 +294,42 @@
     },
     {
       "scope": "daily",
-      "tag": "해외",
-      "press": "ZDNet Korea",
-      "time": "11/08",
-      "title": "TSMC, 3D D램 진출설에 \"핵심 파운드리 사업 집중\" 부인",
+      "tag": "소부장",
+      "press": "디일렉",
+      "time": "11/10",
+      "title": "단독 삼성 EUV 블랭크마스크 조달 비상…日호야 \"더 못 늘린다\"",
       "summary": [
-        "디인포메이션, TSMC가 엔비디아 요청으로 3D D램 생산 검토 중이라 보도",
-        "TSMC는 7일 \"로직 반도체 파운드리 사업에 집중\"이라며 사실상 부인",
-        "TSMC는 2024년 SK하이닉스와 HBM4·패키징 협력 MOU 체결"
+        "삼성, 내년 사용량 급증 예상해 호야에 공급 확대 요청, 호야 난색",
+        "삼성 사용량 올해 약 5,500장 추정, 향후 3년 연 약 25%↑",
+        "국산 에스앤에스텍 제품 최종 평가 중, 일부 항목 개선 필요"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261107230421"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65231"
     },
     {
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/09",
-      "title": "중국 텅스텐 수출 규제에 AI PCB 드릴 비트 가격 급등",
+      "time": "11/10",
+      "title": "라피더스, 2나노 SRAM 개발 수개월 지연 보도…2028년 3월 양산 목표 위태",
       "summary": [
-        "중국이 2025년 세계 텅스텐 생산의 약 79% 차지(USGS 인용)",
-        "텅스텐 중간재 APT, 2025년 2월 RMB 212,750/톤 → 주간 기준 RMB 530,000 이상",
-        "AI 서버 기판 드릴 세트당 비트 약 3개 → 4~5개로 증가"
+        "블룸버그 인용 보도: 2026년 여름 목표 SRAM 셀 시연 못 함",
+        "클린룸 먼지·입자 오염 해결 중, 상장 최대 2032년 지연 가능 보도",
+        "회사는 양산 목표 유지 입장, 일본 정부 지원 2조엔 이상(보도)"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/09/news-chinas-tungsten-export-curbs-send-ai-pcb-drill-bit-prices-soaring-nearly-80-global-output-share-highlights-supply-risks/"
+      "url": "https://www.trendforce.com/news/2026/11/10/news-rapidus-reportedly-months-behind-on-2nm-sram-development-march-2028-mass-production-target-at-risk/"
     },
     {
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/09",
-      "title": "테라팹, 2032년 월 100만 웨이퍼 목표 보도…70만 장은 메모리용",
+      "time": "11/10",
+      "title": "구글, TPU 8tx·8i Max 공개…8i Max는 HBM 대역폭 2배",
       "summary": [
-        "닛케이 인용 보도, 컴퓨팅용 30만 장 이상 포함(보도, 회사 확인 아님)",
-        "양산 2028년 하반기 목표, 일본 장비사에 조달팀 비공개 방문",
-        "구체적 발주 장비·업체는 확인되지 않음"
+        "구글 9일 공개, 8i Max는 8i 칩 2개를 한 패키지에 결합",
+        "HBM 대역폭 8.6→17.2TB/s, 용량 288→384GB(총용량 구글 미확인)",
+        "삼성·SK, 구글 HBM3E 물량 각 약 50% 분담(보도)"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/09/news-terafab-reportedly-eyes-1m-wafers-monthly-by-2032-with-700k-for-memory-near-samsungs-total-dram-capacity/"
+      "url": "https://www.trendforce.com/news/2026/11/10/news-google-marks-first-ever-4-tpu-year-with-8tx-and-8i-max-as-8i-max-doubles-hbm-bandwidth-to-tackle-memory-wall/"
     },
     {
       "scope": "weekly",
@@ -386,15 +386,15 @@
     {
       "scope": "weekly",
       "tag": "차량반도체",
-      "press": "뉴스핌",
-      "time": "11/08",
-      "title": "삼성전자·현대차그룹, 첫 그룹 간 교류…경영진 170여명 한자리",
+      "press": "ZDNet Korea",
+      "time": "11/09",
+      "title": "'우리는 원팀' 삼성·현대차그룹, 미래 모빌리티·피지컬 AI 동행",
       "summary": [
-        "11/9 용인 삼성 연수원서 개최 예정, 전영현·장재훈 부회장 주재",
-        "협력 분야 차량용 반도체·디스플레이에서 배터리·SW로 확대",
-        "파운드리 자율주행 반도체 수주, 삼성SDI 배터리 탑재 사례"
+        "삼성, 서천연수원서 현대차그룹 경영진 초청 'HMG 어프리시에이션 데이'",
+        "양 그룹 경영진 등 177명 참석, 전영현·장재훈 부회장 등",
+        "삼성 DS 차량용 반도체 기술 전시, 구체 계약 내용은 없음"
       ],
-      "url": "https://www.newspim.com/news/view/20261108000075"
+      "url": "https://zdnet.co.kr/view/?no=20261109141852"
     },
     {
       "scope": "weekly",
@@ -424,16 +424,29 @@
     },
     {
       "scope": "daily",
-      "tag": "조직·인사",
-      "press": "매일일보",
+      "tag": "패키징소재",
+      "press": "뉴스1",
       "time": "11/09",
-      "title": "삼성·SK하이닉스, R&D 전문가에 美 반도체 사업 맡겼다",
+      "title": "서울시, 독일 헨켈 반도체 R&D센터 유치…2031년까지 121억 투자",
       "summary": [
-        "SK하이닉스 안현 개발총괄 사장, 신설 미주총괄로 이동",
-        "삼성 DS 미주총괄은 메모리 개발 출신 조상연 부사장",
-        "기사는 기술 전문성이 수주를 자동 보장하진 않는다고 짚음"
+        "헨켈, 가산디지털단지 패키징 소재 R&D센터에 2031년까지 121억 투자",
+        "전문 연구인력 15명 신규 채용, 고성능 접착제·방열 소재 개발",
+        "서울시와 외국인투자 업무협약, 국내 반도체 기업과 공동연구 추진"
       ],
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=2016150"
+      "url": "https://www.news1.kr/local/moi/6347182"
+    },
+    {
+      "scope": "weekly",
+      "tag": "정책",
+      "press": "서울경제",
+      "time": "11/10",
+      "title": "김정관 “호남팹 기업 투자 철회 의사 없다…이달 내 팹 배치 마무리”",
+      "summary": [
+        "김정관 장관, 10일 예결위서 호남 팹 배치 이달 내 마무리 밝힘",
+        "투자 철회 의사 기업 없다 답변, 배치 후 산단 협약식 예정",
+        "2030년께 양산 계획 유지, 착공 등 세부 일정은 불확실"
+      ],
+      "url": "https://www.sedaily.com/article/20112487"
     }
   ],
   "ticker": [
