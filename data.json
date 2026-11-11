@@ -1,33 +1,8 @@
 {
   "newsUpdatedAt": "2026-11-12T08:27:14+09:00",
-  "jobsUpdatedAt": "2026-11-11T08:30:31+09:00",
+  "jobsUpdatedAt": "2026-11-12T08:29:58+09:00",
   "sample": false,
   "jobs": [
-    {
-      "company": "에이에스에이씨㈜",
-      "title": "반도체 장비 유지보수 엔지니어",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기"
-      ],
-      "location": "경기 화성",
-      "experience": "신입·경력 1년↑ (학력무관)",
-      "deadline": "2026-11-11",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50143818"
-    },
-    {
-      "company": "㈜한국시바우라 메카트로닉스",
-      "title": "PKG설비 기술영업·CS 엔지니어 (신입/경력)",
-      "category": "첨단패키징",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "경기 평택",
-      "experience": "신입·경력 (초대졸 이상)",
-      "deadline": "2026-11-11",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50143539"
-    },
     {
       "company": "㈜루트세미콘",
       "title": "반도체 품질관리·품질검사 인턴 (정규직 전환 가능)",
@@ -183,48 +158,6 @@
       "added": "2026-11-02"
     },
     {
-      "company": "덕산하이메탈",
-      "title": "공정기술 부문 엔지니어 채용",
-      "category": "공정/소자",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "울산 북구",
-      "experience": "신입·경력 (대졸 이상)",
-      "deadline": "2026-11-11",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50295095",
-      "added": "2026-11-04"
-    },
-    {
-      "company": "덕산하이메탈",
-      "title": "연구기획 부문 연구원 채용",
-      "category": "공정/소자",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "울산 북구",
-      "experience": "신입·경력 (대졸 이상)",
-      "deadline": "2026-11-11",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50295011",
-      "added": "2026-11-05"
-    },
-    {
-      "company": "후성그룹",
-      "title": "2027년 신입 공채 — 공정·생산기술·품질보증·연구개발",
-      "category": "공정/소자",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "울산 남구·경기 용인",
-      "experience": "신입·경력 (대졸 이상)",
-      "deadline": "2026-11-11",
-      "url": "https://linkareer.com/activity/361080",
-      "added": "2026-11-06"
-    },
-    {
       "company": "스태츠칩팩코리아",
       "title": "R&D Engineer — SoC/SiP 패키징·소재·공정 개발",
       "category": "첨단패키징",
@@ -266,6 +199,35 @@
       "deadline": "2026-11-15",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50301294",
       "added": "2026-11-10"
+    },
+    {
+      "company": "에스앤에스텍",
+      "title": "EUV 공정 엔지니어 — Deposition 공정 (계약직, 정규직 전환 가능)",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "location": "경기 용인",
+      "experience": "신입·경력 (학사 이상)",
+      "deadline": "2027-01-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50294474",
+      "added": "2026-11-12"
+    },
+    {
+      "company": "한국알박㈜",
+      "title": "Process Engineer 신입/경력 채용",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학",
+        "전자전기"
+      ],
+      "location": "경기 평택",
+      "experience": "신입·경력 3년↑ (대졸 이상)",
+      "deadline": "2026-11-15",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50274219",
+      "added": "2026-11-12"
     }
   ],
   "news": [
