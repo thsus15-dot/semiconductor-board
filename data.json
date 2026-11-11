@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-11T08:27:10+09:00",
+  "newsUpdatedAt": "2026-11-12T08:27:14+09:00",
   "jobsUpdatedAt": "2026-11-11T08:30:31+09:00",
   "sample": false,
   "jobs": [
@@ -284,16 +284,16 @@
     },
     {
       "scope": "daily",
-      "tag": "유리기판",
-      "press": "ZDNet Korea",
-      "time": "11/09",
-      "title": "中 렌즈테크놀로지, 연내 유리기판 양산라인 가동…\"韓기업과 협력 기대\"",
+      "tag": "첨단패키징",
+      "press": "디지털데일리",
+      "time": "11/11",
+      "title": "삼성전자-AMD, 차세대 메모리·CPU 결합…반도체 제조 테스트 협력",
       "summary": [
-        "TGV 유리기판 파일럿 라인 연말 가동, 515×510mm 기준 월 약 300장",
-        "내년 월 3000장 수준으로 확대 계획, 7월 인텔과 공동개발 계약",
-        "레이저 장비·식각 약품 자체 개발, 한국 기업 협력 희망"
+        "AMD 신형 임베디드 프로세서에 삼성 DDR5·SSD·CXL 모듈 결합 구상",
+        "메모리·입출력 장치 양산 규모 검증용 자동화 테스트 장비 지원",
+        "구체적 계약 규모·일정은 미공개"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261109081004"
+      "url": "https://www.ddaily.co.kr/page/view/2026111110382211508"
     },
     {
       "scope": "daily",
@@ -311,28 +311,27 @@
     {
       "scope": "daily",
       "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/10",
-      "title": "라피더스, 2나노 SRAM 개발 수개월 지연 보도…2028년 3월 양산 목표 위태",
+      "press": "ZDNet Korea",
+      "time": "11/12",
+      "title": "[속보] WSJ \"엔비디아, 젠슨 황 CEO 해임 검토…빠르면 오늘 결론\"",
       "summary": [
-        "블룸버그 인용 보도: 2026년 여름 목표 SRAM 셀 시연 못 함",
-        "클린룸 먼지·입자 오염 해결 중, 상장 최대 2032년 지연 가능 보도",
-        "회사는 양산 목표 유지 입장, 일본 정부 지원 2조엔 이상(보도)"
+        "WSJ, 11일(현지) 엔비디아 이사회가 황 CEO 해임 준비 중이라 보도",
+        "결론은 빠르면 12일 나올 수 있다는 보도, 엔비디아 공식 입장은 미확인"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/10/news-rapidus-reportedly-months-behind-on-2nm-sram-development-march-2028-mass-production-target-at-risk/"
+      "url": "https://zdnet.co.kr/view/?no=20261112082127"
     },
     {
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/10",
-      "title": "구글, TPU 8tx·8i Max 공개…8i Max는 HBM 대역폭 2배",
+      "time": "11/11",
+      "title": "AMD 에픽 '베니스' 출하 시작…TSMC 2나노 칩렛에 CoWoS-L 패키징",
       "summary": [
-        "구글 9일 공개, 8i Max는 8i 칩 2개를 한 패키지에 결합",
-        "HBM 대역폭 8.6→17.2TB/s, 용량 288→384GB(총용량 구글 미확인)",
-        "삼성·SK, 구글 HBM3E 물량 각 약 50% 분담(보도)"
+        "TSMC 2나노 컴퓨트 칩렛+6나노 I/O 다이, 최대 256코어",
+        "AMD 주장: 전작 '튜린' 대비 성능 최대 2배, 와트당 성능 40%↑",
+        "ASE·SPIL과 2.5D 브리지 개발, PTI와 패널 팬아웃 브리지 검증 완료"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/10/news-google-marks-first-ever-4-tpu-year-with-8tx-and-8i-max-as-8i-max-doubles-hbm-bandwidth-to-tackle-memory-wall/"
+      "url": "https://www.trendforce.com/news/2026/11/11/news-amd-epyc-venice-cpus-begin-shipping-on-tsmc-2nm-verano-reportedly-to-adopt-n2p-with-a14-planned-for-2028/"
     },
     {
       "scope": "weekly",
@@ -348,17 +347,17 @@
       "url": "https://zdnet.co.kr/view/?no=20261105170914"
     },
     {
-      "scope": "weekly",
-      "tag": "파운드리",
-      "press": "서울경제",
-      "time": "11/04",
-      "title": "[단독] 삼성, 기흥에 첨단 파운드리팹 짓는다",
+      "scope": "daily",
+      "tag": "유리기판",
+      "press": "ZDNet Korea",
+      "time": "11/11",
+      "title": "유리기판 난제 미세홀 형성…알칼리 소재로 뚫는다",
       "summary": [
-        "기흥 '카이로스' 프로젝트, 2·4나노급 팹 4개 페이즈 계획",
-        "6라인 일부는 첨단 패키징 시설로 전환, 총 30조원 안팎 추정",
-        "2나노 라인은 HBM5 베이스다이 겨냥(업계 추정)"
+        "독일 레나, 11/5 ISMP2026서 알칼리 식각 TGV 가공 기술 발표",
+        "테이퍼각 약 1°(산 식각 3~5°), 50µm 미만 홀 2~3시간 목표",
+        "시장 진입 추진 단계, 양산 보도는 아님"
       ],
-      "url": "https://www.sedaily.com/article/20110329"
+      "url": "https://zdnet.co.kr/view/?no=20261111100326"
     },
     {
       "scope": "weekly",
@@ -375,16 +374,16 @@
     },
     {
       "scope": "daily",
-      "tag": "AI·공정",
-      "press": "뉴스1",
-      "time": "11/09",
-      "title": "삼성·SK, 엔비디아 AI로 반도체 개발 가속…LG·두산은 로봇 고도화",
+      "tag": "채용",
+      "press": "ZDNet Korea",
+      "time": "11/11",
+      "title": "학력폐지·억대 성과급...SK하이닉스, 생산직 채용 '후끈'",
       "summary": [
-        "엔비디아 AI 데이 서울(9일), 삼성 열·기계 해석 18시간→41초",
-        "SK하이닉스 식각 형상 예측 AI 모델, 일부 시뮬레이션 30배↑",
-        "특정 조건 비교 결과, 개발 전체가 같은 비율로 빨라진 것은 아님"
+        "메인트·오퍼레이터 모집, 17일까지 서류 접수, 학력 제한 폐지",
+        "근무지 이천·용인·청주, 내년 2월 근무 가능자, 12월 면접",
+        "1인당 약 8억원 성과급은 기자 단순 계산(공식 발표 아님)"
       ],
-      "url": "https://www.news1.kr/industry/general-industry/6348239"
+      "url": "https://zdnet.co.kr/view/?no=20261111133026"
     },
     {
       "scope": "weekly",
@@ -414,19 +413,6 @@
     },
     {
       "scope": "weekly",
-      "tag": "수출규제",
-      "press": "아주경제",
-      "time": "11/04",
-      "title": "中, 한국산 HBM 밀수 '기승'…\"저가 서버칩에 숨겨 수출 규제 우회\"",
-      "summary": [
-        "서버 프로세서와 묶어 반출 후 현지서 납땜 녹여 HBM만 분리",
-        "HBM3E 거래가 1년새 수백 달러→약 4000달러로 급등(중개상 전언)",
-        "삼성·SK \"美·韓 수출 규정 준수\", 중국 직접 공급 부인"
-      ],
-      "url": "https://www.ajunews.com/view/20261104085719980"
-    },
-    {
-      "scope": "daily",
       "tag": "패키징소재",
       "press": "뉴스1",
       "time": "11/09",
