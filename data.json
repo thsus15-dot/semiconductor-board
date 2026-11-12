@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-12T08:27:14+09:00",
+  "newsUpdatedAt": "2026-11-13T08:27:10+09:00",
   "jobsUpdatedAt": "2026-11-12T08:29:58+09:00",
   "sample": false,
   "jobs": [
@@ -232,7 +232,7 @@
   ],
   "news": [
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "첨단패키징",
       "press": "ZDNet Korea",
       "time": "11/10",
@@ -247,18 +247,18 @@
     {
       "scope": "daily",
       "tag": "첨단패키징",
-      "press": "디지털데일리",
-      "time": "11/11",
-      "title": "삼성전자-AMD, 차세대 메모리·CPU 결합…반도체 제조 테스트 협력",
+      "press": "ZDNet Korea",
+      "time": "11/12",
+      "title": "공장 가동 1년 앞당겼다…삼성 충청 온양캠퍼스 'AI 반도체 심장' 뛴다",
       "summary": [
-        "AMD 신형 임베디드 프로세서에 삼성 DDR5·SSD·CXL 모듈 결합 구상",
-        "메모리·입출력 장치 양산 규모 검증용 자동화 테스트 장비 지원",
-        "구체적 계약 규모·일정은 미공개"
+        "온양 HBM 팹(5라인) 착공, 2028년 6월 가동 목표(1년 앞당김)",
+        "클린룸 3개 층·연면적 9,400평, 생산 품목은 HBM4E",
+        "삼성전기 세종 신규 팹 4.3조 투자, 패키지 기판 2028.9 양산 목표"
       ],
-      "url": "https://www.ddaily.co.kr/page/view/2026111110382211508"
+      "url": "https://zdnet.co.kr/view/?no=20261112113651"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "소부장",
       "press": "디일렉",
       "time": "11/10",
@@ -275,12 +275,13 @@
       "tag": "해외",
       "press": "ZDNet Korea",
       "time": "11/12",
-      "title": "[속보] WSJ \"엔비디아, 젠슨 황 CEO 해임 검토…빠르면 오늘 결론\"",
+      "title": "젠슨 황 CEO 불명예 퇴진... \"콜렛 크레스 CFO가 대행\"",
       "summary": [
-        "WSJ, 11일(현지) 엔비디아 이사회가 황 CEO 해임 준비 중이라 보도",
-        "결론은 빠르면 12일 나올 수 있다는 보도, 엔비디아 공식 입장은 미확인"
+        "엔비디아 이사회, 12일(현지) 황 회장·CEO·이사직 사임 발표",
+        "크레스 CFO가 임시 CEO 대행, 후임 선임 절차 착수",
+        "3분기 실적은 현지 17일 예정대로 발표"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261112082127"
+      "url": "https://zdnet.co.kr/view/?no=20261112233500"
     },
     {
       "scope": "daily",
@@ -296,17 +297,17 @@
       "url": "https://www.trendforce.com/news/2026/11/11/news-amd-epyc-venice-cpus-begin-shipping-on-tsmc-2nm-verano-reportedly-to-adopt-n2p-with-a14-planned-for-2028/"
     },
     {
-      "scope": "weekly",
-      "tag": "시황",
-      "press": "ZDNet Korea",
-      "time": "11/05",
-      "title": "3분기 D램 매출 369% 폭등…삼성, 점유율 38%로 1위 수성",
+      "scope": "daily",
+      "tag": "정책",
+      "press": "산업통상부",
+      "time": "11/12",
+      "title": "K-온디바이스 AI반도체, '상생'으로 속도낸다",
       "summary": [
-        "카운터포인트 집계, 3분기 D램 매출 전년 동기비 369%↑ 역대 최고",
-        "삼성 점유율 38%(전년 33%), SK하이닉스 매출 전분기비 40%↑",
-        "마이크론은 개선됐으나 한국 2사보다 성장 느려"
+        "총 8,002억원 규모 프로젝트, 2030년까지 AI칩 10종 개발·검증",
+        "자율주행·가전·로봇용 등, 삼성 파운드리 2027년 시제품 21회 계획",
+        "민관합동 전략위원회 출범, 매년 초 연차별 계획 심의"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261105170914"
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172399/view"
     },
     {
       "scope": "daily",
@@ -322,17 +323,17 @@
       "url": "https://zdnet.co.kr/view/?no=20261111100326"
     },
     {
-      "scope": "weekly",
-      "tag": "투자",
-      "press": "메트로신문",
-      "time": "11/05",
-      "title": "최태원, SK하이닉스 美 AI 투자법인 이사회 의장 맡아",
+      "scope": "daily",
+      "tag": "소부장",
+      "press": "디일렉",
+      "time": "11/13",
+      "title": "SFA, 3분기 반도체 수주 비중 57%로 확대",
       "summary": [
-        "SEC 공시상 법인명 'HYAICO 코퍼레이션', 송현종 사장이 CEO",
-        "SK하이닉스, 100억 달러를 자금 요청(캐피털콜)에 따라 출자 예정",
-        "솔리다임 개편해 설립, 美 AI 기업·AI 인프라 투자 목적"
+        "3분기 신규 수주 1,356억원 중 반도체 772억원(56.9%)",
+        "별도 매출 1,923억원·영업이익 266억원, 영업이익률 13.8%",
+        "연간 수주 목표 1조3,000억원 유지"
       ],
-      "url": "https://www.metroseoul.co.kr/article/20261105500495"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65365"
     },
     {
       "scope": "daily",
@@ -398,6 +399,19 @@
         "2030년께 양산 계획 유지, 착공 등 세부 일정은 불확실"
       ],
       "url": "https://www.sedaily.com/article/20112487"
+    },
+    {
+      "scope": "weekly",
+      "tag": "시황",
+      "press": "ZDNet Korea",
+      "time": "11/12",
+      "title": "中, AI칩 수급난에 eSSD '주문 축소'…삼성·SK, 美 공급 비중 늘린다",
+      "summary": [
+        "삼성·SK, 중국 논의 eSSD 물량 일부를 미국 고객사에 추가 배정(파악)",
+        "중국 데이터센터사 주문 축소가 계기, 미국 AI 수출규제 영향",
+        "낸드·SSD 시장 전체 영향은 미미하다는 업계 관측"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261112144609"
     }
   ],
   "ticker": [
