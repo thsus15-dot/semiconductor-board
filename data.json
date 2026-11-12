@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-13T08:27:10+09:00",
-  "jobsUpdatedAt": "2026-11-12T08:29:58+09:00",
+  "jobsUpdatedAt": "2026-11-13T08:29:56+09:00",
   "sample": false,
   "jobs": [
     {
@@ -92,18 +92,31 @@
       "added": "2026-11-11"
     },
     {
-      "company": "LS머트리얼즈",
-      "title": "연구개발 신입(대졸) 채용",
-      "category": "공정/소자",
+      "company": "KLA",
+      "title": "2026년 11월 신입 정규직 — Applications·Algorithm Engineer, CS 인턴",
+      "category": "장비/설비",
       "majors": [
-        "재료",
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 화성·평택·이천, 충북 청주",
+      "experience": "신입 (학사 이상, Applications는 석사 이상)",
+      "deadline": "2026-11-22",
+      "url": "https://linkareer.com/activity/364103",
+      "added": "2026-11-13"
+    },
+    {
+      "company": "테크윙",
+      "title": "HW(아산) 신입/경력 — 반도체 장비 전기회로·제어 설계",
+      "category": "장비/설비",
+      "majors": [
         "전자전기"
       ],
-      "location": "경기 안양",
-      "experience": "신입 (대졸 이상, 석사 우대)",
-      "deadline": "2026-11-12",
-      "url": "https://linkareer.com/activity/360542",
-      "added": "2026-11-11"
+      "location": "충남 아산",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-12-31",
+      "url": "https://linkareer.com/activity/364101",
+      "added": "2026-11-13"
     },
     {
       "company": "에스앤에스텍",
