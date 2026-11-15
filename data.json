@@ -1,45 +1,61 @@
 {
   "newsUpdatedAt": "2026-11-16T08:27:12+09:00",
-  "jobsUpdatedAt": "2026-11-13T08:29:56+09:00",
+  "jobsUpdatedAt": "2026-11-16T08:29:36+09:00",
   "sample": false,
   "jobs": [
     {
-      "company": "㈜루트세미콘",
-      "title": "반도체 품질관리·품질검사 인턴 (정규직 전환 가능)",
-      "category": "품질/테스트",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "경기 부천",
-      "experience": "신입 인턴 3개월 (고졸 이상)",
-      "deadline": "2026-11-13",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50163908"
-    },
-    {
-      "company": "㈜엘에이티",
-      "title": "반도체·디스플레이 장비 공정개발팀 모집",
-      "category": "장비/설비",
-      "location": "경기 수원",
-      "experience": "신입·경력 (대졸 이상)",
-      "deadline": "2026-11-14",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50174346",
-      "majors": [
-        "전자전기",
-        "재료"
-      ]
-    },
-    {
-      "company": "㈜인코원",
-      "title": "반도체 광학 검사장비 Setup·유지보수 (CS팀)",
-      "category": "장비/설비",
+      "company": "보스반도체",
+      "title": "'26년 하반기 신입 엔지니어 — SoC RTL·검증·Physical Design·Standard Cell/SRAM 설계",
+      "category": "회로설계",
       "majors": [
         "전자전기"
       ],
       "location": "경기 성남 분당",
-      "experience": "신입·경력 (학력무관)",
-      "deadline": "2026-11-14",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50174211"
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-11-29",
+      "url": "https://linkareer.com/activity/364399",
+      "added": "2026-11-16"
+    },
+    {
+      "company": "주성엔지니어링",
+      "title": "[수시채용] 2026년 11월 신입 Engineer 직군 집중 채용",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 용인",
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-11-17",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50343015",
+      "added": "2026-11-16"
+    },
+    {
+      "company": "고영테크놀러지",
+      "title": "2026년 하반기 신입사원 채용 (검사장비)",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경기 용인",
+      "experience": "신입 (학력무관)",
+      "deadline": "2026-11-18",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50309869",
+      "added": "2026-11-16"
+    },
+    {
+      "company": "㈜영도글로발",
+      "title": "반도체 Ingot Grower 공정기술",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "location": "충남 천안",
+      "experience": "신입·경력 3년↑ (고졸 이상)",
+      "deadline": "2026-12-04",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50302411",
+      "added": "2026-11-16"
     },
     {
       "company": "램리서치매뉴팩춰링코리아",
@@ -171,49 +187,6 @@
       "added": "2026-11-02"
     },
     {
-      "company": "스태츠칩팩코리아",
-      "title": "R&D Engineer — SoC/SiP 패키징·소재·공정 개발",
-      "category": "첨단패키징",
-      "majors": [
-        "재료",
-        "화학",
-        "전자전기"
-      ],
-      "location": "인천 중구 영종",
-      "experience": "신입·경력 4년↑ (학사 이상)",
-      "deadline": "2026-11-15",
-      "url": "https://linkareer.com/activity/359911",
-      "added": "2026-11-09"
-    },
-    {
-      "company": "동진쎄미켐",
-      "title": "11월 정기 채용 — 반도체 소재 R&D·품질·생산기술",
-      "category": "공정/소자",
-      "majors": [
-        "화학",
-        "재료"
-      ],
-      "location": "경기 화성·성남, 인천",
-      "experience": "신입·경력 (대졸 이상)",
-      "deadline": "2026-11-15",
-      "url": "https://linkareer.com/activity/362815",
-      "added": "2026-11-09"
-    },
-    {
-      "company": "싸이머코리아 (ASML 계열)",
-      "title": "평택 사업장 신입·경력 대규모 채용",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "경기 평택",
-      "experience": "신입·경력 (고졸 이상)",
-      "deadline": "2026-11-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50301294",
-      "added": "2026-11-10"
-    },
-    {
       "company": "에스앤에스텍",
       "title": "EUV 공정 엔지니어 — Deposition 공정 (계약직, 정규직 전환 가능)",
       "category": "공정/소자",
@@ -225,21 +198,6 @@
       "experience": "신입·경력 (학사 이상)",
       "deadline": "2027-01-02",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50294474",
-      "added": "2026-11-12"
-    },
-    {
-      "company": "한국알박㈜",
-      "title": "Process Engineer 신입/경력 채용",
-      "category": "공정/소자",
-      "majors": [
-        "재료",
-        "화학",
-        "전자전기"
-      ],
-      "location": "경기 평택",
-      "experience": "신입·경력 3년↑ (대졸 이상)",
-      "deadline": "2026-11-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50274219",
       "added": "2026-11-12"
     }
   ],
