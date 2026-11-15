@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-13T08:27:10+09:00",
+  "newsUpdatedAt": "2026-11-16T08:27:12+09:00",
   "jobsUpdatedAt": "2026-11-13T08:29:56+09:00",
   "sample": false,
   "jobs": [
@@ -284,7 +284,7 @@
       "url": "https://www.thelec.kr/news/articleView.html?idxno=65231"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "해외",
       "press": "ZDNet Korea",
       "time": "11/12",
@@ -300,14 +300,14 @@
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/11",
-      "title": "AMD 에픽 '베니스' 출하 시작…TSMC 2나노 칩렛에 CoWoS-L 패키징",
+      "time": "11/13",
+      "title": "SMIC, 2027년까지 생산능력 부족 지속 전망…장비 리드타임 16~24개월",
       "summary": [
-        "TSMC 2나노 컴퓨트 칩렛+6나노 I/O 다이, 최대 256코어",
-        "AMD 주장: 전작 '튜린' 대비 성능 최대 2배, 와트당 성능 40%↑",
-        "ASE·SPIL과 2.5D 브리지 개발, PTI와 패널 팬아웃 브리지 검증 완료"
+        "3분기 매출 약 31.9억 달러(전년비 33.9%↑), 가동률 97.3%",
+        "공동 CEO: 부족 상황 2028년 중후반까지 이어질 가능성",
+        "4분기 매출 4~6%↑·매출총이익률 26~28% 가이던스(전망)"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/11/news-amd-epyc-venice-cpus-begin-shipping-on-tsmc-2nm-verano-reportedly-to-adopt-n2p-with-a14-planned-for-2028/"
+      "url": "https://www.trendforce.com/news/2026/11/13/news-smic-sees-capacity-tightness-through-2027-possibly-into-2h28-equipment-lead-times-stretch-to-16-24-months/"
     },
     {
       "scope": "daily",
@@ -326,40 +326,40 @@
       "scope": "daily",
       "tag": "유리기판",
       "press": "ZDNet Korea",
-      "time": "11/11",
-      "title": "유리기판 난제 미세홀 형성…알칼리 소재로 뚫는다",
+      "time": "11/15",
+      "title": "CSOT, 반도체 유리 코어 기판 시제품 공개...종횡비 10:1",
       "summary": [
-        "독일 레나, 11/5 ISMP2026서 알칼리 식각 TGV 가공 기술 발표",
-        "테이퍼각 약 1°(산 식각 3~5°), 50µm 미만 홀 2~3시간 목표",
-        "시장 진입 추진 단계, 양산 보도는 아님"
+        "11/13 중국 DTC 2026서 시제품 3종 전시, 510×515mm 패널",
+        "TGV 종횡비 10:1, 패널당 TGV 500만 개↑(3호), 누설 비아율 2ppm 미만",
+        "BOE는 15:1·24층 공개, 양사 모두 양산 전 개발·검증 단계"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261111100326"
+      "url": "https://zdnet.co.kr/view/?no=20261113124245"
     },
     {
       "scope": "daily",
       "tag": "소부장",
-      "press": "디일렉",
-      "time": "11/13",
-      "title": "SFA, 3분기 반도체 수주 비중 57%로 확대",
+      "press": "ZDNet Korea",
+      "time": "11/15",
+      "title": "AI 반도체 호황에 ICT 수출 증가율 첫 200% 돌파",
       "summary": [
-        "3분기 신규 수주 1,356억원 중 반도체 772억원(56.9%)",
-        "별도 매출 1,923억원·영업이익 266억원, 영업이익률 13.8%",
-        "연간 수주 목표 1조3,000억원 유지"
+        "10월 ICT 수출 703억5000만 달러, 전년 동월비 202.0%↑",
+        "반도체 564억7000만 달러(259.4%↑), ICT 수출의 80.3%",
+        "SSD 56억4000만 달러(584.3%↑), 무역수지 505억5000만 달러 흑자(잠정)"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=65365"
+      "url": "https://zdnet.co.kr/view/?no=20261115004601"
     },
     {
       "scope": "daily",
-      "tag": "채용",
-      "press": "ZDNet Korea",
-      "time": "11/11",
-      "title": "학력폐지·억대 성과급...SK하이닉스, 생산직 채용 '후끈'",
+      "tag": "파운드리",
+      "press": "서울경제",
+      "time": "11/15",
+      "title": "삼성, 美서 스페이스X 위성 칩 만든다",
       "summary": [
-        "메인트·오퍼레이터 모집, 17일까지 서류 접수, 학력 제한 폐지",
-        "근무지 이천·용인·청주, 내년 2월 근무 가능자, 12월 면접",
-        "1인당 약 8억원 성과급은 기자 단순 계산(공식 발표 아님)"
+        "삼성 오스틴 팹서 스타링크용 MCU 'STM32V8' 생산 계획(18나노 FD-SOI)",
+        "계약은 공식 확인 안 됨, 업계 관계자 전망 단계",
+        "오스틴 약 19억 달러 증설, 가동 목표 2030년까지"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261111133026"
+      "url": "https://www.sedaily.com/article/20114539"
     },
     {
       "scope": "weekly",
@@ -375,17 +375,17 @@
       "url": "https://zdnet.co.kr/view/?no=20261109141852"
     },
     {
-      "scope": "weekly",
-      "tag": "투자",
-      "press": "EBN",
-      "time": "11/08",
-      "title": "삼성전자 현금 곳간 215조원 돌파…주주환원·미래투자 '통 큰 베팅' 전망",
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/13",
+      "title": "TSMC, 3D D램 루머 일축…HBM 베이스 다이·패키징에서는 역할 유지",
       "summary": [
-        "3분기말 현금 자산 214조8000억원, 직전 분기 190조원",
-        "올해 시설투자 84조4000억원 중 반도체 76조8000억원",
-        "주주환원 90~110조원 계획, 최종안은 내년 1월 확정"
+        "TSMC는 D램 직접 생산 계획 없음, 핵심은 파운드리 사업",
+        "TrendForce 전망: HBM4E부터 베이스 다이에 TSMC 첨단 공정 채택 확대",
+        "퀄컴 HBC, 2027년 상반기 샘플 출하 예정(웨이퍼 간 본딩 협업)"
       ],
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1730821"
+      "url": "https://www.trendforce.com/news/2026/11/13/news-tsmc-pushes-back-on-3d-dram-rumors-three-memory-plays-where-it-still-has-a-say/"
     },
     {
       "scope": "weekly",
