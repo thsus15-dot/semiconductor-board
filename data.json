@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-16T08:27:12+09:00",
+  "newsUpdatedAt": "2026-11-17T08:27:11+09:00",
   "jobsUpdatedAt": "2026-11-16T08:29:36+09:00",
   "sample": false,
   "jobs": [
@@ -216,7 +216,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261110104822"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "첨단패키징",
       "press": "ZDNet Korea",
       "time": "11/12",
@@ -256,19 +256,45 @@
     },
     {
       "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/13",
-      "title": "SMIC, 2027년까지 생산능력 부족 지속 전망…장비 리드타임 16~24개월",
+      "tag": "소부장",
+      "press": "ZDNet Korea",
+      "time": "11/16",
+      "title": "[르포] 양산 검증 장벽 허문다…SK하이닉스가 용인에 품은 '상생의 팹'",
       "summary": [
-        "3분기 매출 약 31.9억 달러(전년비 33.9%↑), 가동률 97.3%",
-        "공동 CEO: 부족 상황 2028년 중후반까지 이어질 가능성",
-        "4분기 매출 4~6%↑·매출총이익률 26~28% 가이던스(전망)"
+        "트리니티팹 총 8,746억원(SK 4,432억·정부 3,736억·지자체 577억)",
+        "클린룸 약 1,000평·12인치 장비 51대, 공정률 89%",
+        "준공 2027년 5월, 서비스 개시는 2027년 4분기 목표"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/13/news-smic-sees-capacity-tightness-through-2027-possibly-into-2h28-equipment-lead-times-stretch-to-16-24-months/"
+      "url": "https://zdnet.co.kr/view/?no=20261113134910"
     },
     {
       "scope": "daily",
+      "tag": "설비투자",
+      "press": "ZDNet Korea",
+      "time": "11/16",
+      "title": "삼성·SK하이닉스, 역대 최대 시설투자…3분기 누적 88조원",
+      "summary": [
+        "양사 합산 약 88.1조원, 전년비 70%↑",
+        "삼성 56.9조원(반도체 52.8조), SK하이닉스 31.2조원",
+        "삼성 연간 시설투자 약 84.4조원 계획, 4분기 추가 증가 전망"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261116175638"
+    },
+    {
+      "scope": "daily",
+      "tag": "소부장",
+      "press": "디일렉",
+      "time": "11/16",
+      "title": "케이씨텍, SK하이닉스에 700억원 규모 세정장비 공급",
+      "summary": [
+        "웨이퍼 세정장비 약 699억원, 전년 매출의 18.26%",
+        "납품기한 2027년 6월 25일",
+        "11월 SK하이닉스 수주 2건 합계 약 910억원"
+      ],
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65494"
+    },
+    {
+      "scope": "weekly",
       "tag": "정책",
       "press": "산업통상부",
       "time": "11/12",
@@ -294,8 +320,8 @@
       "url": "https://zdnet.co.kr/view/?no=20261113124245"
     },
     {
-      "scope": "daily",
-      "tag": "소부장",
+      "scope": "weekly",
+      "tag": "수출",
       "press": "ZDNet Korea",
       "time": "11/15",
       "title": "AI 반도체 호황에 ICT 수출 증가율 첫 200% 돌파",
@@ -308,55 +334,42 @@
     },
     {
       "scope": "daily",
-      "tag": "파운드리",
+      "tag": "시황",
       "press": "서울경제",
-      "time": "11/15",
-      "title": "삼성, 美서 스페이스X 위성 칩 만든다",
+      "time": "11/16",
+      "title": "미국 법원, 삼성·하이닉스 등 ‘담합소송 중지 신청’ 기각",
       "summary": [
-        "삼성 오스틴 팹서 스타링크용 MCU 'STM32V8' 생산 계획(18나노 FD-SOI)",
-        "계약은 공식 확인 안 됨, 업계 관계자 전망 단계",
-        "오스틴 약 19억 달러 증설, 가동 목표 2030년까지"
+        "D램 가격담합 집단소송, 삼성·SK·마이크론 중지 신청 기각(소송 계속)",
+        "법원은 담합 인정이 아닌 '그럴듯한 정황' 수준 판단",
+        "답변 기한 12/7, 첫 사건관리회의 2027년 1월 12일"
       ],
-      "url": "https://www.sedaily.com/article/20114539"
+      "url": "https://www.sedaily.com/article/20115048"
     },
     {
-      "scope": "weekly",
-      "tag": "차량반도체",
+      "scope": "daily",
+      "tag": "해외",
       "press": "ZDNet Korea",
-      "time": "11/09",
-      "title": "'우리는 원팀' 삼성·현대차그룹, 미래 모빌리티·피지컬 AI 동행",
+      "time": "11/16",
+      "title": "AMD, 차세대 '인스팅트 MI400' GPU 라인업 확대…엔비디아 '베라루빈' 겨냥",
       "summary": [
-        "삼성, 서천연수원서 현대차그룹 경영진 초청 'HMG 어프리시에이션 데이'",
-        "양 그룹 경영진 등 177명 참석, 전영현·장재훈 부회장 등",
-        "삼성 DS 차량용 반도체 기술 전시, 구체 계약 내용은 없음"
+        "MI450X 추가: GPU당 HBM4 288GB, MI430X는 HBM4 432GB",
+        "MI455X, 자체 MLPerf 테스트서 베라루빈 대비 최대 30%↑ 주장",
+        "출시 일정은 기사에 언급 없음"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261109141852"
+      "url": "https://zdnet.co.kr/view/?no=20261116173129"
     },
     {
       "scope": "daily",
       "tag": "해외",
       "press": "TrendForce(영문)",
-      "time": "11/13",
-      "title": "TSMC, 3D D램 루머 일축…HBM 베이스 다이·패키징에서는 역할 유지",
+      "time": "11/16",
+      "title": "알리바바 T-Head·푸야반도체, 홍콩 상장 추진…신더반도체는 홍콩 증시 데뷔",
       "summary": [
-        "TSMC는 D램 직접 생산 계획 없음, 핵심은 파운드리 사업",
-        "TrendForce 전망: HBM4E부터 베이스 다이에 TSMC 첨단 공정 채택 확대",
-        "퀄컴 HBC, 2027년 상반기 샘플 출하 예정(웨이퍼 간 본딩 협업)"
+        "T-Head, 홍콩 본토 메인보드 상장 신청(상장 후에도 알리바바 자회사)",
+        "신더반도체(첨단 패키징 2025년 매출 7.37억 위안, 72.8%) 홍콩 상장",
+        "SRI(ALD·이온주입 장비) 상하이 과창판 IPO 신청 접수"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/13/news-tsmc-pushes-back-on-3d-dram-rumors-three-memory-plays-where-it-still-has-a-say/"
-    },
-    {
-      "scope": "weekly",
-      "tag": "패키징소재",
-      "press": "뉴스1",
-      "time": "11/09",
-      "title": "서울시, 독일 헨켈 반도체 R&D센터 유치…2031년까지 121억 투자",
-      "summary": [
-        "헨켈, 가산디지털단지 패키징 소재 R&D센터에 2031년까지 121억 투자",
-        "전문 연구인력 15명 신규 채용, 고성능 접착제·방열 소재 개발",
-        "서울시와 외국인투자 업무협약, 국내 반도체 기업과 공동연구 추진"
-      ],
-      "url": "https://www.news1.kr/local/moi/6347182"
+      "url": "https://www.trendforce.com/news/2026/11/16/news-t-head-puya-semiconductor-plan-hong-kong-listings-xfusion-ipo-hearing-approaches/"
     },
     {
       "scope": "weekly",
