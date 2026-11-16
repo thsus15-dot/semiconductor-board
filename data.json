@@ -1,8 +1,22 @@
 {
   "newsUpdatedAt": "2026-11-17T08:27:11+09:00",
-  "jobsUpdatedAt": "2026-11-16T08:29:36+09:00",
+  "jobsUpdatedAt": "2026-11-17T08:30:00+09:00",
   "sample": false,
   "jobs": [
+    {
+      "company": "도레이첨단소재",
+      "title": "2026 하반기 신입/경력 채용 — 생산·연구/R&D(방열소재 등)",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학"
+      ],
+      "location": "경북 구미·전북 군산·서울 강서",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-11-29",
+      "url": "https://linkareer.com/activity/364838",
+      "added": "2026-11-17"
+    },
     {
       "company": "보스반도체",
       "title": "'26년 하반기 신입 엔지니어 — SoC RTL·검증·Physical Design·Standard Cell/SRAM 설계",
