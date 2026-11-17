@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-18T08:27:11+09:00",
-  "jobsUpdatedAt": "2026-11-17T08:30:00+09:00",
+  "jobsUpdatedAt": "2026-11-18T08:30:10+09:00",
   "sample": false,
   "jobs": [
     {
@@ -28,20 +28,6 @@
       "experience": "신입 (대졸 이상)",
       "deadline": "2026-11-29",
       "url": "https://linkareer.com/activity/364399",
-      "added": "2026-11-16"
-    },
-    {
-      "company": "주성엔지니어링",
-      "title": "[수시채용] 2026년 11월 신입 Engineer 직군 집중 채용",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "경기 용인",
-      "experience": "신입 (대졸 이상)",
-      "deadline": "2026-11-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50343015",
       "added": "2026-11-16"
     },
     {
@@ -106,20 +92,6 @@
       "experience": "신입 (대졸 이상)",
       "deadline": "2026-12-06",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50121161"
-    },
-    {
-      "company": "세메스",
-      "title": "2026년 하반기 신입채용 — 기구·SW·전장·공정설계",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "충남 천안·경기 화성",
-      "experience": "신입 (학력무관)",
-      "deadline": "2026-11-17",
-      "url": "https://linkareer.com/activity/363309",
-      "added": "2026-11-11"
     },
     {
       "company": "KLA",
@@ -213,6 +185,34 @@
       "deadline": "2027-01-02",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50294474",
       "added": "2026-11-12"
+    },
+    {
+      "company": "㈜에스에프에이",
+      "title": "2026년 SFA 수시채용 — 반도체 기구·시스템설계·PM 등",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 화성",
+      "experience": "신입·경력 1년↑ (대졸 이상)",
+      "deadline": "2026-12-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50362159",
+      "added": "2026-11-18"
+    },
+    {
+      "company": "㈜히팅스퀘어",
+      "title": "반도체 부품 생산기술/생산관리 신입사원",
+      "category": "장비/설비",
+      "majors": [
+        "재료",
+        "전자전기"
+      ],
+      "location": "경기 화성",
+      "experience": "신입",
+      "deadline": "2026-12-12",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50354063",
+      "added": "2026-11-18"
     }
   ],
   "news": [
