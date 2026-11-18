@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-18T08:27:11+09:00",
+  "newsUpdatedAt": "2026-11-19T08:27:10+09:00",
   "jobsUpdatedAt": "2026-11-18T08:30:10+09:00",
   "sample": false,
   "jobs": [
@@ -243,7 +243,7 @@
       "url": "https://www.trendforce.com/news/2026/11/18/news-samsung-apple-reportedly-finalizing-4-5-year-dram-lta-with-minimum-supply-commitment-starting-in-2027/"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "수출통제",
       "press": "ZDNet Korea",
       "time": "11/17",
@@ -283,29 +283,29 @@
     },
     {
       "scope": "daily",
-      "tag": "패키징",
+      "tag": "소부장",
       "press": "디일렉",
-      "time": "11/17",
-      "title": "KPCA, PCB와 패키징 교육 전국으로 확대",
+      "time": "11/18",
+      "title": "GST, 머스크 '테라팹'에 스크러버·칠러 수천대 공급 타진",
       "summary": [
-        "PCB·반도체 패키징 출장교육 전국 확대",
-        "경상국립대 등과 협력, 과정에 빌드업 PCB·IC 기판 포함",
-        "PCB 자격증 취득자를 협회 회원사 채용과 연계"
+        "테라팹이 필요한 장비 '수천대 수준', 계약 아닌 타진 단계",
+        "9월 미국 법인 통해 첫 접촉, 납기·사양 기준 검토 중",
+        "경쟁사 유니셈도 공급 논의, 테라팹 양산 목표 2028년 하반기"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=65552"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65598"
     },
     {
       "scope": "daily",
-      "tag": "유리기판",
+      "tag": "장비",
       "press": "ZDNet Korea",
-      "time": "11/15",
-      "title": "CSOT, 반도체 유리 코어 기판 시제품 공개...종횡비 10:1",
+      "time": "11/18",
+      "title": "특허법원, 코쿠사이 '반도체 ALD 장비' 특허 1건 유효 판결...유진테크에 불리",
       "summary": [
-        "11/13 중국 DTC 2026서 시제품 3종 전시, 510×515mm 패널",
-        "TGV 종횡비 10:1, 패널당 TGV 500만 개↑(3호), 누설 비아율 2ppm 미만",
-        "BOE는 15:1·24층 공개, 양사 모두 양산 전 개발·검증 단계"
+        "특허법원, '277 특허 쟁점 청구항 모두 유효 판단",
+        "코쿠사이 승소·유진테크 패소, 유진테크는 대법원 상고 가능",
+        "'961 특허는 대법원서 대부분 무효 확정, '052는 상고심 중"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261113124245"
+      "url": "https://zdnet.co.kr/view/?no=20261118192620"
     },
     {
       "scope": "weekly",
@@ -361,42 +361,42 @@
     },
     {
       "scope": "weekly",
-      "tag": "소부장",
+      "tag": "설비투자",
+      "press": "더리더스",
+      "time": "11/18",
+      "title": "광주 군공항 부지 반도체 산단 배분 합의…삼성 남쪽·SK 북쪽",
+      "summary": [
+        "호남 반도체 부지 삼성 남쪽 약 120만평·SK 북쪽 약 100만평",
+        "나머지 약 30만평은 도로·공용시설 등 기반시설용",
+        "조선·뉴스1·KBC 등 다수 보도, 세부는 협의 과정서 변동 가능"
+      ],
+      "url": "https://www.theleader.co.kr/news/articleView.html?idxno=11761"
+    },
+    {
+      "scope": "weekly",
+      "tag": "HBM",
       "press": "ZDNet Korea",
-      "time": "11/16",
-      "title": "[르포] 양산 검증 장벽 허문다…SK하이닉스가 용인에 품은 '상생의 팹'",
+      "time": "11/18",
+      "title": "HBM4 가격, 내년 2배 껑충…삼성·SK AI 메모리 사업 '청신호'",
       "summary": [
-        "트리니티팹 총 8,746억원(SK 4,432억·정부 3,736억·지자체 577억)",
-        "클린룸 약 1,000평·12인치 장비 51대, 공정률 89%",
-        "준공 2027년 5월, 서비스 개시는 2027년 4분기 목표"
+        "트렌드포스 전망: HBM4 Gb당 2.05달러↑→내년 3~5.5달러",
+        "HBM4E는 5달러 이상 논의 중, D램 웨이퍼 중 HBM 비중 23%→30% 전망",
+        "낸드는 YMTC 증설로 내년 2분기부터 하락 전망"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261113134910"
+      "url": "https://zdnet.co.kr/view/?no=20261118120439"
     },
     {
-      "scope": "weekly",
-      "tag": "시황",
-      "press": "서울경제",
-      "time": "11/16",
-      "title": "미국 법원, 삼성·하이닉스 등 ‘담합소송 중지 신청’ 기각",
-      "summary": [
-        "D램 가격담합 집단소송, 삼성·SK·마이크론 중지 신청 기각(소송 계속)",
-        "법원은 담합 인정이 아닌 '그럴듯한 정황' 수준 판단",
-        "답변 기한 12/7, 첫 사건관리회의 2027년 1월 12일"
-      ],
-      "url": "https://www.sedaily.com/article/20115048"
-    },
-    {
-      "scope": "weekly",
+      "scope": "daily",
       "tag": "해외",
-      "press": "TechPowerUp(영문)",
-      "time": "11/12",
-      "title": "어플라이드머티어리얼즈, 2026 회계연도 4분기 실적…매출 104.1억달러(전년비 53%↑)",
+      "press": "TrendForce(영문)",
+      "time": "11/18",
+      "title": "구글, TPU용 HBM 직접 구매 추진 보도…브로드컴 경유 비용 절감 노려",
       "summary": [
-        "4분기 매출 104.1억달러, 비GAAP EPS 4.16달러",
-        "연간 매출 344.5억달러(21%↑), 잉여현금흐름 4분기 26억달러",
-        "1분기 가이던스(전망) 매출 약 111억달러, EPS 4.35달러(중간값)"
+        "조선비즈 보도 인용, 구글·메모리사 공식 확인 없음",
+        "TPU 설계·패키징·HBM 묶음 구조 대신 HBM 직접 조달 검토",
+        "SK하이닉스는 향후 TPU용 맞춤형 HBM 공동 개발 제안"
       ],
-      "url": "https://www.techpowerup.com/354766/applied-materials-announces-fourth-quarter-and-fiscal-year-2026-results"
+      "url": "https://www.trendforce.com/news/2026/11/18/news-google-reportedly-eyes-direct-hbm-purchases-for-tpus-reducing-broadcom-related-costs/"
     },
     {
       "scope": "weekly",
