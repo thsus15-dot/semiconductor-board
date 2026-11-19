@@ -20,19 +20,19 @@
     [data-url] { cursor:pointer; }
   </style>
 </head>
-<body class="h-screen w-screen overflow-hidden flex flex-col justify-between p-5 gap-4 bg-gradient-to-br from-[#0b0f19] via-[#111827] to-[#0f172a]">
+<body class="min-h-screen lg:h-screen lg:w-screen lg:overflow-hidden flex flex-col justify-between p-3 lg:p-5 gap-3 lg:gap-4 bg-gradient-to-br from-[#0b0f19] via-[#111827] to-[#0f172a]">
 
   <!-- 상단 헤더 -->
-  <header class="h-[9%] bg-slate-900/90 border border-slate-700/70 rounded-2xl px-6 flex items-center justify-between shadow-lg">
+  <header class="lg:h-[9%] bg-slate-900/90 border border-slate-700/70 rounded-2xl px-4 py-3 lg:px-6 lg:py-0 flex flex-wrap gap-3 items-center justify-between shadow-lg">
     <div class="flex items-center gap-4">
       <div class="w-3.5 h-10 bg-cyan-400 rounded-full shadow-[0_0_12px_#22d3ee]"></div>
       <div>
         <div class="flex items-center gap-2.5">
-          <h1 class="text-2xl font-extrabold tracking-tight text-white">SEMICONDUCTOR LIVE BOARD</h1>
+          <h1 class="text-lg lg:text-2xl font-extrabold tracking-tight text-white">SEMICONDUCTOR LIVE BOARD</h1>
           <span id="sample-badge" class="hidden px-2.5 py-0.5 text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/40 rounded-full">샘플 데이터</span>
           <span id="stale-badge" class="hidden px-2.5 py-0.5 text-xs font-bold bg-rose-500/20 text-rose-300 border border-rose-500/40 rounded-full">데이터 갱신 지연</span>
         </div>
-        <p class="text-sm text-slate-400">반도체 채용 현황 및 산업 뉴스 브리핑</p>
+        <p class="hidden lg:block text-sm text-slate-400">반도체 채용 현황 및 산업 뉴스 브리핑</p>
       </div>
     </div>
 
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="flex items-center gap-5">
+    <div class="hidden lg:flex items-center gap-5">
       <button onclick="toggleAutoPlay()" class="px-4 py-2.5 rounded-xl bg-slate-800 active:scale-95 border border-slate-600 text-sm font-semibold flex items-center gap-2 transition">
         <span id="play-icon" class="text-emerald-400">⏸</span>
         <span id="play-text">자동롤링 중 (15s)</span>
@@ -61,20 +61,20 @@
   </header>
 
   <!-- 중앙 -->
-  <main class="h-[81%] grid grid-cols-12 gap-5">
+  <main class="flex flex-col gap-3 lg:h-[81%] lg:grid lg:grid-cols-12 lg:gap-5">
     <section class="col-span-7 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-4 flex flex-col shadow-xl relative overflow-hidden">
       <div class="absolute top-0 left-0 w-full h-1 bg-slate-800">
         <div id="job-progress-bar" class="h-full bg-cyan-400 progress-transition" style="width:0%"></div>
       </div>
 
-      <div class="flex items-center justify-between mb-3 mt-1">
+      <div class="flex flex-wrap gap-2 items-center justify-between mb-3 mt-1">
         <div class="flex items-center gap-2">
           <span class="text-2xl">💼</span>
           <h2 class="text-xl font-bold text-white">반도체 채용 공고</h2>
           <span id="jobs-stamp" class="text-xs font-semibold text-slate-400 bg-slate-800/80 border border-slate-700 px-2 py-0.5 rounded-md ml-1">-</span>
-          <span class="text-xs text-slate-400 ml-1">* 직무 탭을 터치하면 필터링됩니다</span>
+          <span class="hidden lg:inline text-xs text-slate-400 ml-1">* 직무 탭을 터치하면 필터링됩니다</span>
         </div>
-        <div class="flex items-center gap-2">
+        <div class="flex flex-wrap items-center gap-2">
           <button id="btn-list" onclick="setView('list')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-cyan-500 text-slate-950">목록</button>
           <button id="btn-timeline" onclick="setView('timeline')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-slate-800 text-slate-300 border border-slate-700">📅 마감일</button>
           <button id="btn-calendar" onclick="setView('calendar')" class="px-3 py-1.5 rounded-lg text-sm font-bold bg-slate-800 text-slate-300 border border-slate-700">🗓 달력</button>
@@ -84,7 +84,7 @@
 
       <div id="category-filters" class="flex items-center gap-2 mb-3 flex-wrap"></div>
 
-      <div id="job-list-container" class="grid grid-cols-2 gap-3.5 flex-1"></div>
+      <div id="job-list-container" class="grid grid-cols-1 lg:grid-cols-2 gap-3.5 flex-1"></div>
     </section>
 
     <section class="col-span-5 bg-slate-900/80 border border-slate-700/70 rounded-2xl p-4 flex flex-col shadow-xl overflow-hidden">
@@ -106,7 +106,7 @@
   </main>
 
   <!-- 하단 티커 -->
-  <footer class="h-[7%] bg-slate-900/95 border border-slate-700/80 rounded-2xl px-4 flex items-center overflow-hidden shadow-lg">
+  <footer class="py-2 lg:py-0 lg:h-[7%] bg-slate-900/95 border border-slate-700/80 rounded-2xl px-4 flex items-center overflow-hidden shadow-lg">
     <div class="bg-amber-500 text-slate-950 font-extrabold text-sm px-3.5 py-1.5 rounded-lg mr-4 shrink-0 flex items-center gap-1.5 shadow"><span>⚡</span> 안내</div>
     <div class="overflow-hidden whitespace-nowrap w-full relative">
       <div id="ticker-container" class="animate-ticker text-base font-medium text-slate-200 flex items-center"></div>
@@ -123,13 +123,15 @@
   const ROLLING_INTERVAL = 15;
   const NEWS_INTERVAL = 10;
   let newsSeconds = 0;
-  const itemsPerPage = 6;
+  // 폰에서는 넘김·자동재생 없이 전부 펼쳐 스크롤로 본다. QR 대신 카드를 눌러 연다.
+  const isMobile = matchMedia('(max-width: 1023px)').matches;
+  const itemsPerPage = isMobile ? 999 : 6;
 
   let currentCategory = '전체';
   let viewMode = 'list';        // 'list' = 카드 목록, 'timeline' = 마감일 순, 'calendar' = 월 달력
   let calOffset = 0;            // 달력에서 이번 달 기준 ±N개월
   let currentPage = 0;
-  let isAutoPlaying = true;
+  let isAutoPlaying = !isMobile;
   let timerSeconds = 0;
   let activeNewsIndex = 0;
 
@@ -245,7 +247,7 @@
     } else {
       if (currentPage >= pageCount()) currentPage = 0;
       label.innerText = `Page ${currentPage + 1} / ${pageCount()}`;
-      box.className = 'grid grid-cols-2 gap-3.5 flex-1 min-h-0 overflow-y-auto scroll-thin job-scroll';
+      box.className = 'grid grid-cols-1 lg:grid-cols-2 gap-3.5 flex-1 min-h-0 overflow-y-auto scroll-thin job-scroll';
       renderJobs();
     }
   }
@@ -276,7 +278,7 @@
             <span>🎓 ${esc(job.experience)}</span>
           </div>
         </div>
-        <div class="flex flex-col items-center justify-center bg-white p-1.5 rounded-xl shrink-0 shadow">
+        <div class="hidden lg:flex flex-col items-center justify-center bg-white p-1.5 rounded-xl shrink-0 shadow">
           <img src="${qr(job.url)}" alt="" class="w-14 h-14 object-contain" />
           <span class="text-[10px] font-bold text-slate-800 mt-0.5">공고 스캔</span>
         </div>
@@ -372,9 +374,9 @@
           ${job.isNew ? '<span class="px-2 py-0.5 rounded-md text-xs font-black bg-emerald-400 text-slate-950">NEW</span>' : ''}
           <span class="text-base font-extrabold text-amber-300 shrink-0">${esc(job.company)}</span>
           <span class="text-base font-bold text-white truncate flex-1">${esc(job.title)}</span>
-          <span class="text-xs text-slate-300 shrink-0">📍 ${esc(job.location)}</span>
-          <span class="text-xs text-slate-300 shrink-0">🎓 ${esc(job.experience)}</span>
-          <img src="${qr(job.url)}" alt="" class="w-11 h-11 bg-white p-0.5 rounded-lg shrink-0" />
+          <span class="hidden lg:inline text-xs text-slate-300 shrink-0">📍 ${esc(job.location)}</span>
+          <span class="hidden lg:inline text-xs text-slate-300 shrink-0">🎓 ${esc(job.experience)}</span>
+          <img src="${qr(job.url)}" alt="" class="hidden lg:block w-11 h-11 bg-white p-0.5 rounded-lg shrink-0" />
         </div>`;
     }
     html += '</div>';
@@ -438,7 +440,7 @@
             ${lines.map(l => `<li class="flex items-start gap-1.5"><span class="text-cyan-400 font-bold">•</span><span>${esc(l)}</span></li>`).join('')}
           </ul>
         </div>
-        <div class="flex flex-col items-center justify-center bg-white p-1.5 rounded-xl shrink-0 shadow">
+        <div class="hidden lg:flex flex-col items-center justify-center bg-white p-1.5 rounded-xl shrink-0 shadow">
           <img src="${qr(n.url)}" alt="" class="${compact ? 'w-11 h-11' : 'w-14 h-14'} object-contain" />
           <span class="text-[10px] font-bold text-slate-800 mt-0.5">원문</span>
         </div>
@@ -484,6 +486,7 @@
   // 손으로 스크롤하는 중에 화면이 넘어가면 읽을 수가 없다. 20초간 멈췄다가 알아서 되돌아간다.
   let holdTimer = null;
   function holdAutoPlay() {
+    if (isMobile) return;
     if (isAutoPlaying) setAutoPlay(false, true);
     clearTimeout(holdTimer);
     holdTimer = setTimeout(() => setAutoPlay(true, false), 20000);
