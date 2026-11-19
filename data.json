@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-19T08:27:10+09:00",
+  "newsUpdatedAt": "2026-11-20T08:27:13+09:00",
   "jobsUpdatedAt": "2026-11-19T08:29:42+09:00",
   "sample": false,
   "jobs": [
@@ -205,29 +205,29 @@
   "news": [
     {
       "scope": "daily",
-      "tag": "해외",
-      "press": "파이낸셜뉴스",
-      "time": "11/18",
-      "title": "엔비디아, 삼성전기와 기판 신규계약…내년 매출성장률 75%로 상향",
+      "tag": "수출통제",
+      "press": "한국경제",
+      "time": "11/20",
+      "title": "美, 중국 반도체 숨통 더 조인다…삼성·TSMC도 출하 중단",
       "summary": [
-        "3분기 매출 1158억달러, 4분기 전망 1300억달러",
-        "크레스 임시CEO, 삼성전기·킨서스 기판, SPIL 패키징 신규계약 언급",
-        "FY2028 매출 성장률 전망 70%→75%, 계약 규모 미공개"
+        "FT 보도 인용: 삼성·TSMC, 중국 고객사에 일부 칩 출하 일시 중단 통보",
+        "美 BIS 11/16 규정 변경, 중국 최종 고객 대상 수출 허가 필요",
+        "스마트폰용 등 소비자 칩 포함, 두 회사 공식 확인은 없음"
       ],
-      "url": "https://www.fnnews.com/news/202611180759184212"
+      "url": "https://www.hankyung.com/article/2026112088337"
     },
     {
       "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/18",
-      "title": "삼성·애플, 2027년 상반기 시작 4~5년 D램 장기공급계약 최종 조율 보도",
+      "tag": "첨단패키징",
+      "press": "서울경제",
+      "time": "11/20",
+      "title": "SK하이닉스, HBM용 하이브리드 본더 베시에 일괄 발주 추진",
       "summary": [
-        "매일경제 등 보도 인용, 양사 공식 확인은 없음",
-        "최소 D램 공급 물량 포함, 최종 가격은 시황에 따라 결정",
-        "TrendForce: 26년 4분기 범용 D램 계약가 전분기비 10~15%↑ 전망"
+        "16단 이상 HBM용 초기 물량을 네덜란드 베시에 발주 추진(보도)",
+        "청주캠퍼스에 베시·한화세미텍 본더 각 1대 시험 가동 중",
+        "베시 약 100nm vs 국산 약 500nm 오차, 국산은 일부 라인 채택 전망"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/18/news-samsung-apple-reportedly-finalizing-4-5-year-dram-lta-with-minimum-supply-commitment-starting-in-2027/"
+      "url": "https://www.sedaily.com/article/20116636"
     },
     {
       "scope": "weekly",
@@ -243,7 +243,7 @@
       "url": "https://zdnet.co.kr/view/?no=20261117095135"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "D램",
       "press": "디일렉",
       "time": "11/17",
@@ -257,16 +257,16 @@
     },
     {
       "scope": "daily",
-      "tag": "파운드리",
-      "press": "ZDNet Korea",
-      "time": "11/17",
-      "title": "8인치 단계적 철수 삼성 파운드리...韓 팹리스 \"12인치 전환 정책 시급\"",
+      "tag": "공급망",
+      "press": "서울경제",
+      "time": "11/19",
+      "title": "[단독] 中, HBM 핵심 장비 싱가포르 우회 반입",
       "summary": [
-        "기흥 S6-2 가동 중단 결정, 나머지도 2030년까지 순차 중단 전망",
-        "2027년 12인치 MPW 21회(2나노 포함), 8인치는 미진행 가능성",
-        "국내 8인치 팹리스 20~30%가 삼성 파운드리 의존"
+        "中 3개 지역 싱가포르산 열처리 장비 수입 2022년 8808만→올 1~7월 3억4468만 달러",
+        "해당 장비 수입 중 싱가포르 비중 10.7%→42.9%(7월)",
+        "업계는 SK하이닉스 MR-MUF 공정 모방용으로 추정"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261117111401"
+      "url": "https://www.sedaily.com/article/20116697"
     },
     {
       "scope": "daily",
@@ -283,42 +283,42 @@
     },
     {
       "scope": "daily",
-      "tag": "장비",
+      "tag": "해외",
       "press": "ZDNet Korea",
-      "time": "11/18",
-      "title": "특허법원, 코쿠사이 '반도체 ALD 장비' 특허 1건 유효 판결...유진테크에 불리",
+      "time": "11/19",
+      "title": "인텔 파운드리, 2.5차원 패키징 'EMIB' 첫 외부 고객사로 MS 확보",
       "summary": [
-        "특허법원, '277 특허 쟁점 청구항 모두 유효 판단",
-        "코쿠사이 승소·유진테크 패소, 유진테크는 대법원 상고 가능",
-        "'961 특허는 대법원서 대부분 무효 확정, '052는 상고심 중"
+        "EMIB 첫 외부 고객사 MS, 자체 설계 애저 실리콘 패키징에 활용",
+        "인텔은 제온 장기 공급 계약, MS는 18A 고객사이기도 함",
+        "MS 이그나이트 2026 기간 공동 발표(현지 18일)"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261118192620"
+      "url": "https://zdnet.co.kr/view/?no=20261119100612"
     },
     {
-      "scope": "weekly",
-      "tag": "첨단패키징",
-      "press": "ZDNet Korea",
-      "time": "11/12",
-      "title": "공장 가동 1년 앞당겼다…삼성 충청 온양캠퍼스 'AI 반도체 심장' 뛴다",
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/20",
+      "title": "마이크론 \"모든 주요 고객이 3D D램 협력 원해…본격 채택은 2030~31년\" 보도",
       "summary": [
-        "온양 HBM 팹(5라인) 착공, 2028년 6월 가동 목표(1년 앞당김)",
-        "클린룸 3개 층·연면적 9,400평, 생산 품목은 HBM4E",
-        "삼성전기 세종 신규 팹 4.3조 투자, 패키지 기판 2028.9 양산 목표"
+        "CEO가 11/18 행사서 발언, 시장 초기 진입은 2028~29년으로 전망",
+        "2027년 공급량 75% 이미 판매, 장기계약(SCA) 26건 확보",
+        "Investing.com 등 발언록 인용 보도, 별도 공식 자료는 미확인"
       ],
-      "url": "https://zdnet.co.kr/view/?no=20261112113651"
+      "url": "https://www.trendforce.com/news/2026/11/20/news-micron-reportedly-says-all-major-customers-eye-3d-dram-tie-ups-broader-adoption-expected-by-2030-31/"
     },
     {
-      "scope": "weekly",
-      "tag": "정책",
-      "press": "산업통상부",
-      "time": "11/12",
-      "title": "K-온디바이스 AI반도체, '상생'으로 속도낸다",
+      "scope": "daily",
+      "tag": "소부장",
+      "press": "ZDNet Korea",
+      "time": "11/19",
+      "title": "\"수출 1조 달러 주역, K-반도체 생태계\"…SK하이닉스, 소부장 협력 강화",
       "summary": [
-        "총 8,002억원 규모 프로젝트, 2030년까지 AI칩 10종 개발·검증",
-        "자율주행·가전·로봇용 등, 삼성 파운드리 2027년 시제품 21회 계획",
-        "민관합동 전략위원회 출범, 매년 초 연차별 계획 심의"
+        "용인 클러스터에 공동 테스트 팹 '트리니티 팹' 구축, 내년 5월 가동 목표",
+        "약 1000평 클린룸·장비 55대(12인치 양산 장비 37대)",
+        "협력사 양산 수준 환경서 신기술 검증, 217개 소부장 수요 반영"
       ],
-      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172399/view"
+      "url": "https://zdnet.co.kr/view/?no=20261119155807"
     },
     {
       "scope": "weekly",
@@ -373,17 +373,17 @@
       "url": "https://zdnet.co.kr/view/?no=20261118120439"
     },
     {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
+      "scope": "weekly",
+      "tag": "첨단패키징",
+      "press": "파이낸셜뉴스",
       "time": "11/18",
-      "title": "구글, TPU용 HBM 직접 구매 추진 보도…브로드컴 경유 비용 절감 노려",
+      "title": "엔비디아, 삼성전기와 기판 신규계약…내년 매출성장률 75%로 상향",
       "summary": [
-        "조선비즈 보도 인용, 구글·메모리사 공식 확인 없음",
-        "TPU 설계·패키징·HBM 묶음 구조 대신 HBM 직접 조달 검토",
-        "SK하이닉스는 향후 TPU용 맞춤형 HBM 공동 개발 제안"
+        "3분기 매출 1158억달러, 4분기 전망 1300억달러",
+        "크레스 임시CEO, 삼성전기·킨서스 기판, SPIL 패키징 신규계약 언급",
+        "FY2028 매출 성장률 전망 70%→75%, 계약 규모 미공개"
       ],
-      "url": "https://www.trendforce.com/news/2026/11/18/news-google-reportedly-eyes-direct-hbm-purchases-for-tpus-reducing-broadcom-related-costs/"
+      "url": "https://www.fnnews.com/news/202611180759184212"
     },
     {
       "scope": "weekly",
