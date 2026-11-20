@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-20T14:06:32+09:00",
-  "jobsUpdatedAt": "2026-11-20T08:30:43+09:00",
+  "jobsUpdatedAt": "2026-11-20T14:10:32+09:00",
   "sample": false,
   "jobs": [
     {
@@ -147,19 +147,6 @@
       "added": "2026-11-02"
     },
     {
-      "company": "칸켄테크노코리아㈜",
-      "title": "반도체 스크러버 장비 유지보수직 (청주 SK Siltron·Key-Foundry)",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기"
-      ],
-      "location": "충북 청주",
-      "experience": "경력무관 (학력무관)",
-      "deadline": "2026-11-30",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50089328",
-      "added": "2026-11-02"
-    },
-    {
       "company": "에스앤에스텍",
       "title": "EUV 공정 엔지니어 — Deposition 공정 (계약직, 정규직 전환 가능)",
       "category": "공정/소자",
@@ -200,6 +187,92 @@
       "deadline": "2026-12-12",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50354063",
       "added": "2026-11-18"
+    },
+    {
+      "company": "스태츠칩팩코리아",
+      "title": "Process Engineer 신입 모집",
+      "category": "첨단패키징",
+      "majors": [
+        "재료",
+        "화학",
+        "전자전기"
+      ],
+      "location": "인천 영종구",
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-11-29",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55592667",
+      "added": "2026-11-20"
+    },
+    {
+      "company": "㈜네패스아크",
+      "title": "TEST 공정 엔지니어 채용",
+      "category": "첨단패키징",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "충북 괴산",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "상시",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55580886",
+      "added": "2026-11-20"
+    },
+    {
+      "company": "㈜퀄리타스반도체",
+      "title": "반도체 IP 실리콘 검증 Engineer (신입)",
+      "category": "품질/테스트",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경기 성남 분당",
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-12-06",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55558359",
+      "added": "2026-11-20"
+    },
+    {
+      "company": "솔브레인엔티씨㈜",
+      "title": "연구개발(반도체공정) 채용",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "충남 공주",
+      "experience": "신입·경력 3년↑ (석사 이상)",
+      "deadline": "2026-11-30",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50383613",
+      "added": "2026-11-20"
+    },
+    {
+      "company": "하나머티리얼즈㈜",
+      "title": "각 부문 신입/경력 모집",
+      "category": "공정/소자",
+      "majors": [
+        "재료",
+        "화학",
+        "전자전기"
+      ],
+      "location": "충남 천안·아산",
+      "experience": "신입·경력 (초대졸 이상)",
+      "deadline": "2026-11-30",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50398275",
+      "added": "2026-11-20"
+    },
+    {
+      "company": "국방과학연구소",
+      "title": "'27년 상반기 임용 공개채용 (연구직·기술직)",
+      "category": "회로설계",
+      "majors": [
+        "전자전기",
+        "재료",
+        "화학"
+      ],
+      "location": "대전·서울·충남 등",
+      "experience": "신입·경력 (대졸·석사·박사)",
+      "deadline": "2026-12-02",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=306990",
+      "added": "2026-11-20"
     }
   ],
   "news": [
