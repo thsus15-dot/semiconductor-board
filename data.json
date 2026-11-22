@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-23T08:27:26+09:00",
-  "jobsUpdatedAt": "2026-11-20T14:10:32+09:00",
+  "jobsUpdatedAt": "2026-11-23T08:32:25+09:00",
   "sample": false,
   "jobs": [
     {
@@ -45,18 +45,6 @@
       "added": "2026-11-16"
     },
     {
-      "company": "램리서치매뉴팩춰링코리아",
-      "title": "반도체 장비 Test Engineer (계약직)",
-      "category": "품질/테스트",
-      "location": "경기 오산",
-      "experience": "신입·경력",
-      "deadline": "2026-11-28",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50074469",
-      "majors": [
-        "전자전기"
-      ]
-    },
-    {
       "company": "㈜지아이에스",
       "title": "반도체 Set-up·A/S 장비기술팀 신입/경력",
       "category": "장비/설비",
@@ -79,20 +67,6 @@
       "experience": "신입 (대졸 이상)",
       "deadline": "2026-12-06",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50121161"
-    },
-    {
-      "company": "KLA",
-      "title": "2026년 11월 신입 정규직 — Applications·Algorithm Engineer, CS 인턴",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기",
-        "재료"
-      ],
-      "location": "경기 화성·평택·이천, 충북 청주",
-      "experience": "신입 (학사 이상, Applications는 석사 이상)",
-      "deadline": "2026-11-22",
-      "url": "https://linkareer.com/activity/364103",
-      "added": "2026-11-13"
     },
     {
       "company": "테크윙",
@@ -132,19 +106,6 @@
         "전자전기",
         "재료"
       ]
-    },
-    {
-      "company": "칸켄테크노코리아㈜",
-      "title": "반도체 스크러버 장비 유지보수직 (청주 SK하이닉스)",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기"
-      ],
-      "location": "충북 청주",
-      "experience": "경력무관 (학력무관)",
-      "deadline": "2026-12-05",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50116662",
-      "added": "2026-11-02"
     },
     {
       "company": "에스앤에스텍",
@@ -273,6 +234,47 @@
       "deadline": "2026-12-02",
       "url": "https://job.alio.go.kr/recruitview.do?idx=306990",
       "added": "2026-11-20"
+    },
+    {
+      "company": "온세미컨덕터코리아(주)",
+      "title": "Wafer Level Reliability Engineer(신입/반도체)",
+      "category": "품질/테스트",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 부천",
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-11-29",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55607196",
+      "added": "2026-11-23"
+    },
+    {
+      "company": "와이씨켐(주)",
+      "title": "반도체 소재개발 연구원 및 연구보조 채용 공고",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "경북 성주",
+      "experience": "경력무관 (초대졸 이상)",
+      "deadline": "2026-12-16",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55582595",
+      "added": "2026-11-23"
+    },
+    {
+      "company": "기가비스(주)",
+      "title": "반도체 기판 검사 장비 제작팀 기구,전장 파트 모집",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "경기 화성 동탄",
+      "experience": "신입·경력 (고졸 이상)",
+      "deadline": "2026-12-13",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55286118",
+      "added": "2026-11-23"
     }
   ],
   "news": [
