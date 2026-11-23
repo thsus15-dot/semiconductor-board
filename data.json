@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-23T08:27:26+09:00",
+  "newsUpdatedAt": "2026-11-23T12:26:40+09:00",
   "jobsUpdatedAt": "2026-11-23T08:32:25+09:00",
   "sample": false,
   "jobs": [
@@ -329,6 +329,32 @@
         "3분기 누적 가동률 증평 113.5%·김천 103.6%로 100% 초과"
       ],
       "url": "https://www.sedaily.com/article/20117359"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외",
+      "press": "TrendForce(영문)",
+      "time": "11/23",
+      "title": "美 미비움, 고순도 서브마이크론 질화갈륨(GaN) 분말 합성 성공",
+      "summary": [
+        "美 미비움(Mivium), 300~500nm 단일상 고순도 GaN 분말 합성",
+        "제3자 기관 XRD·SEM 등 6종 분석서 불순물 미검출·1:1 비율 확인",
+        "차세대 전력·RF 반도체용 GaN 기판·박막 증착 원료로 활용 가능"
+      ],
+      "url": "https://www.trendforce.com/news/2026/11/23/news-high-purity-submicron-gan-particles-successfully-synthesized/"
+    },
+    {
+      "scope": "daily",
+      "tag": "소재·부품",
+      "press": "ZDNet Korea",
+      "time": "11/22",
+      "title": "디에스테크노, 티씨케이 '반도체 식각링 특허 정정'에 무효심판 청구",
+      "summary": [
+        "디에스테크노, 티씨케이 CVD SiC 포커스링 '888 특허 정정에 무효심판 청구",
+        "SiC 포커스링은 반도체 식각 공정에 쓰이는 핵심 소모성 부품",
+        "2019년 시작된 양사 SiC 부품 특허분쟁 7년째 지속 중"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261122124511"
     },
     {
       "scope": "daily",
