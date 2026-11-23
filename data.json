@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-23T14:08:15+09:00",
+  "newsUpdatedAt": "2026-11-24T08:27:27+09:00",
   "jobsUpdatedAt": "2026-11-23T08:32:25+09:00",
   "sample": false,
   "jobs": [
@@ -280,29 +280,42 @@
   "news": [
     {
       "scope": "daily",
-      "tag": "글로벌시황",
-      "press": "한국경제",
+      "tag": "해외",
+      "press": "ZDNet Korea",
       "time": "11/23",
-      "title": "한 주 만에 4조 달러 증발…앤트로픽마저 무너진 나스닥, AI 랠리 끝났나?",
+      "title": "젠슨 황, 엔비디아 CEO 전격 복귀…이사회 만장일치로 복직 의결",
       "summary": [
-        "앤트로픽 상장 후 하락·AI 수익성 회의론에 나스닥 한 주 시총 4조달러 증발",
-        "데이터센터 전력난·주민 반발 및 해외 데이터센터 규제 방침 등 악재 겹쳐",
-        "대중국 반도체 수출통제 강화·금리 경계감에 AI·반도체주 동반 조정"
+        "사임 11일 만에 엔비디아 사장·CEO·이사 만장일치 복귀",
+        "미 정부 고위급 의견 수렴 뒤 국가안보 위험 없음 확인",
+        "콜레트 크레스 임시 CEO는 기존 CFO 직책으로 복귀"
       ],
-      "url": "https://www.hankyung.com/article/202611232904i"
+      "url": "https://zdnet.co.kr/view/?no=20261123232610"
     },
     {
       "scope": "daily",
       "tag": "해외",
-      "press": "이데일리",
-      "time": "11/21",
-      "title": "美 SEC, 엔비디아 회계 조사 착수…주가 일주일새 21% 급락",
+      "press": "TrendForce(영문)",
+      "time": "11/23",
+      "title": "테슬라, 메모리 가격 급등에 AI4.5 메모리 32GB→24GB 축소",
       "summary": [
-        "미 SEC, 엔비디아 회계 관행 및 매출 공시 적정성 조사 착수 보도",
-        "싱가포르 메가스피드 우회수출 의혹·매출 집계 기준 변경 논란 부각",
-        "엔비디아 하루 14% 급락 여파로 필라델피아 반도체지수·AI주 동반 투매"
+        "메모리 가격 급등으로 차세대 AI4.5 용량 32GB→24GB 축소",
+        "LPDDR5X 업그레이드 병행…성능 영향 제한적 설명",
+        "메모리·스토리지 가격 상승에 현행 AI4 원가도 2배 급등"
       ],
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01935206645648016&mediaCodeNo=257"
+      "url": "https://www.trendforce.com/news/2026/11/23/news-tesla-cuts-ai4-5-memory-from-32gb-to-24gb-amid-soaring-costs-ai5-reserved-for-optimus/"
+    },
+    {
+      "scope": "daily",
+      "tag": "첨단패키징",
+      "press": "디일렉",
+      "time": "11/23",
+      "title": "AI발 기판 품귀에... 중견 업계도 증설 또 증설",
+      "summary": [
+        "대덕·이수·심텍 등 중견 7개사 올해 신규 투자 2.8조원",
+        "FC-BGA·FC-CSP·소캠2용 기판 2030년까지 순차 증설",
+        "엔비디아 AI 서버용 소캠2 수요가 메모리 기판 증설 견인"
+      ],
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65234"
     },
     {
       "scope": "daily",
@@ -319,6 +332,32 @@
     },
     {
       "scope": "daily",
+      "tag": "장비",
+      "press": "ZDNet Korea",
+      "time": "11/23",
+      "title": "PSK, 램리서치 상대 베벨에처 특허소송 승소 확정",
+      "summary": [
+        "램리서치 항소 포기로 PSK 특허 비침해 1심 판결 확정",
+        "2021년 시작된 베벨에처 특허침해 소송 5년 만에 종결",
+        "웨이퍼 가장자리 불필요 박막 제거 장비 국산화 입지 강화"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261123211641"
+    },
+    {
+      "scope": "daily",
+      "tag": "AI반도체",
+      "press": "ZDNet Korea",
+      "time": "11/23",
+      "title": "[단독] 국산 NPU 상용 시대 열었다...리벨리온, SKT에 '리벨' 칩 서버 40대 공급",
+      "summary": [
+        "리벨리온, SKT에 리벨-100 탑재 서버 40대 본계약",
+        "200억원대 후반 규모…12월 초 데이터센터 반입 예정",
+        "물량 70~80%를 에이닷 등 실시간 상용 연산에 투입"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261118165352"
+    },
+    {
+      "scope": "daily",
       "tag": "공급망",
       "press": "이데일리",
       "time": "11/23",
@@ -331,7 +370,7 @@
       "url": "https://www.edaily.co.kr/News/Read?newsId=01321846645648672&mediaCodeNo=257"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "첨단패키징",
       "press": "전자신문",
       "time": "11/22",
@@ -342,32 +381,6 @@
         "삼성 열관리 공동설계, 日 DNP 대면적 글래스 코어 기판 성과 공유"
       ],
       "url": "https://www.etnews.com/20261122000042"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/23",
-      "title": "美 미비움, 고순도 서브마이크론 질화갈륨(GaN) 분말 합성 성공",
-      "summary": [
-        "美 미비움(Mivium), 300~500nm 단일상 고순도 GaN 분말 합성",
-        "제3자 기관 XRD·SEM 등 6종 분석서 불순물 미검출·1:1 비율 확인",
-        "차세대 전력·RF 반도체용 GaN 기판·박막 증착 원료로 활용 가능"
-      ],
-      "url": "https://www.trendforce.com/news/2026/11/23/news-high-purity-submicron-gan-particles-successfully-synthesized/"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "ZDNet Korea",
-      "time": "11/22",
-      "title": "대만 노사갈등 겪는 마이크론…싱가포르 HBM 공장은 '순항'",
-      "summary": [
-        "마이크론, 70억달러 규모 싱가포르 HBM 패키징 공장 첫 장비 반입",
-        "2027년 초 첫 물량 출하 예정, 2030년 이후까지 투자 지속",
-        "이익분배 갈등 겪는 대만 타오위안 공장과 대조적 행보"
-      ],
-      "url": "https://zdnet.co.kr/view/?no=20261121200700"
     },
     {
       "scope": "weekly",
@@ -446,19 +459,6 @@
         "조선·뉴스1·KBC 등 다수 보도, 세부는 협의 과정서 변동 가능"
       ],
       "url": "https://www.theleader.co.kr/news/articleView.html?idxno=11761"
-    },
-    {
-      "scope": "weekly",
-      "tag": "D램",
-      "press": "디일렉",
-      "time": "11/17",
-      "title": "[단독] 삼성 차세대 D램 '3트랙' 개발 확정…HBM5는 D0A 웨이퍼 본딩",
-      "summary": [
-        "HBM5용 D0A: D1b 셀·D1d 주변회로 웨이퍼 접합(하이브리드 본딩 예상)",
-        "LPDDR용 D1d, 고성능 D0AV(4F²·VCT)는 2028년 목표",
-        "D1d·D0A는 내년 하반기 양산 라인 이관 목표"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=65559"
     },
     {
       "scope": "weekly",
