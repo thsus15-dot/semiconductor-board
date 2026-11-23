@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-24T08:27:27+09:00",
-  "jobsUpdatedAt": "2026-11-23T08:32:25+09:00",
+  "jobsUpdatedAt": "2026-11-24T08:31:29+09:00",
   "sample": false,
   "jobs": [
     {
@@ -69,19 +69,6 @@
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50121161"
     },
     {
-      "company": "테크윙",
-      "title": "HW(아산) 신입/경력 — 반도체 장비 전기회로·제어 설계",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기"
-      ],
-      "location": "충남 아산",
-      "experience": "신입·경력 (대졸 이상)",
-      "deadline": "2026-12-31",
-      "url": "https://linkareer.com/activity/364101",
-      "added": "2026-11-13"
-    },
-    {
       "company": "에스앤에스텍",
       "title": "IC공정 엔지니어 모집",
       "category": "공정/소자",
@@ -108,20 +95,6 @@
       ]
     },
     {
-      "company": "에스앤에스텍",
-      "title": "EUV 공정 엔지니어 — Deposition 공정 (계약직, 정규직 전환 가능)",
-      "category": "공정/소자",
-      "majors": [
-        "재료",
-        "화학"
-      ],
-      "location": "경기 용인",
-      "experience": "신입·경력 (학사 이상)",
-      "deadline": "2027-01-02",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50294474",
-      "added": "2026-11-12"
-    },
-    {
       "company": "㈜에스에프에이",
       "title": "2026년 SFA 수시채용 — 반도체 기구·시스템설계·PM 등",
       "category": "장비/설비",
@@ -133,20 +106,6 @@
       "experience": "신입·경력 1년↑ (대졸 이상)",
       "deadline": "2026-12-06",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50362159",
-      "added": "2026-11-18"
-    },
-    {
-      "company": "㈜히팅스퀘어",
-      "title": "반도체 부품 생산기술/생산관리 신입사원",
-      "category": "장비/설비",
-      "majors": [
-        "재료",
-        "전자전기"
-      ],
-      "location": "경기 화성",
-      "experience": "신입",
-      "deadline": "2026-12-12",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50354063",
       "added": "2026-11-18"
     },
     {
@@ -275,6 +234,48 @@
       "deadline": "2026-12-13",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55286118",
       "added": "2026-11-23"
+    },
+    {
+      "company": "와이씨 (YC·엑시콘·샘씨엔에스)",
+      "title": "2026년 하반기 신입사원 공개채용",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기",
+        "재료"
+      ],
+      "location": "경기 화성·성남·충남 아산·천안·충북 청주",
+      "experience": "신입 (대졸 이상)",
+      "deadline": "2026-12-04",
+      "url": "https://linkareer.com/activity/366480",
+      "added": "2026-11-24"
+    },
+    {
+      "company": "티이엠씨(주)",
+      "title": "2026년 4분기 부문별 신입/경력 모집",
+      "category": "공정/소자",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "충북 보은",
+      "experience": "신입·경력 (고졸 이상)",
+      "deadline": "2026-12-02",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55466515",
+      "added": "2026-11-24"
+    },
+    {
+      "company": "엘티씨(주)",
+      "title": "품질관리(분석) 신입/경력직 공개채용",
+      "category": "품질/테스트",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "경기 화성",
+      "experience": "경력무관 (대졸 이상)",
+      "deadline": "2026-12-18",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55610823",
+      "added": "2026-11-24"
     }
   ],
   "news": [
