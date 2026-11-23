@@ -332,19 +332,6 @@
     },
     {
       "scope": "daily",
-      "tag": "소재·장비",
-      "press": "디일렉",
-      "time": "11/20",
-      "title": "에스디옵틱스, 日독점 EUV 펠리클 검사장비 첫 상용화",
-      "summary": [
-        "에스디옵틱스, EUV 펠리클 자동검사장비 에스앤에스텍 첫 납품",
-        "자체 초고속 가변초점 'MALS'로 10~20nm 막 0.7㎛ 이물 검출",
-        "日 독점(대당 100억~180억원) 시장에 국내 첫 상용화"
-      ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=65730"
-    },
-    {
-      "scope": "daily",
       "tag": "해외",
       "press": "ZDNet Korea",
       "time": "11/22",
@@ -355,19 +342,6 @@
         "이익분배 갈등 겪는 대만 타오위안 공장과 대조적 행보"
       ],
       "url": "https://zdnet.co.kr/view/?no=20261121200700"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "ZDNet Korea",
-      "time": "11/20",
-      "title": "인텔 \"1.8나노급 18A-P 공정, 외부 고객사 확보\"",
-      "summary": [
-        "립부 탄 CEO, 18일(현지시간) 투모로우X 행사서 첫 외부 고객 계약 공개",
-        "푸시카르 라나데 CTO, X 통해 계약 공정이 '인텔 18A-P'임을 확인",
-        "18A-P는 6월 리스크 생산 돌입, 내년 노바레이크 등에 적용 예정"
-      ],
-      "url": "https://zdnet.co.kr/view/?no=20261120002410"
     },
     {
       "scope": "weekly",
