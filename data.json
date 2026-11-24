@@ -1,6 +1,6 @@
 {
   "newsUpdatedAt": "2026-11-25T08:27:24+09:00",
-  "jobsUpdatedAt": "2026-11-24T08:31:29+09:00",
+  "jobsUpdatedAt": "2026-11-25T08:32:49+09:00",
   "sample": false,
   "jobs": [
     {
@@ -79,19 +79,6 @@
       "majors": [
         "재료",
         "화학"
-      ]
-    },
-    {
-      "company": "㈜오디텍",
-      "title": "반도체부문 품질 신입/경력사원 모집",
-      "category": "품질/테스트",
-      "location": "전북 완주",
-      "experience": "경력무관",
-      "deadline": "상시",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50179344",
-      "majors": [
-        "전자전기",
-        "재료"
       ]
     },
     {
@@ -223,19 +210,6 @@
       "added": "2026-11-23"
     },
     {
-      "company": "기가비스(주)",
-      "title": "반도체 기판 검사 장비 제작팀 기구,전장 파트 모집",
-      "category": "장비/설비",
-      "majors": [
-        "전자전기"
-      ],
-      "location": "경기 화성 동탄",
-      "experience": "신입·경력 (고졸 이상)",
-      "deadline": "2026-12-13",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55286118",
-      "added": "2026-11-23"
-    },
-    {
       "company": "와이씨 (YC·엑시콘·샘씨엔에스)",
       "title": "2026년 하반기 신입사원 공개채용",
       "category": "장비/설비",
@@ -276,6 +250,33 @@
       "deadline": "2026-12-18",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55610823",
       "added": "2026-11-24"
+    },
+    {
+      "company": "테크윙",
+      "title": "HW(아산) 신입/경력 채용 — 반도체 장비 전기회로·제어 설계",
+      "category": "장비/설비",
+      "majors": [
+        "전자전기"
+      ],
+      "location": "충남 아산",
+      "experience": "신입·경력 (대졸 이상)",
+      "deadline": "2026-12-31",
+      "url": "https://linkareer.com/activity/364101",
+      "added": "2026-11-25"
+    },
+    {
+      "company": "와이엠티(주)",
+      "title": "신뢰성분석팀 (신입/경력) 사원 채용",
+      "category": "품질/테스트",
+      "majors": [
+        "화학",
+        "재료"
+      ],
+      "location": "인천 연수구",
+      "experience": "신입·경력 (초대졸 이상)",
+      "deadline": "2026-12-03",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=55470530",
+      "added": "2026-11-25"
     }
   ],
   "news": [
