@@ -1,5 +1,5 @@
 {
-  "newsUpdatedAt": "2026-11-26T08:27:19+09:00",
+  "newsUpdatedAt": "2026-11-27T08:27:18+09:00",
   "jobsUpdatedAt": "2026-11-26T08:31:38+09:00",
   "sample": false,
   "jobs": [
@@ -282,32 +282,84 @@
   "news": [
     {
       "scope": "daily",
-      "tag": "HBM·기술",
-      "press": "아이뉴스24",
-      "time": "11/25",
-      "title": "[단독] 삼성전자 HBM4E, 핀당 17Gbps 구현…6개월 만에 최고속도 경신",
+      "tag": "공정·로봇",
+      "press": "전자신문",
+      "time": "11/26",
+      "title": "[단독] 삼성 “반도체 공장 무인화”… 로봇팀 꾸렸다",
       "summary": [
-        "ISSCC 2027 논문서 48GB·핀당 17Gbps HBM4E 공개 예정",
-        "지난 5월 16Gbps 발표 이후 6개월 만에 6.25% 성능 향상",
-        "엔비디아 목표 속도(17~18Gbps) 진입…대역폭 초당 4.35TB"
+        "삼성 DS, 글로벌 제조&인프라총괄 산하 '로보틱스팀' 신설",
+        "장비 유지보수·부품 교체 등 수작업에 AGV·AMR·로봇팔 도입",
+        "연내 협력사 선정·내년 평가 거쳐 2028년 팹 현장 투입 목표"
       ],
-      "url": "http://www.inews24.com/view/2030030"
+      "url": "https://www.etnews.com/20261126000296"
     },
     {
       "scope": "daily",
-      "tag": "차세대D램",
+      "tag": "차세대낸드",
+      "press": "ZDNet Korea",
+      "time": "11/26",
+      "title": "솔리다임, 240단 PLC 낸드 개발 '승부수'…AI 데이터센터 시장 선점 시동",
+      "summary": [
+        "내년 2월 ISSCC 2027서 240단 적층 PLC(5비트/셀) 낸드 발표 예정",
+        "기존 TLC·QLC 대비 고용량 구현 유리…플로팅게이트 구조 강점 활용",
+        "삼성(286단)·SK(321단) 단수 경쟁 대신 AI 데이터센터 스토리지 공략"
+      ],
+      "url": "https://zdnet.co.kr/view/?no=20261126134119"
+    },
+    {
+      "scope": "daily",
+      "tag": "소재·실적",
       "press": "디일렉",
-      "time": "11/25",
-      "title": "SK하이닉스 \"3D D램 첫 제품은 100층부터, 4~5년 내 양산 목표\"",
+      "time": "11/26",
+      "title": "토종 반도체 포토레지스트 원소재 업계도 '호황'",
       "summary": [
-        "100층 쌓은 3D D램, 4~5년 내 양산 목표(2031년 상용화)",
-        "Si·SiGe 교대 적층 후 식각…셀 동작·리프레시 특성 검증",
-        "200~300층 이상은 전용 장비 개발 필요, 1000층도 검토"
+        "켐트로스·미원상사 등 PR 원소재 5개사 3분기 매출·영업익 일제히 증가",
+        "켐트로스 3분기 매출 253억원(93.6%↑)·영업익 40억원 흑자전환",
+        "해외 PR사 일본 의존 탈피·공급망 다변화 속 국산 원료 채택 확대"
       ],
-      "url": "https://www.thelec.kr/news/articleView.html?idxno=65900"
+      "url": "https://www.thelec.kr/news/articleView.html?idxno=65954"
     },
     {
       "scope": "daily",
+      "tag": "통상·관세",
+      "press": "산업통상부",
+      "time": "11/26",
+      "title": "(참고자료)美 무역대표부, 과잉생산 301조 조사결과 발표, 한미 관세합의 수준 15% 기본 제안",
+      "summary": [
+        "美 USTR, 16개 경제권 대상 구조적 과잉생산 무역법 301조 결과 발표",
+        "한국·일본·EU에 기본 세율 15% 제안(협의 불만족 시 한국 25% 상향 명시)",
+        "최종 관세 발표 시까지 한미 관세합의 존중·미측과 긴밀 협의 예정"
+      ],
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172453/view?mno=&pageIndex=1"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외·장비",
+      "press": "서울경제",
+      "time": "11/27",
+      "title": "“미국은 ASML의 상전 아냐”…중국과 손잡은 네덜란드",
+      "summary": [
+        "네덜란드 통상장관, 美 의회 '매치법'(ASML 대중 추가 통제) 정면 반대",
+        "통과 시 EUV 외 구형 DUV 판매·유지보수 전면 제한…中 매출 비중 20%",
+        "네덜란드 외무장관도 23~25일 방중, 美 NDAA 끼워넣기 저지 대미 로비"
+      ],
+      "url": "https://www.sedaily.com/article/20119619"
+    },
+    {
+      "scope": "daily",
+      "tag": "해외·AI",
+      "press": "서울경제",
+      "time": "11/26",
+      "title": "“엔비디아, 동남아행 칩 출하 중단”…中 우회 접근 ‘봉쇄’",
+      "summary": [
+        "엔비디아, 말레이시아·싱가포르·태국·인도네시아행 AI 서버 출하 중단",
+        "美 상무부, 클라우드 임대 통한 中 우회 차단(90일 내 별도 허가) 규제",
+        "델·슈퍼마이크로 등 선적 보류 통보…아태 데이터센터 투자 위축 우려"
+      ],
+      "url": "https://www.sedaily.com/article/20119464"
+    },
+    {
+      "scope": "weekly",
       "tag": "첨단패키징",
       "press": "전자신문",
       "time": "11/25",
@@ -320,7 +372,7 @@
       "url": "https://www.etnews.com/20261125000352"
     },
     {
-      "scope": "daily",
+      "scope": "weekly",
       "tag": "중국·기술",
       "press": "디일렉",
       "time": "11/25",
@@ -331,45 +383,6 @@
         "CXMT, 하이브리드 본딩 32Gb DDR5·LPDDR6 논문 채택"
       ],
       "url": "https://www.thelec.kr/news/articleView.html?idxno=65899"
-    },
-    {
-      "scope": "daily",
-      "tag": "정책·팹리스",
-      "press": "산업통상부",
-      "time": "11/25",
-      "title": "AI 시대, K-팹리스 도약의 열쇠는 ‘상생’",
-      "summary": [
-        "25일 판교서 '팹리스인의 날' 개최…생태계 유공자 19점 포상",
-        "LG전자·마음AI·딥엑스, 온디바이스 AI 반도체 상생 성과 발표",
-        "설계·제조·소부장·수요기업 잇는 플랫폼 생태계 구축 강조"
-      ],
-      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172450/view?mno=&pageIndex=1"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/25",
-      "title": "엔비디아 B300 납기 최대 40주…메모리 수급난에 RTX 60 지연 가능성",
-      "summary": [
-        "B300 신규 주문 납기 26~40주, GB300 14~26주 소요",
-        "AI 칩 생산 우선 배정에 게이밍 RTX 50 축소·RTX 60 지연 우려",
-        "메모리 제조사 서버용 D램 집중으로 전반적 공급 압박 심화"
-      ],
-      "url": "https://www.trendforce.com/news/2026/11/25/news-nvidia-b300-lead-times-reportedly-hit-40-weeks-rtx-60-may-face-delays-as-memory-supply-tightens/"
-    },
-    {
-      "scope": "daily",
-      "tag": "해외",
-      "press": "TrendForce(영문)",
-      "time": "11/25",
-      "title": "중국 반도체 장비, 한국산 성능 80~90%·가격 30% 이상 저렴…메모리 팹 증설로 성장",
-      "summary": [
-        "中 반도체 장비, 한국산 대비 성능 80~90%·가격 30%↓ 평가",
-        "중국 내 웨이퍼 팹 장비 자국산 점유율 2017년 4%→2025년 21%",
-        "메모리·파운드리 대규모 증설 속 실제 양산라인 실증 기회 확대"
-      ],
-      "url": "https://www.trendforce.com/news/2026/11/25/news-chinese-chip-tools-reportedly-match-80-90-of-korean-performance-30-cheaper-memory-fabs-fuel-growth/"
     },
     {
       "scope": "weekly",
@@ -383,32 +396,6 @@
         "직접 고용 2,099명 이상 예상…최종 투자 결정·당국 승인 남아"
       ],
       "url": "https://www.trendforce.com/news/2026/11/24/news-tsmc-reportedly-eyes-us22-6b-fab-for-2nm-and-beyond-in-brazos-county-texas-targeting-2031-completion/"
-    },
-    {
-      "scope": "weekly",
-      "tag": "인사·실적",
-      "press": "전자신문",
-      "time": "11/24",
-      "title": "삼성전자 임원 131명 승진…역대 최대 실적에도 30명 줄이고 반도체 집중",
-      "summary": [
-        "전체 승진 131명(전년비 18.6%↓) 중 반도체(DS) 부문 집중",
-        "HBM4 양산 주역 하경수·박태훈 등 메모리 핵심인재 부사장 승진",
-        "파운드리·AI·로봇 등 미래 성장동력 기술리더 전진 배치"
-      ],
-      "url": "https://www.etnews.com/20261124000060"
-    },
-    {
-      "scope": "weekly",
-      "tag": "AI반도체",
-      "press": "ZDNet Korea",
-      "time": "11/23",
-      "title": "젠슨 황, 엔비디아 CEO 전격 복귀…이사회 만장일치로 복직 의결",
-      "summary": [
-        "사임 11일 만에 엔비디아 사장·CEO·이사 만장일치 복귀",
-        "미 정부 고위급 의견 수렴 뒤 국가안보 위험 없음 확인",
-        "콜레트 크레스 임시 CEO는 기존 CFO 직책으로 복귀"
-      ],
-      "url": "https://zdnet.co.kr/view/?no=20261123232610"
     },
     {
       "scope": "weekly",
